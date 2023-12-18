@@ -39,6 +39,16 @@ jobs:
             -e SU_USER_PWD=${{ env.SU_USER_PWD }} \
             -e DBUSER_PWD=${{ env.DBUSER_PWD }} \
             mosipdev/postgres-init:develop
+
+      - name: Check whether db_init has errors in Logs
+        run: |
+          if docker logs -f mosip_master_container | grep -q " error"; then
+            echo "Error found in mosip_master_container logs."
+            exit 1
+          else
+            echo "No errors found in mosip_master_container logs."
+          fi
+
       - name: docker ps command
         run: docker ps -a
       - name: Print Logs of mosip_master
@@ -62,6 +72,16 @@ jobs:
             -e xls_folder=mosip_master \
             -e BRANCH=${{ env.BRANCH_NAME }} \
             mosipdev/masterdata-loader:develop
+          
+      - name: Check whether masterdata_loader has errors in Logs
+        run: |
+          if docker logs -f masterdata_loader | grep -q " error"; then
+            echo "Error found in masterdata_loader logs."
+            exit 1
+          else
+            echo "No errors found in masterdata_loader logs."
+          fi
+
       - name: docker ps command
         run: docker ps -a
       - name: Print Logs of masterdata_loader
