@@ -1,8 +1,18 @@
 name: Setup Postgresql & Run postgres_init for MOSIP_Master & Run docker container
 on:
-  push:
-    branches:
-      - develop
+  pull_request:
+    types: [ opened, reopened, synchronize ]
+    workflow_dispatch:
+      inputs:
+        message:
+          description: 'Message for manually triggering'
+          required: false
+          default: 'Triggered for Updates'
+          type: string
+    push:
+      branches:
+        - develop
+        - 1.2.0.1
 env:
   DBUSER_PWD: mosip123
   SU_USER_PWD: abc123
