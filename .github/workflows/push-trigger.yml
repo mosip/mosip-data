@@ -38,7 +38,7 @@ jobs:
             -e GIT_BRANCH=develop \
             -e SU_USER_PWD=${{ env.SU_USER_PWD }} \
             -e DBUSER_PWD=${{ env.DBUSER_PWD }} \
-            mosipdev/postgres-init:develop
+            mosipdev/postgres-init:1.2.0.1
 
       - name: Check whether db_init has errors in Logs
         run: |
