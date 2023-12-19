@@ -42,7 +42,7 @@ jobs:
 
       - name: Check whether db_init has errors in Logs
         run: |
-          if docker logs -f mosip_master_container | grep -q " error"; then
+          if docker logs -f mosip_master_container | grep -q "ERROR"; then
             echo "Error found in mosip_master_container logs."
             exit 1
           else
