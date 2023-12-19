@@ -13,6 +13,7 @@ on:
     branches:
       - develop
       - 1.2.0.1
+      - MOSIP*
 env:
   DBUSER_PWD: mosip123
   SU_USER_PWD: abc123
