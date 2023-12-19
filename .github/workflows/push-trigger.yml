@@ -38,7 +38,7 @@ jobs:
             -e GIT_BRANCH=develop \
             -e SU_USER_PWD=${{ env.SU_USER_PWD }} \
             -e DBUSER_PWD=${{ env.DBUSER_PWD }} \
-            mosipdev/postgres-init:1.2.0.1
+            mosipdev/postgres-init:develop
 
       - name: Check whether db_init has errors in Logs
         run: |
@@ -75,7 +75,7 @@ jobs:
           
       - name: Check whether masterdata_loader has errors in Logs
         run: |
-          if docker logs -f masterdata_loader | grep -q " error"; then
+          if docker logs -f masterdata_loader | grep -q "ERROR"; then
             echo "Error found in masterdata_loader logs."
             exit 1
           else
