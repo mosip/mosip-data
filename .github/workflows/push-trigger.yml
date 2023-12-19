@@ -9,10 +9,10 @@ on:
         required: false
         default: 'Triggered for Updates'
         type: string
-    push:
-      branches:
-        - develop
-        - 1.2.0.1
+  push:
+    branches:
+      - develop
+      - 1.2.0.1
 env:
   DBUSER_PWD: mosip123
   SU_USER_PWD: abc123
