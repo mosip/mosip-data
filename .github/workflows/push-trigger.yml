@@ -92,14 +92,7 @@ jobs:
             -e BRANCH=${{ env.BRANCH_NAME }} \
             mosipdev/masterdata-loader:develop
           
-      - name: Check whether masterdata_loader has errors in Logs
-        run: |
-          if docker logs  masterdata_loader | grep -qi "ERROR"; then
-            echo "Error found in masterdata_loader logs."
-            exit 1
-          else
-            echo "No errors found in masterdata_loader logs."
-          fi
+      
 
       - name: docker ps command
         run: docker ps -a
@@ -107,3 +100,12 @@ jobs:
         run: |
           # Display masterdata_loader logs
           docker logs -f masterdata_loader
+
+      - name: Check whether masterdata_loader has errors in Logs
+        run: |
+          if docker logs  masterdata_loader | grep -q "ERROR\|error"; then
+            echo "Error found in masterdata_loader logs."
+            exit 1
+          else
+            echo "No errors found in masterdata_loader logs."
+          fi    
