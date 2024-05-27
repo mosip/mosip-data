@@ -103,7 +103,7 @@ jobs:
 
       - name: Check whether masterdata_loader has errors in Logs
         run: |
-          if docker logs  masterdata_loader | grep -q -qi "error"; then
+          if docker logs  masterdata_loader | grep  -qi "error"; then
             echo "Error found in masterdata_loader logs."
             exit 1
           else
