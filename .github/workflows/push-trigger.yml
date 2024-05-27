@@ -77,7 +77,7 @@ jobs:
             BRANCH_NAME="${{ github.ref_name }}"
           fi
           echo "REPO_URL=${REPO_URL}" >> $GITHUB_ENV
-          echo "BRANCH=${BRANCH_NAME}" >> $GITHUB_ENV
+          echo "BRANCH_NAME=${BRANCH_NAME}" >> $GITHUB_ENV
           
       - name: Run masterdata-loader
         run: |
