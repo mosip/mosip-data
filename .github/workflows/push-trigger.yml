@@ -69,8 +69,8 @@ jobs:
       - name: Setup branch and env
         run: |
           # Strip git ref prefix from version
+          echo "REPO_URL=${{ github.event.pull_request.head.repo.clone_url }}" >> $GITHUB_ENV
           echo "BRANCH_NAME=$(echo ${{ github.ref }} | sed -e 's,.*/\(.*\),\1,')" >> $GITHUB_ENV
-          echo "GPG_TTY=$(tty)" >> $GITHUB_ENV
       - name: Run masterdata-loader
         run: |
           docker run -itd \
@@ -80,7 +80,7 @@ jobs:
             -e DB_USER=masteruser \
             -e DB_PORT=5432 \
             -e DB_PWD=${{ env.DBUSER_PWD }} \
-            -e xls_folder=mosip_master \
+            -e REPOSITORY=${{ env.REPO_URL }}\
             -e BRANCH=${{ env.BRANCH_NAME }} \
             mosipdev/masterdata-loader:develop
           
