@@ -34,7 +34,7 @@ jobs:
             -e POSTGRES_USER=postgres \
             -e POSTGRES_PASSWORD=${{ env.SU_USER_PWD }} \
             -e POSTGRES_HOST_AUTH_METHOD=trust \
-            postgres:16
+            postgres:15
       - name: Initialise mosip_master DB
         run: |
           docker run -itd \
@@ -92,7 +92,6 @@ jobs:
             -e BRANCH=${{ env.BRANCH_NAME }} \
             mosipdev/masterdata-loader:develop
           
-      
 
       - name: docker ps command
         run: docker ps -a
