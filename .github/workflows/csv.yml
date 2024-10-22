@@ -33,7 +33,7 @@ jobs:
       run: mkdir -p mosip_master/csv  # Create the output directory
 
     - name: Convert all XLSX to CSV
-      uses: yuzutech/xlsx2csv-action@v1
+      uses: samsys/xlsx2csv@v1
       with:
         input: 'mosip_master/xlsx'  # Input directory containing XLSX files
         output: 'mosip_master/csv'   # Output directory for CSV files
