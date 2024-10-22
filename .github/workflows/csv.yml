@@ -29,20 +29,19 @@ jobs:
     - name: Checkout the repository
       uses: actions/checkout@v3
 
+    - name: Install xlsx2csv
+      run: sudo apt-get install -y xlsx2csv  # Install the CLI tool
+
     - name: Create output directory
       run: mkdir -p mosip_master/csv  # Create the output directory
 
-    - name: xlsx To csv Action
-      id: xlsx-to-csv-action
-      uses: JoeSiu/xlsx-to-csv-action@1.0.0
-      with:
-        inputFile: 'mosip_master/xlsx/'
-        outputDir: 'mosip_master/csv'
-        outputFilename: 'sample-filtered'
-
-    - name: Print Output
-      id: output
-      run: echo "${{ steps.xlsx-to-csv-action.outputs.outputFile }}"
+    - name: Convert all XLSX to CSV
+      run: |
+        for xlsx_file in mosip_master/xlsx/*.xlsx; do
+          csv_file="mosip_master/csv/$(basename "${xlsx_file%.xlsx}.csv")"
+          xlsx2csv "$xlsx_file" > "$csv_file"
+          echo "Converted $xlsx_file to $csv_file"
+        done
       
     - name: Commit and push changes to a specific branch
       run: |
