@@ -32,14 +32,18 @@ jobs:
     - name: Create output directory
       run: mkdir -p mosip_master/csv  # Create the output directory
 
-   
-
-    - name: Convert XLSX to CSV
-      uses: yarnball/xlsx-to-csv-action@v1
+    - name: xlsx To csv Action
+      id: xlsx-to-csv-action
+      uses: JoeSiu/xlsx-to-csv-action@1.0.0
       with:
-        xlsx-file: 'mosip_master/xlsx'
-        csv-file: 'mosip_master/csv'
-    
+        inputFile: 'mosip_master/xlsx'
+        outputDir: 'mosip_master/csv'
+        outputFilename: 'sample-filtered'
+
+    - name: Print Output
+      id: output
+      run: echo "${{ steps.xlsx-to-csv-action.outputs.outputFile }}"
+      
     - name: Commit and push changes to a specific branch
       run: |
         git config --local user.name "github-actions[bot]"
