@@ -1,0 +1,47 @@
+name: XLSX to CSV Conversion on Pull Request
+
+on:
+  release:
+    types: [published]
+  pull_request:
+    types: [opened, reopened, synchronize]
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Message for manually triggering'
+        required: false
+        default: 'Triggered for Updates'
+        type: string
+  push:
+    branches:
+      - '!release-branch'
+      - release*
+      - master
+      - 1.*
+      - develop
+      - MOSIP*
+
+jobs:
+  convert_xlsx_to_csv:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3
+
+    - name: Create output directory
+      run: mkdir -p mosip_master/csv  # Create the output directory
+
+    - name: Convert all XLSX to CSV
+      uses: yuzutech/xlsx2csv-action@v1
+      with:
+        input: 'mosip_master/xlsx'  # Input directory containing XLSX files
+        output: 'mosip_master/csv'   # Output directory for CSV files
+
+    - name: Commit and push changes to a specific branch
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add mosip_master/csv/*.csv
+        git commit -m "Convert XLSX files to CSV [skip ci]"
+        git push origin HEAD:${{ github.event.pull_request.head.ref }}
