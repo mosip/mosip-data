@@ -1,0 +1,62 @@
+name: 3333333
+
+on:
+  release:
+    types: [published]
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Message for manually triggering'
+        required: false
+        default: 'Triggered for Updates'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  convert_xlsx_to_csv:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Enable Debugging
+      run: |
+        echo "ACTIONS_RUNNER_DEBUG=true" >> $GITHUB_ENV
+        echo "ACTIONS_STEP_DEBUG=true" >> $GITHUB_ENV
+    - name: Checkout the PR code from forked repository
+      uses: actions/checkout@v3
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}  # Checkout forked repo where PR originated
+        ref: ${{ github.event.pull_request.head.ref }}  # Branch of the fork from which the PR was created
+
+    - name: Set up Git identity
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Install xlsx2csv
+      run: sudo apt-get install -y xlsx2csv  # Install the CLI tool
+
+    - name: Create output directory
+      run: mkdir -p mosip_master/csv  # Create the output directory
+
+    - name: Convert all XLSX to CSV
+      run: |
+        for xlsx_file in mosip_master/xlsx/*.xlsx; do
+          csv_file="mosip_master/csv/$(basename "${xlsx_file%.xlsx}.csv")"
+          xlsx2csv "$xlsx_file" > "$csv_file"
+          echo "Converted $xlsx_file to $csv_file"
+        done
+    - name: Fetch latest changes from develop branch of your fork
+      run: |
+        git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"  # Use your fork as remote
+        git fetch origin develop
+        git rebase origin/develop || echo "Rebase conflict or no changes to rebase"
+    - name: Commit and push changes to your fork (same branch as PR)
+      run: |
+        git add .
+        git commit -m "Add converted CSV files" || echo "No changes to commit or merge conflict"
+        git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "Failed to push changes"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
