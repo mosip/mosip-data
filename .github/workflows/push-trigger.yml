@@ -1,8 +1,8 @@
 name: Setup Postgresql & Run postgres_init for MOSIP_Master & Run docker container
 
 on:
-  #pull_request:
-   # types: [opened, reopened, synchronize]
+  pull_request:
+    types: [opened, reopened, synchronize]
   workflow_dispatch:
     inputs:
       message:
