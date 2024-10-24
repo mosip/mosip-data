@@ -1,10 +1,8 @@
 name: abc
 
 on:
-  workflow_run:
-    workflows: ["Postgresql"]
-    types:
-      - completed
+  pull_request_target:
+    types: [opened, reopened, synchronize]
   workflow_dispatch:
     inputs:
       message:
