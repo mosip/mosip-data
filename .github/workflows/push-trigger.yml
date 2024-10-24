@@ -1,4 +1,4 @@
-name: Setup Postgresql & Run postgres_init for MOSIP_Master & Run docker container
+name: Postgresql
 
 on:
   pull_request:
