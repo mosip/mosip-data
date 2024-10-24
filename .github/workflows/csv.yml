@@ -1,8 +1,10 @@
 name: abc
 
 on:
-  pull_request_target:
-    types: [opened, reopened, synchronize]
+  workflow_run:
+    workflows: ["Setup Postgresql & Run postgres_init for MOSIP_Master"]
+    types:
+      - completed
   workflow_dispatch:
     inputs:
       message:
