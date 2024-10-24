@@ -1,8 +1,8 @@
 name: Postgresql
 
 on:
-  repository_dispatch:
-    types: [start-postgresql-workflow]   
+  pull_request:
+    types: [opened, reopened, synchronize]   
   workflow_dispatch:
     inputs:
       message:
