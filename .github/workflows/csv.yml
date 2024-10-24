@@ -1,7 +1,7 @@
 name: abc
 
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, reopened, synchronize]
   workflow_dispatch:
     inputs:
@@ -25,8 +25,8 @@ jobs:
     - name: Checkout the PR code from forked repository
       uses: actions/checkout@v3
       with:
-        repository: ${{ github.event.pull_request.head.repo.full_name }}  # Checkout forked repo where PR originated
-        ref: ${{ github.event.pull_request.head.ref }}  # Branch of the fork from which the PR was created
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
     - name: Log PR Author Info
       run: |
         echo "PR Author: ${{ github.event.pull_request.user.login }}"
@@ -38,10 +38,10 @@ jobs:
         git config --local user.email "${{ github.event.pull_request.user.email }}"
         
     - name: Install xlsx2csv
-      run: sudo apt-get install -y xlsx2csv  # Install the CLI tool
+      run: sudo apt-get install -y xlsx2csv
 
     - name: Create output directory
-      run: mkdir -p mosip_master/csv  # Create the output directory
+      run: mkdir -p mosip_master/csv
 
     - name: Convert all XLSX to CSV
       run: |
@@ -50,11 +50,13 @@ jobs:
           xlsx2csv "$xlsx_file" > "$csv_file"
           echo "Converted $xlsx_file to $csv_file"
         done
+
     - name: Fetch latest changes from develop branch of your fork
       run: |
-        git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"  # Use your fork as remote
+        git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
         git fetch origin develop
-        git rebase origin/develop || echo "Rebase conflict or no changes to rebase"
+        git rebase --ff-only origin/develop || echo "No changes to rebase or rebase conflict"
+
     - name: Commit and push changes to your fork (same branch as PR)
       run: |
         git add .
@@ -62,3 +64,5 @@ jobs:
         git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "Failed to push changes"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+   
