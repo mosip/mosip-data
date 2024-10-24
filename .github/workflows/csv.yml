@@ -18,7 +18,6 @@ permissions:
 
 jobs:
   convert_xlsx_to_csv:
-    if: github.event.action != 'completed'
     runs-on: ubuntu-latest
     steps:
     - name: Enable Debugging
