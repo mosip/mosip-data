@@ -57,7 +57,7 @@ jobs:
       run: |
         git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
         git fetch origin develop
-        git rebase origin/develop || echo "No changes to rebase or rebase conflict"
+        git rebase --ff-only origin/develop || echo "No changes to rebase or rebase conflict"
 
     - name: Commit and push changes to your fork (same branch as PR)
       run: |
