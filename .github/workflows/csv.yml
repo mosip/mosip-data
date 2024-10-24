@@ -1,4 +1,4 @@
-name: 3333333
+name: abc
 
 on:
   pull_request_target:
@@ -16,8 +16,11 @@ permissions:
 
 jobs:
   convert_xlsx_to_csv:
-    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
 
+    runs-on: ubuntu-latest
     steps:
     - name: Enable Debugging
       run: |
