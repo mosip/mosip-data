@@ -30,10 +30,8 @@ jobs:
 
     - name: Set up Git identity
       run: |
-        echo "GITHUB_ACTOR=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
-        echo "GITHUB_EMAIL=${{ github.event.pull_request.user.email || 'user@example.com' }}" >> $GITHUB_ENV
-        git config --local user.name "${{ env.GITHUB_ACTOR }}"
-        git config --local user.email "${{ env.GITHUB_EMAIL }}"
+        git config --local user.name "${{ github.event.pull_request.user.login }}"
+        git config --local user.email "${{ github.event.pull_request.user.email || 'user@example.com' }}"
         
     - name: Install xlsx2csv
       run: sudo apt-get install -y xlsx2csv  # Install the CLI tool
