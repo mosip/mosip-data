@@ -16,7 +16,6 @@ env:
   SU_USER_PWD: abc123
 jobs:
   setup-and-run:
-    if: github.event.action != 'completed'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
