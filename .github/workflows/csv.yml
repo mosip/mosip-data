@@ -16,10 +16,7 @@ permissions:
 
 jobs:
   convert_xlsx_to_csv:
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
-      cancel-in-progress: false
-
+    if: github.event.action != 'completed'
     runs-on: ubuntu-latest
     steps:
     - name: Enable Debugging
