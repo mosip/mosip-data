@@ -105,4 +105,3 @@ jobs:
           else
             echo "No errors found in masterdata_loader logs."
           fi
-        continue-on-error: true  
