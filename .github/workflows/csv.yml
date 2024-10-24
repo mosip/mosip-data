@@ -22,21 +22,23 @@ jobs:
       run: |
         echo "ACTIONS_RUNNER_DEBUG=true" >> $GITHUB_ENV
         echo "ACTIONS_STEP_DEBUG=true" >> $GITHUB_ENV
+        
     - name: Checkout the PR code from forked repository
       uses: actions/checkout@v3
       with:
         repository: ${{ github.event.pull_request.head.repo.full_name }}
         ref: ${{ github.event.pull_request.head.ref }}
+        
     - name: Log PR Author Info
       run: |
         echo "PR Author: ${{ github.event.pull_request.user.login }}"
         echo "PR Author Email: ${{ github.event.pull_request.user.email }}"
-        
+
     - name: Set up Git identity
       run: |
         git config --local user.name "${{ github.event.pull_request.user.login }}"
         git config --local user.email "${{ github.event.pull_request.user.email }}"
-        
+
     - name: Install xlsx2csv
       run: sudo apt-get install -y xlsx2csv
 
@@ -55,7 +57,7 @@ jobs:
       run: |
         git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
         git fetch origin develop
-        git rebase --ff-only origin/develop || echo "No changes to rebase or rebase conflict"
+        git rebase origin/develop || echo "No changes to rebase or rebase conflict"
 
     - name: Commit and push changes to your fork (same branch as PR)
       run: |
@@ -65,4 +67,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
-   
+    - name: Add comment to PR
+      run: |
+        curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        -d '{"body": "CSV files have been added, please check the new changes."}' \
+        "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"
