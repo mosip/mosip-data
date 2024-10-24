@@ -57,7 +57,7 @@ jobs:
       run: |
         git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
         git fetch origin develop
-        git rebase --ff-only origin/develop || echo "No changes to rebase or rebase conflict"
+        git rebase origin/develop || echo "No changes to rebase or rebase conflict"
 
     - name: Commit and push changes to your fork (same branch as PR)
       run: |
@@ -67,8 +67,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
-    - name: Add comment to PR
-      run: |
-        curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-        -d '{"body": "CSV files have been added, please check the new changes."}' \
-        "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"
+  
