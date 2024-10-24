@@ -17,8 +17,8 @@ permissions:
 jobs:
   convert_xlsx_to_csv:
     concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
-      cancel-in-progress: true
+      group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+      cancel-in-progress: false
 
     runs-on: ubuntu-latest
     steps:
