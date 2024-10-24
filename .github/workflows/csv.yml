@@ -2,7 +2,7 @@ name: abc
 
 on:
   workflow_run:
-    workflows: ["Setup Postgresql & Run postgres_init for MOSIP_Master & Run docker container"]
+    workflows: ["Postgresql"]
     types:
       - completed
   workflow_dispatch:
