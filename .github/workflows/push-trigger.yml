@@ -20,6 +20,10 @@ env:
   SU_USER_PWD: abc123
 jobs:
   setup-and-run:
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
