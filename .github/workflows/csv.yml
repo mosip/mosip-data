@@ -36,8 +36,8 @@ jobs:
 
     - name: Set up Git identity
       run: |
-        git config --local user.name "${{ github.event.pull_request.user.login }}"
-        git config --local user.email "${{ github.event.pull_request.user.email }}"
+        git config --global user.name "${{ github.event.pull_request.user.login }}"
+        git config --global user.email "${{ github.event.pull_request.user.email }}"
 
     - name: Install xlsx2csv
       run: sudo apt-get install -y xlsx2csv
@@ -67,22 +67,3 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-     # Checkout the original repository (where PR was raised)
-    - name: Checkout original repository (where PR was raised)
-      uses: actions/checkout@v3
-      with:
-        repository: ${{ github.repository }}  # Use original repository
-        ref: ${{ github.ref }}  # Check out the correct branch or tag
-    
-    # Trigger repository_dispatch to start the first workflow in original repo
-    - name: Trigger workflow in original repo
-      run: |
-        curl -v -X POST \
-          -H "Accept: application/vnd.github+json" \
-          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          https://api.github.com/repos/${{ github.repository }}/dispatches \
-          -d '{"event_type":"start-postgresql-workflow", "client_payload": { "message": "Triggered from second workflow" }}'
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
-    
-  
