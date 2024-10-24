@@ -28,10 +28,13 @@ jobs:
         repository: ${{ github.event.pull_request.head.repo.full_name }}  # Checkout forked repo where PR originated
         ref: ${{ github.event.pull_request.head.ref }}  # Branch of the fork from which the PR was created
 
-    #- name: Set up Git identity
-     # run: |
-      #  git config --local user.name "github-actions[bot]"
-     #   git config --local user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Set up Git identity
+      run: |
+        echo "GITHUB_ACTOR=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
+        echo "GITHUB_EMAIL=${{ github.event.pull_request.user.email || 'user@example.com' }}" >> $GITHUB_ENV
+        git config --local user.name "${{ env.GITHUB_ACTOR }}"
+        git config --local user.email "${{ env.GITHUB_EMAIL }}"
+        
     - name: Install xlsx2csv
       run: sudo apt-get install -y xlsx2csv  # Install the CLI tool
 
