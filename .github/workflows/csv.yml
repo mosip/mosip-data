@@ -44,13 +44,13 @@ jobs:
 
     - name: Create output directory
       run: |
-         rm -rf mosip_master/csv
-         mkdir -p mosip_master/csv
+         rm -rf mosip_master_csv/csv
+         mkdir -p mosip_master_csv/csv
 
     - name: Convert all XLSX to CSV
       run: |
         for xlsx_file in mosip_master/xlsx/*.xlsx; do
-          csv_file="mosip_master/csv/$(basename "${xlsx_file%.xlsx}.csv")"
+          csv_file="mosip_master_csv/csv/$(basename "${xlsx_file%.xlsx}.csv")"
           xlsx2csv "$xlsx_file" > "$csv_file"
           echo "Converted $xlsx_file to $csv_file"
         done
