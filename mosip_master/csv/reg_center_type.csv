@@ -1,8 +1,0 @@
-lang_code,code,name,descr,is_active
-eng,REG,Regular,Regular Registration Center,TRUE
-fra,REG,Ordinaire,Centre dinscription régulière,TRUE
-ara,REG,عادي,مركز التسجيل العادي,TRUE
-kan,REG,ನಿಯಮಿತ,ನಿಯಮಿತ ನೋಂದಣಿ ಕೇಂದ್ರ,TRUE
-hin,REG,नियमित,नियमित पंजीकरण केंद्र,TRUE
-tam,REG,வழக்கமான,வழக்கமான பதிவு மையம்,TRUE
-spa,REG,Regular,Centro de registro regular,TRUE
