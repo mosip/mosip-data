@@ -67,5 +67,5 @@ jobs:
         git commit -s -m "Add converted CSV files" || echo "No changes to commit or merge conflict"
         git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "Failed to push changes"
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
