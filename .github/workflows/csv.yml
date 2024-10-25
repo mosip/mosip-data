@@ -43,7 +43,9 @@ jobs:
       run: sudo apt-get install -y xlsx2csv
 
     - name: Create output directory
-      run: mkdir -p mosip_master/csv
+      run: |
+         rm -rf mosip_master/csv
+         mkdir -p mosip_master/csv
 
     - name: Convert all XLSX to CSV
       run: |
@@ -62,7 +64,7 @@ jobs:
     - name: Commit and push changes to your fork (same branch as PR)
       run: |
         git add .
-        git commit -S -s -m "Add converted CSV files" || echo "No changes to commit or merge conflict"
+        git commit -s -m "Add converted CSV files" || echo "No changes to commit or merge conflict"
         git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "Failed to push changes"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
