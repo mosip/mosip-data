@@ -1,4 +1,4 @@
-name: Postgresql
+name: Postgresql66
 
 on:
   pull_request:
