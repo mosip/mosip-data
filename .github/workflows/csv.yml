@@ -57,7 +57,7 @@ jobs:
 
     - name: Fetch latest changes from develop branch of your fork
       run: |
-        git remote set-url origin "https://x-access-token:$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@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
+        git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
         git fetch origin develop
         git rebase origin/develop || echo "No changes to rebase or rebase conflict"
 
@@ -67,5 +67,5 @@ jobs:
         git commit -s -m "Add converted CSV files" || echo "No changes to commit or merge conflict"
         git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "Failed to push changes"
       env:
-        GITHUB_TOKEN: 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
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
