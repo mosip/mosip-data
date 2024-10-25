@@ -57,7 +57,7 @@ jobs:
 
     - name: Fetch latest changes from develop branch of your fork
       run: |
-        git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
+        git remote set-url origin "https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
         git fetch origin develop
         git rebase origin/develop || echo "No changes to rebase or rebase conflict"
 
