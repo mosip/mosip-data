@@ -1,4 +1,4 @@
-name: abc
+name: XLSX to CSV Conversion
 
 on:
   pull_request:
