@@ -2,7 +2,8 @@ name: abc
 
 on:
   pull_request_target:
-    types: [opened, reopened, synchronize]
+    #types: [opened, reopened, synchronize]
+    types: [opened, reopened]
   workflow_dispatch:
     inputs:
       message:
