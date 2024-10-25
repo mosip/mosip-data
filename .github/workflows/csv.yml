@@ -55,11 +55,11 @@ jobs:
           echo "Converted $xlsx_file to $csv_file"
         done
 
-    #- name: Fetch latest changes from develop branch of your fork
-     # run: |
-    #    git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
-    #    git fetch origin ${{ github.event.pull_request.base.ref }}
-     #   git rebase origin/${{ github.event.pull_request.base.ref }} || echo "No changes to rebase or rebase conflict"
+    - name: Fetch latest changes from develop branch of your fork
+      run: |
+        git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
+        git fetch origin ${{ github.event.pull_request.base.ref }}
+        git rebase origin/${{ github.event.pull_request.base.ref }} || echo "No changes to rebase or rebase conflict"
 
     - name: Commit and push changes to your fork (same branch as PR)
       run: |
