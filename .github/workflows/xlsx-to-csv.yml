@@ -1,0 +1,59 @@
+name: xlsx to csv conversion
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Message for manually triggering'
+        required: false
+        default: 'Triggered for Updates'
+        type: string
+
+jobs:
+  convert_xlsx_to_csv:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Clone the repository
+      run: |
+        #git clone -b ${{ github.event.pull_request.head.ref }} "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
+        git clone -b ${{ github.event.pull_request.head.ref }} https://github.com/${{ github.event.pull_request.head.repo.full_name }}.git
+    
+    - name: Get  author email
+      run: |
+        PR_NUMBER=${{ github.event.number }}
+        commits=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          "https://api.github.com/repos/${{ github.repository }}/pulls/$PR_NUMBER/commits")
+        email=$(echo "$commits" | jq -r '.[0].commit.author.email // "${{ github.event.pull_request.user.login }}@users.noreply.github.com"')
+        echo "author_email=$email" >> $GITHUB_ENV
+    
+    - name: Set up Git identity
+      run: |
+        git config --global user.name "${{ github.event.pull_request.user.login }}"
+        git config --global user.email "${{ env.author_email }}"
+
+    - name: Install xlsx2csv
+      run: sudo apt-get install -y xlsx2csv
+
+    - name: Create output directory
+      run: |
+        rm -rf mosip-data/mosip_master_csv/csv
+        mkdir -p mosip-data/mosip_master_csv/csv
+
+    - name: Convert all XLSX to CSV
+      run: |
+        for xlsx_file in mosip-data/mosip_master/xlsx/*.xlsx; do
+          csv_file="mosip-data/mosip_master_csv/csv/$(basename "${xlsx_file%.xlsx}.csv")"
+          xlsx2csv "$xlsx_file" > "$csv_file"
+          echo "Converted $xlsx_file to $csv_file"
+        done
+
+    - name: Commit and push changes
+      run: |
+        cd mosip-data
+        git branch
+        git add .
+        git commit -s -m "Added converted CSV files" || echo "No changes to commit"
+        git push "https://x-access-token:${{ secrets.ACTION_PAT }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git" HEAD:${{ github.event.pull_request.head.ref }} || echo "Failed to push changes"
