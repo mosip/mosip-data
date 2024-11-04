@@ -56,4 +56,4 @@ jobs:
         git branch
         git add .
         git commit -s -m "Added converted CSV files" || echo "No changes to commit"
-        git push "https://x-access-token:${{ secrets.ACTION_PAT }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git" HEAD:${{ github.event.pull_request.head.ref }} || echo "Failed to push changes"
+        git push "https://x-access-token:${{ secrets.ACTION_PAT }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git" HEAD:${{ github.event.pull_request.head.ref }}
