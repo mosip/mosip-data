@@ -1,0 +1,3 @@
+lang_code,zone_code,usr_id,is_active,eff_dtimes
+eng,MOR,globaladmin,TRUE,now()
+eng,MOR,service-account-mosip-resident-client,TRUE,now()
