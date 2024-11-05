@@ -1,0 +1,43 @@
+lang_code,hierarchy_level,hierarchy_level_name,is_active
+eng,0,Country,TRUE
+ara,0,دولة,TRUE
+fra,0,Pays,TRUE
+eng,1,Region,TRUE
+ara,1,المناطق,TRUE
+fra,1,Région,TRUE
+eng,2,Province,TRUE
+ara,2,المحافظة,TRUE
+fra,2,Province,TRUE
+eng,3,City,TRUE
+ara,3,مدينة,TRUE
+fra,3,Ville,TRUE
+eng,4,Zone,TRUE
+ara,4,منطقة,TRUE
+fra,4,Zone,TRUE
+eng,5,Postal Code,TRUE
+ara,5,رمز بريدي,TRUE
+fra,5,code postal,TRUE
+kan,0,ದೇಶ,TRUE
+kan,1,ಪ್ರದೇಶ,TRUE
+kan,2,ಪ್ರಾಂತ್ಯ,TRUE
+kan,3,ನಗರ,TRUE
+kan,4,ವಲಯ,TRUE
+kan,5,ಕೋಡ್,TRUE
+hin,0,देश,TRUE
+hin,1,क्षेत्रों,TRUE
+hin,2,प्रांत,TRUE
+hin,3,शहर,TRUE
+hin,4,क्षेत्र,TRUE
+hin,5,डाक कोड,TRUE
+tam,0,நாடு,TRUE
+tam,1,பிராந்தியம்,TRUE
+tam,2,மாகாணம்,TRUE
+tam,3,நகரம்,TRUE
+tam,4,மண்டலம்,TRUE
+tam,5,குறியீடு,TRUE
+spa,0,País,TRUE
+spa,1,Región,TRUE
+spa,2,Provincia,TRUE
+spa,3,Ciudad,TRUE
+spa,4,Zona,TRUE
+spa,5, Código Postal,TRUE
