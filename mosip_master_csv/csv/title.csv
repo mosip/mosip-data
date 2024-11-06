@@ -1,0 +1,19 @@
+lang_code,code,name,descr,is_active
+eng,MIR,Mr,Male Title,TRUE
+eng,MRS,Mrs,Female Title,TRUE
+eng,MIS,Miss,Unmarried Female Title,TRUE
+fra,MIR,Monsieur,Titre masculin,TRUE
+fra,MRS,Madame,Titre féminin,TRUE
+fra,MIS,Mademoiselle,Titre de femme célibataire,TRUE
+ara,MIR,السيد,لقب ذكر,TRUE
+ara,MRS,السيدة,لقب أنثى,TRUE
+ara,MIS,يغيب,لقب انثى غير متزوجة,TRUE
+kan,MIR,ಶ್ರೀ,ಪುರುಷ ಶೀರ್ಷಿಕೆ,TRUE
+kan,MRS,ಶ್ರೀಮತಿ,ಸ್ತ್ರೀ ಶೀರ್ಷಿಕೆ,TRUE
+kan,MIS,ಸುಂದರಿ,ಅವಿವಾಹಿತ ಸ್ತ್ರೀ ಶೀರ್ಷಿಕೆ,TRUE
+hin,MIR,श्री,पुरुष शीर्षक,TRUE
+hin,MRS,श्रीमती,महिला शीर्षक,TRUE
+hin,MIS,कुमारी,अविवाहित महिला शीर्षक,TRUE
+tam,MIR,திரு,ஆண் தலைப்பு,TRUE
+tam,MRS,திருமதி,பெண் தலைப்பு,TRUE
+tam,MIS,செல்வி,திருமணமாகாத பெண் தலைப்பு,TRUE
