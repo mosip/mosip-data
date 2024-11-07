@@ -1,7 +1,7 @@
 lang_code,word,descr,is_active
 eng,shit,Blacklisted Word,TRUE
 eng,damn,Blacklisted Word,TRUE
-eng,nigga,Blacklisted Word,TRUE
+eng,idiot,Blacklisted Word,TRUE
 eng,dammit,Blacklisted Word,TRUE
 fra,Merde,Mot sur la liste noire,TRUE
 fra,bon sang,Mot sur la liste noire,TRUE
