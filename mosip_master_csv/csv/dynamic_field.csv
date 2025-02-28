@@ -2,52 +2,52 @@ id,name,description,data_type,value_json,lang_code,is_active,cr_by,cr_dtimes
 10001,bloodType,Blood Type,string,"
 	{
 		""code"": ""101"",
-		""value"": ""A"",
+		""value"": ""A""
 	}",eng,TRUE,superadmin,now()
 10002,bloodType,Blood Type,string,"
 	{
 		""code"": ""102"",
-		""value"": ""A+"",
+		""value"": ""A+""
 	}",eng,TRUE,superadmin,now()
 10003,bloodType,Blood Type,string,"
 	{
 		""code"": ""103"",
-		""value"": ""A-"",
+		""value"": ""A-""
 	}",eng,TRUE,superadmin,now()
 10004,bloodType,Blood Type,string,"
 	{
 		""code"": ""104"",
-		""value"": ""B"",
+		""value"": ""B""
 	}",eng,TRUE,superadmin,now()
 10005,bloodType,Blood Type,string,"
 	{
 		""code"": ""105"",
-		""value"": ""B+"",
+		""value"": ""B+""
 	}",eng,TRUE,superadmin,now()
 10006,bloodType,Blood Type,string,"
 	{
 		""code"": ""106"",
-		""value"": ""B-"",
+		""value"": ""B-""
 	}",eng,TRUE,superadmin,now()
 10007,bloodType,Blood Type,string,"
 	{
 		""code"": ""107"",
-		""value"": ""AB"",
+		""value"": ""AB""
 	}",eng,TRUE,superadmin,now()
 10008,bloodType,Blood Type,string,"
 	{
 		""code"": ""108"",
-		""value"": ""AB+"",
+		""value"": ""AB+""
 	}",eng,TRUE,superadmin,now()
 10009,bloodType,Blood Type,string,"
 	{
 		""code"": ""109"",
-		""value"": ""AB-"",
+		""value"": ""AB-""
 	}",eng,TRUE,superadmin,now()
 10010,bloodType,Blood Type,string,"
 	{
 		""code"": ""110"",
-		""value"": ""O"",
+		""value"": ""O""
 	}",eng,TRUE,superadmin,now()
 10011,bloodType,Blood Type,string,"
 	{
@@ -161,52 +161,52 @@ id,name,description,data_type,value_json,lang_code,is_active,cr_by,cr_dtimes
 10015,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""101"",
-		""value"": ""A"",
+		""value"": ""A""
 	}",fra,TRUE,superadmin,now()
 10016,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""102"",
-		""value"": ""A+"",
+		""value"": ""A+""
 	}",fra,TRUE,superadmin,now()
 10017,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""103"",
-		""value"": ""A-"",
+		""value"": ""A-""
 	}",fra,TRUE,superadmin,now()
 10018,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""104"",
-		""value"": ""B"",
+		""value"": ""B""
 	}",fra,TRUE,superadmin,now()
 10019,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""105"",
-		""value"": ""B+"",
+		""value"": ""B+""
 	}",fra,TRUE,superadmin,now()
 10020,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""106"",
-		""value"": ""B-"",
+		""value"": ""B-""
 	}",fra,TRUE,superadmin,now()
 10021,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""107"",
-		""value"": ""AB"",
+		""value"": ""AB""
 	}",fra,TRUE,superadmin,now()
 10022,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""108"",
-		""value"": ""AB+"",
+		""value"": ""AB+""
 	}",fra,TRUE,superadmin,now()
 10023,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""109"",
-		""value"": ""AB-"",
+		""value"": ""AB-""
 	}",fra,TRUE,superadmin,now()
 10024,bloodType,Groupe sanguin,string,"
 	{
 		""code"": ""110"",
-		""value"": ""O"",
+		""value"": ""O""
 	}",fra,TRUE,superadmin,now()
 10025,bloodType,Groupe sanguin,string,"
 	{
@@ -316,52 +316,52 @@ id,name,description,data_type,value_json,lang_code,is_active,cr_by,cr_dtimes
 10029,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""101"",
-		""value"": ""أ"",
+		""value"": ""أ""
 	}",ara,TRUE,superadmin,now()
 10030,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""102"",
-		""value"": ""أ +"",
+		""value"": ""أ +""
 	}",ara,TRUE,superadmin,now()
 10031,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""103"",
-		""value"": ""أ-"",
+		""value"": ""أ-""
 	}",ara,TRUE,superadmin,now()
 10032,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""104"",
-		""value"": ""ب"",
+		""value"": ""ب""
 	}",ara,TRUE,superadmin,now()
 10033,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""105"",
-		""value"": ""ب +"",
+		""value"": ""ب +""
 	}",ara,TRUE,superadmin,now()
 10034,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""106"",
-		""value"": ""ب-"",
+		""value"": ""ب-""
 	}",ara,TRUE,superadmin,now()
 10035,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""107"",
-		""value"": ""AB"",
+		""value"": ""AB""
 	}",ara,TRUE,superadmin,now()
 10036,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""108"",
-		""value"": ""AB+"",
+		""value"": ""AB+""
 	}",ara,TRUE,superadmin,now()
 10037,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""109"",
-		""value"": ""AB-"",
+		""value"": ""AB-""
 	}",ara,TRUE,superadmin,now()
 10038,bloodType,فصيلة الد,string,"
 	{
 		""code"": ""110"",
-		""value"": ""ا"",
+		""value"": ""ا""
 	}",ara,TRUE,superadmin,now()
 10039,bloodType,فصيلة الد,string,"
 	{
@@ -478,52 +478,52 @@ id,name,description,data_type,value_json,lang_code,is_active,cr_by,cr_dtimes
 10043,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""101"",
-		""value"": ""ಎ"",
+		""value"": ""ಎ""
 	}",kan,TRUE,superadmin,now()
 10044,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""102"",
-		""value"": ""ಎ+"",
+		""value"": ""ಎ+""
 	}",kan,TRUE,superadmin,now()
 10045,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""103"",
-		""value"": ""ಎ-"",
+		""value"": ""ಎ-""
 	}",kan,TRUE,superadmin,now()
 10046,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""104"",
-		""value"": ""ಬಿ"",
+		""value"": ""ಬಿ""
 	}",kan,TRUE,superadmin,now()
 10047,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""105"",
-		""value"": ""ಬಿ+"",
+		""value"": ""ಬಿ+""
 	}",kan,TRUE,superadmin,now()
 10048,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""106"",
-		""value"": ""ಬಿ-"",
+		""value"": ""ಬಿ-""
 	}",kan,TRUE,superadmin,now()
 10049,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""107"",
-		""value"": ""ಎಬಿ"",
+		""value"": ""ಎಬಿ""
 	}",kan,TRUE,superadmin,now()
 10050,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""108"",
-		""value"": ""ಎಬಿ+"",
+		""value"": ""ಎಬಿ+""
 	}",kan,TRUE,superadmin,now()
 10051,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""109"",
-		""value"": ""ಎಬಿ-"",
+		""value"": ""ಎಬಿ-""
 	}",kan,TRUE,superadmin,now()
 10052,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
 		""code"": ""110"",
-		""value"": ""ಓ"",
+		""value"": ""ಓ""
 	}",kan,TRUE,superadmin,now()
 10053,bloodType,ರಕ್ತದ ವಿಧ,string,"
 	{
@@ -637,52 +637,52 @@ id,name,description,data_type,value_json,lang_code,is_active,cr_by,cr_dtimes
 10057,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""101"",
-		""value"": ""ए"",
+		""value"": ""ए""
 	}",hin,TRUE,superadmin,now()
 10058,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""102"",
-		""value"": ""ए+"",
+		""value"": ""ए+""
 	}",hin,TRUE,superadmin,now()
 10059,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""103"",
-		""value"": ""ए-"",
+		""value"": ""ए-""
 	}",hin,TRUE,superadmin,now()
 10060,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""104"",
-		""value"": ""बी"",
+		""value"": ""बी""
 	}",hin,TRUE,superadmin,now()
 10061,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""105"",
-		""value"": ""बी+"",
+		""value"": ""बी+""
 	}",hin,TRUE,superadmin,now()
 10062,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""106"",
-		""value"": ""बी-"",
+		""value"": ""बी-""
 	}",hin,TRUE,superadmin,now()
 10063,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""107"",
-		""value"": ""एबी"",
+		""value"": ""एबी""
 	}",hin,TRUE,superadmin,now()
 10064,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""108"",
-		""value"": ""एबी+"",
+		""value"": ""एबी+""
 	}",hin,TRUE,superadmin,now()
 10065,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""109"",
-		""value"": ""एबी-"",
+		""value"": ""एबी-""
 	}",hin,TRUE,superadmin,now()
 10066,bloodType,रक्त प्रकार,string,"
 	{
 		""code"": ""110"",
-		""value"": ""हे"",
+		""value"": ""हे""
 	}",hin,TRUE,superadmin,now()
 10067,bloodType,रक्त प्रकार,string,"
 	{
@@ -796,52 +796,52 @@ id,name,description,data_type,value_json,lang_code,is_active,cr_by,cr_dtimes
 10071,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""101"",
-		""value"": ""ஏ"",
+		""value"": ""ஏ""
 	}",tam,TRUE,superadmin,now()
 10072,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""102"",
-		""value"": ""ஏ+"",
+		""value"": ""ஏ+""
 	}",tam,TRUE,superadmin,now()
 10073,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""103"",
-		""value"": ""ஏ-"",
+		""value"": ""ஏ-""
 	}",tam,TRUE,superadmin,now()
 10074,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""104"",
-		""value"": ""பி"",
+		""value"": ""பி""
 	}",tam,TRUE,superadmin,now()
 10075,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""105"",
-		""value"": ""பி+"",
+		""value"": ""பி+""
 	}",tam,TRUE,superadmin,now()
 10076,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""106"",
-		""value"": ""பி-"",
+		""value"": ""பி-""
 	}",tam,TRUE,superadmin,now()
 10077,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""107"",
-		""value"": ""ஏபி"",
+		""value"": ""ஏபி""
 	}",tam,TRUE,superadmin,now()
 10078,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""108"",
-		""value"": ""ஏபி+"",
+		""value"": ""ஏபி+""
 	}",tam,TRUE,superadmin,now()
 10079,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""109"",
-		""value"": ""ஏபி-"",
+		""value"": ""ஏபி-""
 	}",tam,TRUE,superadmin,now()
 10080,bloodType,இரத்த வகை,string,"
 	{
 		""code"": ""110"",
-		""value"": ""ஓ"",
+		""value"": ""ஓ""
 	}",tam,TRUE,superadmin,now()
 10081,bloodType,இரத்த வகை,string,"
 	{
