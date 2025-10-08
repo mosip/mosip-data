@@ -469,7 +469,7 @@ eng,1002,0.1,Mosip Identity for handle,Mosip Sample identity for handle,"{
         }
     }
 }",PUBLISHED,FALSE,now(),TRUE
-eng,1001,0.3,Mosip Identity,Mosip Sample identity,"{
+eng,1001,0.2,Mosip Identity,Mosip Sample identity,"{
     ""$schema"": ""http://json-schema.org/draft-07/schema#"",
     ""description"": ""MOSIP Sample identity"",
     ""additionalProperties"": false,
