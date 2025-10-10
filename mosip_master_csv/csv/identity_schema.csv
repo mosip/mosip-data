@@ -948,7 +948,63 @@ eng,1001,0.2,Mosip Identity,Mosip Sample identity,"{
 					""format"": ""none"",
 					""fieldType"": ""default"",
 					""$ref"": ""#\/definitions\/simpleType""
-				}
+				},
+				""introducerInfoToken"": {
+                    ""bioAttributes"": [
+                    ],
+                    ""fieldCategory"": ""evidence"",
+                    ""format"": ""none"",
+                    ""type"": ""string"",
+                    ""fieldType"": ""default""
+                },
+                ""deceasedInformer"": {
+                    ""bioAttributes"": [
+                    ],
+                    ""fieldCategory"": ""evidence"",
+                    ""format"": ""none"",
+                    ""type"": ""string"",
+                    ""fieldType"": ""default""
+                },
+                ""deceasedDeclarationDate"": {
+                    ""bioAttributes"": [
+                    ],
+                    ""validators"": [
+                        {
+                            ""validator"": ""^(1869|18[7-9][0-9]|19[0-9][0-9]|20[0-9][0-9])/([0][1-9]|1[0-2])/([0][1-9]|[1-2][0-9]|3[01])$"",
+                            ""arguments"": [
+                            ],
+                            ""type"": ""regex""
+                        }
+                    ],
+                    ""fieldCategory"": ""pvt"",
+                    ""format"": ""none"",
+                    ""type"": ""string"",
+                    ""fieldType"": ""default""
+                },
+                ""declaredAsDeceased"": {
+                    ""bioAttributes"": [
+                    ],
+                    ""validators"": [
+                        {
+                            ""validator"": ""^(Y|N)$"",
+                            ""arguments"": [
+                            ],
+                            ""type"": ""regex""
+                        }
+                    ],
+                    ""fieldCategory"": ""pvt"",
+                    ""format"": ""none"",
+                    ""type"": ""string"",
+                    ""fieldType"": ""default""
+                },
+                ""typeOfDeath"": {
+                    ""bioAttributes"": [
+                    ],
+                    ""fieldCategory"": ""pvt"",
+                    ""format"": ""none"",
+                    ""type"": ""string"",
+                    ""fieldType"": ""default""
+                }
 			}
 		}
 	}
