@@ -1,4 +1,5 @@
 name: Setup Postgresql & Run postgres_init for MOSIP_Master & Run docker container
+
 on:
   pull_request:
     types: [opened, reopened, synchronize]
@@ -44,21 +45,12 @@ jobs:
             -e DB_SERVERIP=postgresql \
             -e DB_PORT=5432 \
             -e SU_USER=postgres \
-            -e DML_FLAG=true \
+            -e DML_FLAG=1 \
             -e GIT_REPO_URL=https://github.com/mosip/admin-services.git \
             -e GIT_BRANCH=release-1.2.1.x \
             -e SU_USER_PWD=${{ env.SU_USER_PWD }} \
             -e DBUSER_PWD=${{ env.DBUSER_PWD }} \
             mosipdev/postgres-init:develop
-
-      - name: Check whether db_init has errors in Logs
-        run: |
-          if docker logs -f mosip_master_container | grep -q "ERROR"; then
-            echo "Error found in mosip_master_container logs."
-            exit 1
-          else
-            echo "No errors found in mosip_master_container logs."
-          fi
 
       - name: docker ps command
         run: docker ps -a
@@ -66,11 +58,29 @@ jobs:
         run: |
           # Display mosip_master_container logs
           docker logs -f mosip_master_container
-      - name: Setup branch and env
+      
+      - name: Check whether db_init has errors in Logs
         run: |
-          # Strip git ref prefix from version
-          echo "BRANCH_NAME=$(echo ${{ github.ref }} | sed -e 's,.*/\(.*\),\1,')" >> $GITHUB_ENV
-          echo "GPG_TTY=$(tty)" >> $GITHUB_ENV
+          if docker logs  mosip_master_container | grep  -qi "error"; then
+            echo "Error found in mosip_master_container logs."
+            exit 1
+          else
+            echo "No errors found in mosip_master_container logs."
+          fi
+
+
+      - name: Set environment variables
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            REPO_URL="${{ github.event.pull_request.head.repo.clone_url }}"
+            BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
+          else
+            REPO_URL="https://github.com/${{ github.repository }}.git"
+            BRANCH_NAME="${{ github.ref_name }}"
+          fi
+          echo "REPO_URL=${REPO_URL}" >> $GITHUB_ENV
+          echo "BRANCH_NAME=${BRANCH_NAME}" >> $GITHUB_ENV
+
       - name: Run masterdata-loader
         run: |
           docker run -itd \
@@ -78,20 +88,12 @@ jobs:
             --network mosip_network \
             -e DB_HOST=postgresql \
             -e DB_USER=masteruser \
+            -e DB_NAME=mosip_master \
             -e DB_PORT=5432 \
             -e DB_PWD=${{ env.DBUSER_PWD }} \
-            -e xls_folder=mosip_master \
+            -e REPOSITORY=${{ env.REPO_URL }} \
             -e BRANCH=${{ env.BRANCH_NAME }} \
             mosipdev/masterdata-loader:develop
-          
-      - name: Check whether masterdata_loader has errors in Logs
-        run: |
-          if docker logs -f masterdata_loader | grep -q "ERROR"; then
-            echo "Error found in masterdata_loader logs."
-            exit 1
-          else
-            echo "No errors found in masterdata_loader logs."
-          fi
 
       - name: docker ps command
         run: docker ps -a
@@ -99,3 +101,12 @@ jobs:
         run: |
           # Display masterdata_loader logs
           docker logs -f masterdata_loader
+
+      - name: Check whether masterdata_loader has errors in Logs
+        run: |
+          if docker logs  masterdata_loader | grep  -qi "error"; then
+            echo "Error found in masterdata_loader logs."
+            exit 1
+          else
+            echo "No errors found in masterdata_loader logs."
+          fi    
