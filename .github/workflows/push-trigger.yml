@@ -88,9 +88,10 @@ jobs:
             --network mosip_network \
             -e DB_HOST=postgresql \
             -e DB_USER=masteruser \
+            -e DB_NAME=mosip_master \
             -e DB_PORT=5432 \
             -e DB_PWD=${{ env.DBUSER_PWD }} \
-            -e REPOSITORY=${{ env.REPO_URL }}\
+            -e REPOSITORY=${{ env.REPO_URL }} \
             -e BRANCH=${{ env.BRANCH_NAME }} \
             mosipdev/masterdata-loader:develop
 
