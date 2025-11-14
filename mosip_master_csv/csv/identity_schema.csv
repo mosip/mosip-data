@@ -534,6 +534,14 @@ eng,1001,0.1,Mosip Identity,Mosip Sample identity,"{
                     ""format"": ""none"",
                     ""type"": ""string"",
                     ""fieldType"": ""default""
+                },
+				""packetCreatedOn"": {
+                    ""bioAttributes"": [
+                    ],
+                    ""fieldCategory"": ""pvt"",
+                    ""format"": ""none"",
+                    ""type"": ""string"",
+                    ""fieldType"": ""default""
                 }
 			}
 		}
