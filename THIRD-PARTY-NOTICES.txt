@@ -3,17 +3,17 @@ THIRD-PARTY-NOTICES
 This project includes third-party packages that are distributed under various open-source licenses. Below is a list of packages and their associated licenses.
 
 ================================================================================
-Package: MOSIP Data (mosip-data)
-Version: release-1.3.x
-License: Mozilla Public License 2.0
-Homepage: https://github.com/Rakshithasai123/mosip-data
+Package: actions/checkout
+Version: 2.*.*
+License: MIT License
+Homepage: https://github.com/actions/checkout
 ================================================================================
 
 ================================================================================
-Package: actions/checkout
-Version: 2.*.*
-License: MIT License (Inferred from project’s official repository)
-Homepage: https://github.com/actions/checkout
+Package: PostgreSQL (Docker Official Image)
+Version: 16
+License: PostgreSQL License
+Homepage: https://hub.docker.com/_/postgres
 ================================================================================
 
 Full license texts and additional details for each of the above packages are available in the license/ directory of this repository. Please refer to those files or the original source of each package for complete legal terms and conditions.
