@@ -20,7 +20,7 @@ Note: List of the commands executed during the data upgrade can be found in upgr
 	Ref: https://docs.mosip.io/1.2.0/modules/registration-client/registration-client-ui-specifications
 	-> It is recommended to verify the validators and visibility expressions in migrated UI SPEC.
 	-> After this migration, one old ui spec will be divided into 3 different ui spec like "newProcess", "updateProcess" and "lostProcess".
-	-> AGEGROUP_CONFIG in the upgrade.properties should be updated with respect to agegroup defined in the environment with the property name "mosip.regproc.packet.classifier.tagging.agegroup.ranges" in registration-default.properties file. 
+	-> AGEGROUP_CONFIG in the upgrade.properties should be updated based on the age-group values defined in the property name "mosip.regproc.packet.classifier.tagging.agegroup.ranges" in registration-default.properties file. 
 
 
 	Refer below API documentation to define and publish UI spec
