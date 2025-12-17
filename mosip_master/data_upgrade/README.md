@@ -10,7 +10,7 @@ mosip_data  → repository
 
 	data_upgrade → folder to hold only the delta
 
-		1.1.5.5_to_1.2.0.1 → Folder to contain scripts and data files required for country-specific data migration.
+		<FROM_VERISON>_to_<TO_VERISON> → Folder to contain scripts and data files required for country-specific data migration.
 
 			scripts to handle specific data change eg: change in UI spec
 
