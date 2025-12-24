@@ -1,0 +1,30 @@
+THIRD-PARTY NOTICES
+
+Copyright © MOSIP.
+All rights reserved.
+
+This project includes third-party components distributed under licenses
+that require attribution. The following sections list those components
+and their respective licenses.
+
+===========================
+Mozilla Public License 2.0
+==========================
+
+• MOSIP Data (mosip-data)
+Version: release-1.3.x
+Homepage: [https://github.com/Rakshithasai123/mosip-data](https://github.com/Rakshithasai123/mosip-data)
+
+===========================
+MIT License
+===========
+
+• actions/checkout
+Version: 2.*.*
+Homepage: [https://github.com/actions/checkout](https://github.com/actions/checkout)
+
+---
+
+Full license texts for all components are available in the
+`license/` directory of this repository.
+----------------------------------------
