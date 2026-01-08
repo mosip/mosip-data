@@ -1,0 +1,10 @@
+lang_code,code,name,descr,is_active
+eng,MIR,Mr,Male Title,TRUE
+eng,MRS,Mrs,Female Title,TRUE
+eng,MIS,Miss,Unmarried Female Title,TRUE
+fra,MIR,Monsieur,Titre masculin,TRUE
+fra,MRS,Madame,Titre féminin,TRUE
+fra,MIS,Mademoiselle,Titre de femme célibataire,TRUE
+ara,MIR,السيد,لقب ذكر,TRUE
+ara,MRS,السيدة,لقب أنثى,TRUE
+ara,MIS,يغيب,لقب انثى غير متزوجة,TRUE

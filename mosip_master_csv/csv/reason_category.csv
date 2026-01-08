@@ -1,0 +1,7 @@
+lang_code,code,name,descr,is_active
+eng,MNA,Manual Adjudication,Rejection during Manual Adjudication,TRUE
+eng,CLR,Client Rejection,Rejection in Registration Client,TRUE
+fra,MNA,Manuel arbitrage,Renvoi en cours de sélection manuelle,TRUE
+fra,CLR,Rejet de client,Rejet en enregistrement Client,TRUE
+ara,MNA,الحكم اليدوي,الرفض أثناء الحكم اليدوي,TRUE
+ara,CLR,رفض العميل,الرفض في تسجيل العميل,TRUE
