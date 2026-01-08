@@ -1,0 +1,10 @@
+lang_code,code,name,is_active
+eng,MLE,Male,TRUE
+eng,FLE,Female,TRUE
+eng,OTH,Others,FALSE
+fra,MLE,Mâle,TRUE
+fra,FLE,Femelle,TRUE
+fra,OTH,Dautres,FALSE
+ara,MLE,ذكر,TRUE
+ara,FLE,أنثى,TRUE
+ara,OTH,آحرون,FALSE
