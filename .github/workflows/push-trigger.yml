@@ -45,7 +45,7 @@ jobs:
             -e DB_SERVERIP=postgresql \
             -e DB_PORT=5432 \
             -e SU_USER=postgres \
-            -e DML_FLAG=1 \
+            -e DML_FLAG=0 \
             -e GIT_REPO_URL=https://github.com/mosip/admin-services.git \
             -e GIT_BRANCH=release-1.2.1.x \
             -e SU_USER_PWD=${{ env.SU_USER_PWD }} \
