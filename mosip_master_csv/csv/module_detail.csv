@@ -1,0 +1,19 @@
+lang_code,id,name,descr,is_active
+eng,10001,Pre-Registration,Web portal for pre-registrations,TRUE
+eng,10002,Registration Client,Desktop application for Registrations,TRUE
+eng,10003,Registration Processor,Application for post-registration process,TRUE
+eng,10004,ID Authentication,Application for third party service provider authentication,TRUE
+eng,10005,ID Control,Web portal for configuring applications,TRUE
+eng,10006,Resident Portal,Web portal for Post ID generation services,TRUE
+fra,10001,Pré-inscription,Portail Web pour les pré-inscriptions,TRUE
+fra,10002,Client dinscription,Application de bureau pour les inscriptions,TRUE
+fra,10003,Processeur dinscription,Demande de post-inscription,TRUE
+fra,10004,Authentification ID,Application pour lauthentification du fournisseur de services tiers,TRUE
+fra,10005,Contrôle didentité,Portail Web pour la configuration dapplications,TRUE
+fra,10006,Portail Résident,Portail Web pour les services de génération de post-ID,TRUE
+ara,10001,التسجيل المسبق,بوابة الويب للتسجيلات المسبقة,TRUE
+ara,10002,عميل التسجيل,تطبيق سطح المكتب للتسجيلات,TRUE
+ara,10003,معالج التسجيل,طلب عملية ما بعد التسجيل,TRUE
+ara,10004,مصادقة الهوية,طلب مصادقة مزود خدمة الطرف الثالث,TRUE
+ara,10005,معرف التحكم,بوابة الويب لتكوين التطبيقات,TRUE
+ara,10006,بوابة المقيمين,بوابة الويب لخدمات إنشاء معرف البريد,TRUE

@@ -1,0 +1,16 @@
+lang_code,code,name,descr,is_active
+eng,POA,Proof of Address,Address Proof,TRUE
+ara,POA,إثبات العنوان,إثبات العنوان,TRUE
+fra,POA,Un justificatif de domicile,Preuve dadresse,TRUE
+eng,POI,Proof of Identity,Identity Proof,TRUE
+ara,POI,إثبات هوية,إثبات الهوية,TRUE
+fra,POI,Preuve didentité,Preuve didentité,TRUE
+eng,POR,Proof of Relationship,Proof Relationship of the person,TRUE
+ara,POR,إثبات العلاقة,إثبات علاقة الشخص,TRUE
+fra,POR,Preuve de relation,Preuve de relation de la personne,TRUE
+eng,POB,Proof of Birth,Proof date of birth of the person,FALSE
+ara,POB,إثبات الميلاد,إثبات تاريخ ميلاد الشخص,FALSE
+fra,POB,Preuve de naissance,Preuve de la date de naissance de la personne,FALSE
+eng,POE,Proof of Biometric Exception,Proof of Biometric Exception,TRUE
+ara,POE,إثبات الاستثناء البيومتري,إثبات الاستثناء البيومتري,TRUE
+fra,POE,Preuve dexception biométrique,Preuve dexception biométrique,TRUE

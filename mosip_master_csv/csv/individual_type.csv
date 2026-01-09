@@ -1,0 +1,7 @@
+lang_code,code,name,is_active
+eng,FR,Foreigner,TRUE
+eng,NFR,Non-Foreigner,TRUE
+fra,FR,Étranger,TRUE
+fra,NFR,Non-étranger,TRUE
+ara,FR,أجنبي,TRUE
+ara,NFR,غير أجنبي,TRUE
