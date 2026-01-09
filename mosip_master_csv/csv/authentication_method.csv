@@ -1,0 +1,6 @@
+lang_code,code,method_seq,is_active
+eng,PWD,1,TRUE
+eng,OTP,2,TRUE
+eng,FINGERPRINT,3,TRUE
+eng,IRIS,4,TRUE
+eng,FACE,5,TRUE

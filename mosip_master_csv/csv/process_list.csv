@@ -1,0 +1,16 @@
+lang_code,id,name,descr,is_active
+eng,login_auth,Login authentication,Login authentication,TRUE
+eng,eod_auth,Eod authentication,Eod authentication,TRUE
+eng,packet_auth,Packet authentication,Packet authentication,TRUE
+eng,exception_auth,Exception authentication,Exception authentication,TRUE
+eng,onboard_auth,Onboard authentication,Onboard authentication,TRUE
+fra,login_auth,Authentification de connexion,Authentification de connexion,TRUE
+fra,eod_auth,Authentification de nem,Authentification de nem,TRUE
+fra,packet_auth,Authentification de paquet,Authentification de paquet,TRUE
+fra,exception_auth,Authentification d’exception,Authentification d’exception,TRUE
+fra,onboard_auth,Authentification intégrée,Authentification intégrée,TRUE
+ara,login_auth,مصادقة تسجيل الدخول,مصادقة تسجيل الدخول,TRUE
+ara,eod_auth,مصادقة Eod,مصادقة Eod,TRUE
+ara,packet_auth,مصادقة الحزمة,مصادقة الحزمة,TRUE
+ara,exception_auth,مصادقة الاستثناء,مصادقة الاستثناء,TRUE
+ara,onboard_auth,المصادقة على متن الطائرة,المصادقة على متن الطائرة,TRUE

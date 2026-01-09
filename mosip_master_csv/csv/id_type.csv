@@ -1,0 +1,16 @@
+lang_code,code,name,descr,is_active
+eng,UIN,Unique Identification Number,National ID given to the applicant,TRUE
+eng,PRID,Pre-registration ID,ID assigned after Pre-registration,TRUE
+eng,RID,Registration ID,ID assigned after registration,TRUE
+eng,VID,Virtual ID,ID used in replacement of UIN,TRUE
+eng,Token ID,Token ID,ID used by a vendor for an applicant,TRUE
+fra,UIN,Numéro didentification unique,Carte didentité nationale fournie au demandeur,TRUE
+fra,PRID,ID de pré-inscription,ID attribué après la pré-inscription,TRUE
+fra,RID,ID denregistrement,ID attribué après lenregistrement,TRUE
+fra,VID,ID virtuel,Identifiant utilisé en remplacement de UIN,TRUE
+fra,Token ID,ID de jeton,ID utilisé par un fournisseur pour un demandeur,TRUE
+ara,UIN,رقم التعريف الفريد,الهوية الوطنية الممنوحة لمقدم الطلب,TRUE
+ara,PRID,معرف التسجيل المسبق,تم تعيين المعرف بعد التسجيل المسبق,TRUE
+ara,RID,معرف تسجيل,المعرف المعين بعد التسجيل,TRUE
+ara,VID,المعرف الظاهري,المعرف المستخدم في استبدال UIN,TRUE
+ara,Token ID,معرف الرمز,المعرف المستخدم من قبل البائع لمقدم الطلب,TRUE
