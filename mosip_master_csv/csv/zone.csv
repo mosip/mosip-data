@@ -1,0 +1,64 @@
+lang_code,code,name,hierarchy_level,hierarchy_level_name,hierarchy_path,parent_zone_code,is_active
+eng,MOR,MyCountry,0,Country,MOR,,TRUE
+fra,MOR,Maroc,0,Pays,MOR,,TRUE
+eng,NTH,North,1,Direction,MOR/NTH,MOR,TRUE
+fra,NTH,Nord,1,Direction,MOR/NTH,MOR,TRUE
+eng,RSK,RabatSaleKenitra,2,Region,MOR/NTH/RSK,NTH,TRUE
+fra,RSK,Rabat-Salé-Kénitra,2,Région,MOR/NTH/RSK,NTH,TRUE
+eng,RBT,Rabat,3,Province,MOR/NTH/RSK/RBT,RSK,TRUE
+fra,RBT,Rabat,3,Province,MOR/NTH/RSK/RBT,RSK,TRUE
+eng,KTA,Kenitra,3,Province,MOR/NTH/RSK/KTA,RSK,TRUE
+fra,KTA,Kénitra,3,Province,MOR/NTH/RSK/KTA,RSK,TRUE
+eng,SAL,Salé ,3,Province,MOR/NTH/RSK/SAL,RSK,TRUE
+fra,SAL,Sala,3,Province,MOR/NTH/RSK/SAL,RSK,TRUE
+eng,CST,Casablanca-Settat,2,Region,MOR/NTH/CST,NTH,TRUE
+fra,CST,Casablanca-Settat,2,Région,MOR/NTH/CST,NTH,TRUE
+eng,BSN,Benslimane,3,Province,MOR/NTH/CST/BSN,CST,TRUE
+fra,BSN,Benslimane,3,Province,MOR/NTH/CST/BSN,CST,TRUE
+eng,CSB,Casablanca,3,Province,MOR/NTH/CST/CSB,CST,TRUE
+fra,CSB,Casablanca,3,Province,MOR/NTH/CST/CSB,CST,TRUE
+eng,STT,Settat,3,Province,MOR/NTH/CST/STT,CST,TRUE
+fra,STT,Settat,3,Province,MOR/NTH/CST/STT,CST,TRUE
+eng,ORT,Oriental,2,Region,MOR/NTH/ORT,NTH,TRUE
+fra,ORT,Oriental,2,Région,MOR/NTH/ORT,NTH,TRUE
+eng,NDR,Nador,3,Province,MOR/NTH/ORT/NDR,ORT,TRUE
+fra,NDR,Nador,3,Province,MOR/NTH/ORT/NDR,ORT,TRUE
+eng,BRK,Berkane,3,Province,MOR/NTH/ORT/BRK,ORT,TRUE
+fra,BRK,Berkane,3,Province,MOR/NTH/ORT/BRK,ORT,TRUE
+eng,JRD,Jerada ,3,Province,MOR/NTH/ORT/JRD,ORT,TRUE
+fra,JRD,Jerada ,3,Province,MOR/NTH/ORT/JRD,ORT,TRUE
+eng,STH,South,1,Direction,MOR/STH,MOR,TRUE
+fra,STH,Sud,1,Direction,MOR/STH,MOR,TRUE
+eng,MRS,Marrakesh-Safi,2,Region,MOR/STH/MRS,STH,TRUE
+fra,MRS,Marrakesh-Safi,2,Région,MOR/STH/MRS,STH,TRUE
+eng,SAF,Safi ,3,Province,MOR/STH/MRS/SAF,MRS,TRUE
+fra,SAF,Safi ,3,Province,MOR/STH/MRS/SAF,MRS,TRUE
+eng,YSF,Youssoufia ,3,Province,MOR/STH/MRS/YSF,MRS,TRUE
+fra,YSF,Youssoufia ,3,Province,MOR/STH/MRS/YSF,MRS,TRUE
+eng,SOS,Souss-Massa,2,Region,MOR/STH/SOS,STH,TRUE
+fra,SOS,Sus-Massa,2,Région,MOR/STH/SOS,STH,TRUE
+eng,TTA,Tata ,3,Province,MOR/STH/SOS/TTA,SOS,TRUE
+fra,TTA,Tata ,3,Province,MOR/STH/SOS/TTA,SOS,TRUE
+eng,TZT,Tiznit,3,Province,MOR/STH/SOS/TZT,SOS,TRUE
+fra,TZT,Tiznit,3,Province,MOR/STH/SOS/TZT,SOS,TRUE
+ara,MOR,مايكونتري,0,دولة,MOR,,TRUE
+ara,NTH,شمال,1,اتجاه,MOR/NTH,MOR,TRUE
+ara,RSK,الرباط ساليالقنيطرة,2,منطقة,MOR/NTH/RSK,NTH,TRUE
+ara,RBT,الرباط,3,مقاطعة,MOR/NTH/RSK/RBT,RSK,TRUE
+ara,KTA,القنيطرة,3,مقاطعة,MOR/NTH/RSK/KTA,RSK,TRUE
+ara,SAL,قذر,3,مقاطعة,MOR/NTH/RSK/SAL,RSK,TRUE
+ara,CST,الدار البيضاء سطات,2,منطقة,MOR/NTH/CST,NTH,TRUE
+ara,BSN,بن سليمان,3,مقاطعة,MOR/NTH/CST/BSN,CST,TRUE
+ara,CSB,الدار البيضاء,3,مقاطعة,MOR/NTH/CST/CSB,CST,TRUE
+ara,STT,سطات,3,مقاطعة,MOR/NTH/CST/STT,CST,TRUE
+ara,ORT,شرقية,2,منطقة,MOR/NTH/ORT,NTH,TRUE
+ara,NDR,الناظور,3,مقاطعة,MOR/NTH/ORT/NDR,ORT,TRUE
+ara,BRK,بركان,3,مقاطعة,MOR/NTH/ORT/BRK,ORT,TRUE
+ara,JRD,جرادة,3,مقاطعة,MOR/NTH/ORT/JRD,ORT,TRUE
+ara,STH,جنوب,1,اتجاه,MOR/STH,MOR,TRUE
+ara,MRS,مراكشصف,2,منطقة,MOR/STH/MRS,STH,TRUE
+ara,SAF,صافي,3,مقاطعة,MOR/STH/MRS/SAF,MRS,TRUE
+ara,YSF,اليوسفية,3,مقاطعة,MOR/STH/MRS/YSF,MRS,TRUE
+ara,SOS,سوس ماسة,2,منطقة,MOR/STH/SOS,STH,TRUE
+ara,TTA,تاتا,3,مقاطعة,MOR/STH/SOS/TTA,SOS,TRUE
+ara,TZT,تزنيت,3,مقاطعة,MOR/STH/SOS/TZT,SOS,TRUE

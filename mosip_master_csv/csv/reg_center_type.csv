@@ -1,0 +1,4 @@
+lang_code,code,name,descr,is_active
+eng,REG,Regular,Regular Registration Center,TRUE
+fra,REG,Ordinaire,Centre dinscription régulière,TRUE
+ara,REG,عادي,مركز التسجيل العادي,TRUE

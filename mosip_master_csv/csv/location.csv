@@ -1,0 +1,121 @@
+lang_code,code,name,hierarchy_level,hierarchy_level_name,parent_loc_code,is_active
+eng,MOR,MyCountry,0,Country,,TRUE
+ara,MOR,مايكونتري,0,دولة,,TRUE
+fra,MOR,Maroc,0,Pays,,TRUE
+eng,RSK,Rabat Sale Kenitra,1,Region,MOR,TRUE
+ara,RSK,الرباط سلا القنيطرة,1,المناطق,MOR,TRUE
+fra,RSK,Rabat-Salé-Kénitra,1,Région,MOR,TRUE
+eng,KTA,Kenitra,2,Province,RSK,TRUE
+ara,KTA,القنيطرة,2,المحافظة,RSK,TRUE
+fra,KTA,Kénitra,2,Province,RSK,TRUE
+eng,KNT,Kenitra,3,City,KTA,TRUE
+ara,KNT,القنيطرة,3,مدينة,KTA,TRUE
+fra,KNT,Kénitra,3,Ville,KTA,TRUE
+eng,BNMR,Ben Mansour,4,Zone,KNT,TRUE
+ara,BNMR,بن منصور,4,منطقة,KNT,TRUE
+fra,BNMR,Ben Mansour,4,Zone,KNT,TRUE
+eng,14022,14022,5,Postal Code,BNMR,TRUE
+ara,14022,14022,5,رمز بريدي,BNMR,TRUE
+fra,14022,14022,5,code postal,BNMR,TRUE
+eng,MNAS,Mnasra,4,Zone,KNT,TRUE
+ara,MNAS,مناصرة,4,منطقة,KNT,TRUE
+fra,MNAS,Mnasra,4,Zone,KNT,TRUE
+eng,14053,14053,5,Postal Code,MNAS,TRUE
+ara,14053,14053,5,رمز بريدي,MNAS,TRUE
+fra,14053,14053,5,code postal,MNAS,TRUE
+eng,MOGR,Mograne,4,Zone,KNT,TRUE
+ara,MOGR,صداع نصفي,4,منطقة,KNT,TRUE
+fra,MOGR,Mograne,4,Zone,KNT,TRUE
+eng,14023,14023,5,Postal Code,MOGR,TRUE
+ara,14023,14023,5,رمز بريدي,MOGR,TRUE
+fra,14023,14023,5,code postal,MOGR,TRUE
+eng,ASSM,Assam,4,Zone,KNT,TRUE
+ara,ASSM,آسام,4,منطقة,KNT,TRUE
+fra,ASSM,Assam,4,Zone,KNT,TRUE
+eng,14000,14000,5,Postal Code,ASSM,TRUE
+ara,14000,14000,5,رمز بريدي,ASSM,TRUE
+fra,14000,14000,5,code postal,ASSM,TRUE
+eng,MEHD,Mehdia,4,Zone,KNT,TRUE
+ara,MEHD,المهدية,4,منطقة,KNT,TRUE
+fra,MEHD,Mehdia,4,Zone,KNT,TRUE
+eng,14110,14110,5,Postal Code,MEHD,TRUE
+ara,14110,14110,5,رمز بريدي,MEHD,TRUE
+fra,14110,14110,5,code postal,MEHD,TRUE
+eng,OLOJ,Ouled Oujih,4,Zone,KNT,TRUE
+ara,OLOJ,أولد أوجيه,4,منطقة,KNT,TRUE
+fra,OLOJ,Ouled Oujih,4,Zone,KNT,TRUE
+eng,14080,14080,5,Postal Code,OLOJ,TRUE
+ara,14080,14080,5,رمز بريدي,OLOJ,TRUE
+fra,14080,14080,5,code postal,OLOJ,TRUE
+eng,SDTB,Sidi Taibi,4,Zone,KNT,TRUE
+ara,SDTB,نسبة تاي القاتلة,4,منطقة,KNT,TRUE
+fra,SDTB,Sidi Taibi,4,Zone,KNT,TRUE
+eng,14025,14025,5,Postal Code,SDTB,TRUE
+ara,14025,14025,5,رمز بريدي,SDTB,TRUE
+fra,14025,14025,5,code postal,SDTB,TRUE
+eng,SATZ,Sidi Allal Tazi,4,Zone,KNT,TRUE
+ara,SATZ,سيدي علال تعزي,4,منطقة,KNT,TRUE
+fra,SATZ,Sidi Allal Tazi,4,Zone,KNT,TRUE
+eng,14050,14050,5,Postal Code,SATZ,TRUE
+ara,14050,14050,5,رمز بريدي,SATZ,TRUE
+fra,14050,14050,5,code postal,SATZ,TRUE
+eng,RBT,Rabat,2,Province,RSK,TRUE
+ara,RBT,الرباط,2,المحافظة,RSK,TRUE
+fra,RBT,Rabat,2,Province,RSK,TRUE
+eng,RAB,Rabat,3,City,RBT,TRUE
+ara,RAB,الرباط,3,مدينة,RBT,TRUE
+fra,RAB,Rabat,3,Ville,RBT,TRUE
+eng,AGDL,Agdal,4,Zone,RAB,TRUE
+ara,AGDL,أكدال,4,منطقة,RAB,TRUE
+fra,AGDL,Agdal,4,Zone,RAB,TRUE
+eng,10106,10106,5,Postal Code,AGDL,TRUE
+ara,10106,10106,5,رمز بريدي,AGDL,TRUE
+fra,10106,10106,5,code postal,AGDL,TRUE
+eng,QRHS,Quartier Hassan,4,Zone,RAB,TRUE
+ara,QRHS,حى حسن,4,منطقة,RAB,TRUE
+fra,QRHS,Quartier Hassan,4,Zone,RAB,TRUE
+eng,10000,10000,5,Postal Code,QRHS,TRUE
+ara,10000,10000,5,رمز بريدي,QRHS,TRUE
+fra,10000,10000,5,code postal,QRHS,TRUE
+eng,SOUS,Souissi,4,Zone,RAB,TRUE
+ara,SOUS,السويسي,4,منطقة,RAB,TRUE
+fra,SOUS,Souissi,4,Zone,RAB,TRUE
+eng,10105,10105,5,Postal Code,SOUS,TRUE
+ara,10105,10105,5,رمز بريدي,SOUS,TRUE
+fra,10105,10105,5,code postal,SOUS,TRUE
+eng,MADI,Madinat Al Irfane,4,Zone,RAB,TRUE
+ara,MADI,مدينة أل عرفان,4,منطقة,RAB,TRUE
+fra,MADI,Madinat Al Irfane,4,Zone,RAB,TRUE
+eng,10112,10112,5,Postal Code,MADI,TRUE
+ara,10112,10112,5,رمز بريدي,MADI,TRUE
+fra,10112,10112,5,code postal,MADI,TRUE
+eng,HARD,Hay Riad,4,Zone,RAB,TRUE
+ara,HARD,هناك الرياض,4,منطقة,RAB,TRUE
+fra,HARD,Hay Riad,4,Zone,RAB,TRUE
+eng,10104,10104,5,Postal Code,HARD,TRUE
+ara,10104,10104,5,رمز بريدي,HARD,TRUE
+fra,10104,10104,5,code postal,HARD,TRUE
+eng,MDDR,Medina de Rabat,4,Zone,RAB,TRUE
+ara,MDDR,مدينة الرباط,4,منطقة,RAB,TRUE
+fra,MDDR,Médina de Rabat,4,Zone,RAB,TRUE
+eng,10036,10036,5,Postal Code,MDDR,TRUE
+ara,10036,10036,5,رمز بريدي,MDDR,TRUE
+fra,10036,10036,5,code postal,MDDR,TRUE
+eng,ELYF,EL YOUSSOUFIA,4,Zone,RAB,TRUE
+ara,ELYF,إل يوسف,4,منطقة,RAB,TRUE
+fra,ELYF,EL YOUSSOUFIA,4,Zone,RAB,TRUE
+eng,10190,10190,5,Postal Code,ELYF,TRUE
+ara,10190,10190,5,رمز بريدي,ELYF,TRUE
+fra,10190,10190,5,code postal,ELYF,TRUE
+eng,10110,10110,5,Postal Code,BNMR,TRUE
+eng,10111,10111,5,Postal Code,BNMR,TRUE
+eng,10113,10113,5,Postal Code,BNMR,TRUE
+eng,10114,10114,5,Postal Code,BNMR,TRUE
+fra,10111,10111,5,code postal,BNMR,TRUE
+fra,10110,10110,5,code postal,BNMR,TRUE
+fra,10113,10113,5,code postal,BNMR,TRUE
+fra,10114,10114,5,code postal,BNMR,TRUE
+ara,10111,10111,5,رمز بريدي,BNMR,TRUE
+ara,10114,10114,5,رمز بريدي,BNMR,TRUE
+ara,10113,10113,5,رمز بريدي,BNMR,TRUE
+ara,10110,10110,5,رمز بريدي,BNMR,TRUE
