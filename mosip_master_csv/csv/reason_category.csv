@@ -1,0 +1,13 @@
+lang_code,code,name,descr,is_active
+eng,MNA,Manual Adjudication,Rejection during Manual Adjudication,TRUE
+eng,CLR,Client Rejection,Rejection in Registration Client,TRUE
+fra,MNA,Manuel arbitrage,Renvoi en cours de sélection manuelle,TRUE
+fra,CLR,Rejet de client,Rejet en enregistrement Client,TRUE
+ara,MNA,الحكم اليدوي,الرفض أثناء الحكم اليدوي,TRUE
+ara,CLR,رفض العميل,الرفض في تسجيل العميل,TRUE
+kan,MNA,ಹಸ್ತಚಾಲಿತ ತೀರ್ಪು,ಹಸ್ತಚಾಲಿತ ತೀರ್ಪಿನ ಸಮಯದಲ್ಲಿ ನಿರಾಕರಣೆ,TRUE
+kan,CLR,ಗ್ರಾಹಕ ನಿರಾಕರಣೆ,ನೋಂದಣಿ ಕ್ಲೈಂಟ್‌ನಲ್ಲಿ ನಿರಾಕರಣೆ,TRUE
+hin,MNA,मैनुअल अधिनिर्णय,मैनुअल अधिनिर्णय के दौरान अस्वीकृति,TRUE
+hin,CLR,ग्राहक अस्वीकृति,पंजीकरण ग्राहक में अस्वीकृति,TRUE
+tam,MNA,உள் அங்கீகாரம்,கைமுறை தீர்ப்பின் போது நிராகரிப்பு,TRUE
+tam,CLR,வாடிக்கையாளர் நிராகரிப்பு,பதிவு கிளையண்டில் நிராகரிப்பு,TRUE

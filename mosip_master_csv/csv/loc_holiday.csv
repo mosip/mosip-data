@@ -1,0 +1,793 @@
+lang_code,id,location_code,holiday_date,holiday_name,holiday_desc,is_active
+ara,2000001,KTA,1/1/2019,يوم السنة الجديدة,عيد وطني,TRUE
+eng,2000002,KTA,1/1/2019,New Year's Day,National Holiday,TRUE
+fra,2000003,KTA,1/1/2019,Jour de l’an,Fête nationale,TRUE
+ara,2000004,RBT,1/1/2019,يوم السنة الجديدة,عيد وطني,TRUE
+eng,2000005,RBT,1/1/2019,New Year's Day,National Holiday,TRUE
+fra,2000006,RBT,1/1/2019,Jour de l’an,Fête nationale,TRUE
+ara,2000007,KTA,1/11/2019,ذكرى بيان الاستقلال,عيد وطني,TRUE
+eng,2000008,KTA,1/11/2019,Anniversary of the Independence Manifesto,National Holiday,TRUE
+fra,2000009,KTA,1/11/2019,Anniversaire du manifeste de l’indépendance,Fête nationale,TRUE
+ara,2000010,RBT,1/11/2019,ذكرى بيان الاستقلال,عيد وطني,TRUE
+eng,2000011,RBT,1/11/2019,Anniversary of the Independence Manifesto,National Holiday,TRUE
+fra,2000012,RBT,1/11/2019,Anniversaire du manifeste de l’indépendance,Fête nationale,TRUE
+ara,2000013,KTA,10/12/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000014,KTA,10/12/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000015,KTA,10/12/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000016,RBT,10/12/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000017,RBT,10/12/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000018,RBT,10/12/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000019,KTA,10/13/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000020,KTA,10/13/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000021,KTA,10/13/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000022,RBT,10/13/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000023,RBT,10/13/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000024,RBT,10/13/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000025,KTA,10/19/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000026,KTA,10/19/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000027,KTA,10/19/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000028,RBT,10/19/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000029,RBT,10/19/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000030,RBT,10/19/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000031,KTA,10/20/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000032,KTA,10/20/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000033,KTA,10/20/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000034,RBT,10/20/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000035,RBT,10/20/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000036,RBT,10/20/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000037,KTA,10/26/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000038,KTA,10/26/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000039,KTA,10/26/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000040,RBT,10/26/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000041,RBT,10/26/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000042,RBT,10/26/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000043,KTA,10/27/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000044,KTA,10/27/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000045,KTA,10/27/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000046,RBT,10/27/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000047,RBT,10/27/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000048,RBT,10/27/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000049,KTA,10/5/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000050,KTA,10/5/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000051,KTA,10/5/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000052,RBT,10/5/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000053,RBT,10/5/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000054,RBT,10/5/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000055,KTA,10/6/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000056,KTA,10/6/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000057,KTA,10/6/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000058,RBT,10/6/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000059,RBT,10/6/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000060,RBT,10/6/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000061,KTA,11/10/2019,المولد النبوي الشريف,عيد وطني,TRUE
+eng,2000062,KTA,11/10/2019,The Prophet Muhammad's Birthday,National Holiday,TRUE
+fra,2000063,KTA,11/10/2019,Anniversaire de Mohammed,Fête nationale,TRUE
+ara,2000064,RBT,11/10/2019,المولد النبوي الشريف,عيد وطني,TRUE
+eng,2000065,RBT,11/10/2019,The Prophet Muhammad's Birthday,National Holiday,TRUE
+fra,2000066,RBT,11/10/2019,Anniversaire de Mohammed,Fête nationale,TRUE
+ara,2000067,KTA,11/16/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000068,KTA,11/16/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000069,KTA,11/16/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000070,RBT,11/16/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000071,RBT,11/16/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000072,RBT,11/16/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000073,KTA,11/17/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000074,KTA,11/17/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000075,KTA,11/17/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000076,RBT,11/17/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000077,RBT,11/17/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000078,RBT,11/17/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000079,KTA,11/18/2019,عيد الاستقلال,عيد وطني,TRUE
+eng,2000080,KTA,11/18/2019,Independence Day,National Holiday,TRUE
+fra,2000081,KTA,11/18/2019,Fête de l’indépendance,Fête nationale,TRUE
+ara,2000082,RBT,11/18/2019,عيد الاستقلال,عيد وطني,TRUE
+eng,2000083,RBT,11/18/2019,Independence Day,National Holiday,TRUE
+fra,2000084,RBT,11/18/2019,Fête de l’indépendance,Fête nationale,TRUE
+ara,2000085,KTA,11/2/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000086,KTA,11/2/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000087,KTA,11/2/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000088,RBT,11/2/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000089,RBT,11/2/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000090,RBT,11/2/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000091,KTA,11/23/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000092,KTA,11/23/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000093,KTA,11/23/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000094,RBT,11/23/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000095,RBT,11/23/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000096,RBT,11/23/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000097,KTA,11/24/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000098,KTA,11/24/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000099,KTA,11/24/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000100,RBT,11/24/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000101,RBT,11/24/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000102,RBT,11/24/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000103,KTA,11/3/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000104,KTA,11/3/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000105,KTA,11/3/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000106,RBT,11/3/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000107,RBT,11/3/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000108,RBT,11/3/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000109,KTA,11/30/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000110,KTA,11/30/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000111,KTA,11/30/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000112,RBT,11/30/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000113,RBT,11/30/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000114,RBT,11/30/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000115,KTA,11/6/2019,ذكرى المسيرة الخضراء,عيد وطني,TRUE
+eng,2000116,KTA,11/6/2019,Anniversary of the Green March,National Holiday,TRUE
+fra,2000117,KTA,11/6/2019,Anniversaire de la marche verte,Fête nationale,TRUE
+ara,2000118,KTA,11/9/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000119,KTA,11/9/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000120,KTA,11/9/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000121,RBT,11/9/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000122,RBT,11/9/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000123,RBT,11/9/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000124,KTA,12/1/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000125,KTA,12/1/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000126,KTA,12/1/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000127,RBT,12/1/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000128,RBT,12/1/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000129,RBT,12/1/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000130,KTA,12/14/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000131,KTA,12/14/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000132,KTA,12/14/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000133,RBT,12/14/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000134,RBT,12/14/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000135,RBT,12/14/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000136,KTA,12/15/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000137,KTA,12/15/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000138,KTA,12/15/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000139,RBT,12/15/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000140,RBT,12/15/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000141,RBT,12/15/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000142,KTA,12/21/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000143,KTA,12/21/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000144,KTA,12/21/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000145,RBT,12/21/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000146,RBT,12/21/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000147,RBT,12/21/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000148,KTA,12/22/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000149,KTA,12/22/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000150,KTA,12/22/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000151,RBT,12/22/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000152,RBT,12/22/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000153,RBT,12/22/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000154,KTA,12/28/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000155,KTA,12/28/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000156,KTA,12/28/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000157,RBT,12/28/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000158,RBT,12/28/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000159,RBT,12/28/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000160,KTA,12/29/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000161,KTA,12/29/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000162,KTA,12/29/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000163,RBT,12/29/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000164,RBT,12/29/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000165,RBT,12/29/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000166,KTA,12/7/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000167,KTA,12/7/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000168,KTA,12/7/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000169,RBT,12/7/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000170,RBT,12/7/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000171,RBT,12/7/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000172,KTA,12/8/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000173,KTA,12/8/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000174,KTA,12/8/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000175,RBT,12/8/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000176,RBT,12/8/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000177,RBT,12/8/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000178,KTA,5/1/2019,عيد العمال / عيد العمال,عيد وطني,TRUE
+eng,2000179,KTA,5/1/2019,Labour Day/May Day,National Holiday,TRUE
+fra,2000180,KTA,5/1/2019,Fête du travail / May Day,Fête nationale,TRUE
+ara,2000181,RBT,5/1/2019,عيد العمال / عيد العمال,عيد وطني,TRUE
+eng,2000182,RBT,5/1/2019,Labour Day/May Day,National Holiday,TRUE
+fra,2000183,RBT,5/1/2019,Fête du travail / May Day,Fête nationale,TRUE
+ara,2000184,KTA,6/22/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000185,KTA,6/22/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000186,KTA,6/22/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000187,RBT,6/22/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000188,RBT,6/22/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000189,RBT,6/22/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000190,KTA,6/23/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000191,KTA,6/23/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000192,KTA,6/23/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000193,RBT,6/23/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000194,RBT,6/23/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000195,RBT,6/23/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000196,KTA,6/29/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000197,KTA,6/29/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000198,KTA,6/29/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000199,RBT,6/29/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000200,RBT,6/29/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000201,RBT,6/29/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000202,KTA,6/30/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000203,KTA,6/30/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000204,KTA,6/30/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000205,RBT,6/30/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000206,RBT,6/30/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000207,RBT,6/30/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000208,KTA,6/5/2019,عيد الفطر,عيد وطني,TRUE
+eng,2000209,KTA,6/5/2019,Eid al-Fitr,National Holiday,TRUE
+fra,2000210,KTA,6/5/2019,Eid al-Fitr,Fête nationale,TRUE
+ara,2000211,RBT,6/5/2019,عيد الفطر,عيد وطني,TRUE
+eng,2000212,RBT,6/5/2019,Eid al-Fitr,National Holiday,TRUE
+fra,2000213,RBT,6/5/2019,Eid al-Fitr,Fête nationale,TRUE
+ara,2000214,KTA,7/13/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000215,KTA,7/13/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000216,KTA,7/13/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000217,RBT,7/13/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000218,RBT,7/13/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000219,RBT,7/13/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000220,KTA,7/14/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000221,KTA,7/14/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000222,KTA,7/14/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000223,RBT,7/14/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000224,RBT,7/14/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000225,RBT,7/14/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000226,KTA,7/20/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000227,KTA,7/20/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000228,KTA,7/20/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000229,RBT,7/20/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000230,RBT,7/20/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000231,RBT,7/20/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000232,KTA,7/21/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000233,KTA,7/21/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000234,KTA,7/21/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000235,RBT,7/21/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000236,RBT,7/21/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000237,RBT,7/21/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000238,KTA,7/27/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000239,KTA,7/27/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000240,KTA,7/27/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000241,RBT,7/27/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000242,RBT,7/27/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000243,RBT,7/27/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000244,KTA,7/28/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000245,KTA,7/28/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000246,KTA,7/28/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000247,RBT,7/28/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000248,RBT,7/28/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000249,RBT,7/28/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000250,KTA,7/30/2019,عيد العرش,عيد وطني,TRUE
+eng,2000251,KTA,7/30/2019,Feast of the Throne,National Holiday,TRUE
+fra,2000252,KTA,7/30/2019,Fête du trône,Fête nationale,TRUE
+ara,2000253,RBT,7/30/2019,عيد العرش,عيد وطني,TRUE
+eng,2000254,RBT,7/30/2019,Feast of the Throne,National Holiday,TRUE
+fra,2000255,RBT,7/30/2019,Fête du trône,Fête nationale,TRUE
+ara,2000256,KTA,7/6/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000257,KTA,7/6/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000258,KTA,7/6/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000259,RBT,7/6/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000260,RBT,7/6/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000261,RBT,7/6/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000262,KTA,7/7/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000263,KTA,7/7/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000264,KTA,7/7/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000265,RBT,7/7/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000266,RBT,7/7/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000267,RBT,7/7/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000268,KTA,8/10/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000269,KTA,8/10/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000270,KTA,8/10/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000271,RBT,8/10/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000272,RBT,8/10/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000273,RBT,8/10/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000274,KTA,8/11/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000275,KTA,8/11/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000276,KTA,8/11/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000277,RBT,8/11/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000278,RBT,8/11/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000279,RBT,8/11/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000280,KTA,8/12/2019,عيد الأضحى,عيد وطني,TRUE
+eng,2000281,KTA,8/12/2019,Eid al-Adha,National Holiday,TRUE
+fra,2000282,KTA,8/12/2019,Aïd al-Adha,Fête nationale,TRUE
+ara,2000283,RBT,8/12/2019,عيد الأضحى,عيد وطني,TRUE
+eng,2000284,RBT,8/12/2019,Eid al-Adha,National Holiday,TRUE
+fra,2000285,RBT,8/12/2019,Aïd al-Adha,Fête nationale,TRUE
+ara,2000286,KTA,8/14/2019,ذكرى استرداد وادي الذهب,عيد وطني,TRUE
+eng,2000287,KTA,8/14/2019,Anniversary of the Recovery Oued Ed-Dahab,National Holiday,TRUE
+fra,2000288,KTA,8/14/2019,Anniversaire de la récupération de Oued Ed-Dahab,Fête nationale,TRUE
+ara,2000289,RBT,8/14/2019,ذكرى استرداد وادي الذهب,عيد وطني,TRUE
+eng,2000290,RBT,8/14/2019,Anniversary of the Recovery Oued Ed-Dahab,National Holiday,TRUE
+fra,2000291,RBT,8/14/2019,Anniversaire de la récupération de Oued Ed-Dahab,Fête nationale,TRUE
+ara,2000292,KTA,8/17/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000293,KTA,8/17/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000294,KTA,8/17/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000295,RBT,8/17/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000296,RBT,8/17/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000297,RBT,8/17/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000298,KTA,8/18/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000299,KTA,8/18/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000300,KTA,8/18/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000301,RBT,8/18/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000302,RBT,8/18/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000303,RBT,8/18/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000304,KTA,8/20/2019,ذكرى ثورة الملك والشعب,عيد وطني,TRUE
+eng,2000305,KTA,8/20/2019,Anniversary of the Revolution of the King and the People,National Holiday,TRUE
+fra,2000306,KTA,8/20/2019,Anniversaire de la révolution du roi et le peuple,Fête nationale,TRUE
+ara,2000307,RBT,8/20/2019,ذكرى ثورة الملك والشعب,عيد وطني,TRUE
+eng,2000308,RBT,8/20/2019,Anniversary of the Revolution of the King and the People,National Holiday,TRUE
+fra,2000309,RBT,8/20/2019,Anniversaire de la révolution du roi et le peuple,Fête nationale,TRUE
+ara,2000310,KTA,8/21/2019,يوم الشباب,عيد وطني,TRUE
+eng,2000311,KTA,8/21/2019,Youth Day,National Holiday,TRUE
+fra,2000312,KTA,8/21/2019,Journée de la jeunesse,Fête nationale,TRUE
+ara,2000313,KTA,8/24/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000314,KTA,8/24/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000315,KTA,8/24/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000316,RBT,8/24/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000317,RBT,8/24/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000318,RBT,8/24/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000319,KTA,8/25/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000320,KTA,8/25/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000321,KTA,8/25/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000322,RBT,8/25/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000323,RBT,8/25/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000324,RBT,8/25/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000325,KTA,8/3/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000326,KTA,8/3/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000327,KTA,8/3/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000328,RBT,8/3/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000329,RBT,8/3/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000330,RBT,8/3/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000331,KTA,8/31/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000332,KTA,8/31/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000333,KTA,8/31/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000334,RBT,8/31/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000335,RBT,8/31/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000336,RBT,8/31/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000337,KTA,8/4/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000338,KTA,8/4/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000339,KTA,8/4/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000340,RBT,8/4/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000341,RBT,8/4/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000342,RBT,8/4/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000343,KTA,9/1/2019,رأس السنة الهجرية,عيد وطني,TRUE
+eng,2000344,KTA,9/1/2019,Hijra New Year,National Holiday,TRUE
+fra,2000345,KTA,9/1/2019,Hégire nouvel an,Fête nationale,TRUE
+ara,2000346,RBT,9/1/2019,رأس السنة الهجرية,عيد وطني,TRUE
+eng,2000347,RBT,9/1/2019,Hijra New Year,National Holiday,TRUE
+fra,2000348,RBT,9/1/2019,Hégire nouvel an,Fête nationale,TRUE
+ara,2000349,KTA,9/14/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000350,KTA,9/14/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000351,KTA,9/14/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000352,RBT,9/14/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000353,RBT,9/14/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000354,RBT,9/14/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000355,KTA,9/15/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000356,KTA,9/15/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000357,KTA,9/15/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000358,RBT,9/15/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000359,RBT,9/15/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000360,RBT,9/15/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000361,KTA,9/21/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000362,KTA,9/21/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000363,KTA,9/21/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000364,RBT,9/21/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000365,RBT,9/21/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000366,RBT,9/21/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000367,KTA,9/22/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000368,KTA,9/22/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000369,KTA,9/22/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000370,RBT,9/22/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000371,RBT,9/22/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000372,RBT,9/22/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000373,KTA,9/28/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000374,KTA,9/28/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000375,KTA,9/28/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000376,RBT,9/28/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000377,RBT,9/28/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000378,RBT,9/28/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000379,KTA,9/29/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000380,KTA,9/29/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000381,KTA,9/29/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000382,RBT,9/29/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000383,RBT,9/29/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000384,RBT,9/29/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000385,KTA,9/7/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000386,KTA,9/7/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000387,KTA,9/7/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000388,RBT,9/7/2019,السبت - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000389,RBT,9/7/2019,Saturday - Weekend,Weekend,TRUE
+fra,2000390,RBT,9/7/2019,Samedi - fin de semaine,Weekend,TRUE
+ara,2000391,KTA,9/8/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000392,KTA,9/8/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000393,KTA,9/8/2019,Dimanche - fin de semaine,Weekend,TRUE
+ara,2000394,RBT,9/8/2019,الأحد - عطلة نهاية الأسبوع,عطلة نهاية الاسبوع,TRUE
+eng,2000395,RBT,9/8/2019,Sunday - Weekend,Weekend,TRUE
+fra,2000396,RBT,9/8/2019,Dimanche - fin de semaine,Weekend,TRUE
+kan,2000397,KTA,1/1/2019,ಹೊಸ ವರುಷದ ದಿನ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000398,RBT,1/1/2019,ಹೊಸ ವರುಷದ ದಿನ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000399,KTA,1/11/2019,ಸ್ವಾತಂತ್ರ್ಯ ಘೋಷಣೆಯ ವಾರ್ಷಿಕೋತ್ಸವ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000400,RBT,1/11/2019,ಸ್ವಾತಂತ್ರ್ಯ ಘೋಷಣೆಯ ವಾರ್ಷಿಕೋತ್ಸವ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000401,KTA,10/12/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000402,RBT,10/12/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000403,KTA,10/13/2019,ಭಾನುವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000404,RBT,10/13/2019,ಭಾನುವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000405,KTA,10/19/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000406,RBT,10/19/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000407,KTA,10/20/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000408,RBT,10/20/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000409,KTA,10/26/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000410,RBT,10/26/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000411,KTA,10/27/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000412,RBT,10/27/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000413,KTA,10/5/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000414,RBT,10/5/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000415,KTA,10/6/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000416,RBT,10/6/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000417,KTA,11/10/2019,ಪ್ರವಾದಿ ಮುಹಮ್ಮದ್ ಅವರ ಜನ್ಮದಿನ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000418,RBT,11/10/2019,ಪ್ರವಾದಿ ಮುಹಮ್ಮದ್ ಅವರ ಜನ್ಮದಿನ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000419,KTA,11/16/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000420,RBT,11/16/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000421,KTA,11/17/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000422,RBT,11/17/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000423,KTA,11/18/2019,ಸ್ವಾತಂತ್ರ್ಯ ದಿನಾಚರಣೆ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000424,RBT,11/18/2019,ಸ್ವಾತಂತ್ರ್ಯ ದಿನಾಚರಣೆ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000425,KTA,11/2/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000426,RBT,11/2/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000427,KTA,11/23/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000428,RBT,11/23/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000429,KTA,11/24/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000430,RBT,11/24/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000431,KTA,11/3/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000432,RBT,11/3/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000433,KTA,11/30/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000434,RBT,11/30/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000435,KTA,11/6/2019,ಹಸಿರು ಮೆರವಣಿಗೆಯ ವಾರ್ಷಿಕೋತ್ಸವ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000436,KTA,11/9/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000437,RBT,11/9/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000438,KTA,12/1/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000439,RBT,12/1/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000440,KTA,12/14/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000441,RBT,12/14/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000442,KTA,12/15/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000443,RBT,12/15/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000444,KTA,12/21/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000445,RBT,12/21/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000446,KTA,12/22/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000447,RBT,12/22/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000448,KTA,12/28/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000449,RBT,12/28/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000450,KTA,12/29/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000451,RBT,12/29/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000452,KTA,12/7/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000453,RBT,12/7/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000454,KTA,12/8/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000455,RBT,12/8/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000456,KTA,5/1/2019,ಕಾರ್ಮಿಕ ದಿನ/ಮೇ ದಿನ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000457,RBT,5/1/2019,ಕಾರ್ಮಿಕ ದಿನ/ಮೇ ದಿನ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000458,KTA,6/22/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000459,RBT,6/22/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000460,KTA,6/23/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000461,RBT,6/23/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000462,KTA,6/29/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000463,RBT,6/29/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000464,KTA,6/30/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000465,RBT,6/30/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000466,KTA,6/5/2019,ಈದ್ ಅಲ್-ಫಿತರ್,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000467,RBT,6/5/2019,ಈದ್ ಅಲ್-ಫಿತರ್,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000468,KTA,7/13/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000469,RBT,7/13/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000470,KTA,7/14/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000471,RBT,7/14/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000472,KTA,7/20/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000473,RBT,7/20/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000474,KTA,7/21/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000475,RBT,7/21/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000476,KTA,7/27/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000477,RBT,7/27/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000478,KTA,7/28/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000479,RBT,7/28/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000480,KTA,7/30/2019,ಸಿಂಹಾಸನದ ಹಬ್ಬ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000481,RBT,7/30/2019,ಸಿಂಹಾಸನದ ಹಬ್ಬ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000482,KTA,7/6/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000483,RBT,7/6/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000484,KTA,7/7/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000485,RBT,7/7/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000486,KTA,8/10/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000487,RBT,8/10/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000488,KTA,8/11/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000489,RBT,8/11/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000490,KTA,8/12/2019,ಈದ್ ಅಲ್-ಅಧಾ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000491,RBT,8/12/2019,ಈದ್ ಅಲ್-ಅಧಾ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000492,KTA,8/14/2019,ರಿಕವರಿ ಓವ್ಡ್ ಎಡ್-ದಹಾಬ್ ವಾರ್ಷಿಕೋತ್ಸವ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000493,RBT,8/14/2019,ರಿಕವರಿ ಓವ್ಡ್ ಎಡ್-ದಹಾಬ್ ವಾರ್ಷಿಕೋತ್ಸವ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000494,KTA,8/17/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000495,RBT,8/17/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000496,KTA,8/18/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000497,RBT,8/18/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000498,KTA,8/20/2019,ರಾಜ ಮತ್ತು ಜನರ ಕ್ರಾಂತಿಯ ವಾರ್ಷಿಕೋತ್ಸವ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000499,RBT,8/20/2019,ರಾಜ ಮತ್ತು ಜನರ ಕ್ರಾಂತಿಯ ವಾರ್ಷಿಕೋತ್ಸವ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000500,KTA,8/21/2019,ಯುವ ದಿನ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000501,KTA,8/24/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000502,RBT,8/24/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000503,KTA,8/25/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000504,RBT,8/25/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000505,KTA,8/3/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000506,RBT,8/3/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000507,KTA,8/31/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000508,RBT,8/31/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000509,KTA,8/4/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000510,RBT,8/4/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000511,KTA,9/1/2019,ಹಿಜ್ರಾ ಹೊಸ ವರ್ಷ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000512,RBT,9/1/2019,ಹಿಜ್ರಾ ಹೊಸ ವರ್ಷ,ರಾಷ್ಟ್ರೀಯ ರಜೆ,TRUE
+kan,2000513,KTA,9/14/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000514,RBT,9/14/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000515,KTA,9/15/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000516,RBT,9/15/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000517,KTA,9/21/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000518,RBT,9/21/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000519,KTA,9/22/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000520,RBT,9/22/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000521,KTA,9/28/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000522,RBT,9/28/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000523,KTA,9/29/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000524,RBT,9/29/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000525,KTA,9/7/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000526,RBT,9/7/2019,ಶನಿವಾರ – ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000527,KTA,9/8/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+kan,2000528,RBT,9/8/2019,ಭಾನುವಾರ - ವಾರಾಂತ್ಯ,ವಾರಾಂತ್ಯ,TRUE
+hin,2000529,KTA,1/1/2019,नए साल का दिन,राष्ट्रीय छुट्टी,TRUE
+hin,2000530,RBT,1/1/2019,नए साल का दिन,राष्ट्रीय छुट्टी,TRUE
+hin,2000531,KTA,1/11/2019,स्वतंत्रता घोषणापत्र की वर्षगांठ,राष्ट्रीय छुट्टी,TRUE
+hin,2000532,RBT,1/11/2019,स्वतंत्रता घोषणापत्र की वर्षगांठ,राष्ट्रीय छुट्टी,TRUE
+hin,2000533,KTA,10/12/2019,शनिवार – सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000534,RBT,10/12/2019,शनिवार – सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000535,KTA,10/13/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000536,RBT,10/13/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000537,KTA,10/19/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000538,RBT,10/19/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000539,KTA,10/20/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000540,RBT,10/20/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000541,KTA,10/26/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000542,RBT,10/26/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000543,KTA,10/27/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000544,RBT,10/27/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000545,KTA,10/5/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000546,RBT,10/5/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000547,KTA,10/6/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000548,RBT,10/6/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000549,KTA,11/10/2019,पैगंबर मुहम्मद का जन्मदिन,राष्ट्रीय छुट्टी,TRUE
+hin,2000550,RBT,11/10/2019,पैगंबर मुहम्मद का जन्मदिन,राष्ट्रीय छुट्टी,TRUE
+hin,2000551,KTA,11/16/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000552,RBT,11/16/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000553,KTA,11/17/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000554,RBT,11/17/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000555,KTA,11/18/2019,स्वतंत्रता दिवस,राष्ट्रीय छुट्टी,TRUE
+hin,2000556,RBT,11/18/2019,स्वतंत्रता दिवस,राष्ट्रीय छुट्टी,TRUE
+hin,2000557,KTA,11/2/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000558,RBT,11/2/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000559,KTA,11/23/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000560,RBT,11/23/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000561,KTA,11/24/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000562,RBT,11/24/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000563,KTA,11/3/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000564,RBT,11/3/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000565,KTA,11/30/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000566,RBT,11/30/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000567,KTA,11/6/2019,हरित मार्च की वर्षगांठ,राष्ट्रीय छुट्टी,TRUE
+hin,2000568,KTA,11/9/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000569,RBT,11/9/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000570,KTA,12/1/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000571,RBT,12/1/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000572,KTA,12/14/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000573,RBT,12/14/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000574,KTA,12/15/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000575,RBT,12/15/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000576,KTA,12/21/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000577,RBT,12/21/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000578,KTA,12/22/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000579,RBT,12/22/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000580,KTA,12/28/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000581,RBT,12/28/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000582,KTA,12/29/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000583,RBT,12/29/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000584,KTA,12/7/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000585,RBT,12/7/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000586,KTA,12/8/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000587,RBT,12/8/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000588,KTA,5/1/2019,मजदूर दिवस/मई दिवस,राष्ट्रीय छुट्टी,TRUE
+hin,2000589,RBT,5/1/2019,मजदूर दिवस/मई दिवस,राष्ट्रीय छुट्टी,TRUE
+hin,2000590,KTA,6/22/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000591,RBT,6/22/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000592,KTA,6/23/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000593,RBT,6/23/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000594,KTA,6/29/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000595,RBT,6/29/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000596,KTA,6/30/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000597,RBT,6/30/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000598,KTA,6/5/2019,ईद - उल – फितर,राष्ट्रीय छुट्टी,TRUE
+hin,2000599,RBT,6/5/2019,ईद - उल – फितर,राष्ट्रीय छुट्टी,TRUE
+hin,2000600,KTA,7/13/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000601,RBT,7/13/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000602,KTA,7/14/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000603,RBT,7/14/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000604,KTA,7/20/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000605,RBT,7/20/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000606,KTA,7/21/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000607,RBT,7/21/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000608,KTA,7/27/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000609,RBT,7/27/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000610,KTA,7/28/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000611,RBT,7/28/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000612,KTA,7/30/2019,सिंहासन का पर्व,राष्ट्रीय छुट्टी,TRUE
+hin,2000613,RBT,7/30/2019,सिंहासन का पर्व,राष्ट्रीय छुट्टी,TRUE
+hin,2000614,KTA,7/6/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000615,RBT,7/6/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000616,KTA,7/7/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000617,RBT,7/7/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000618,KTA,8/10/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000619,RBT,8/10/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000620,KTA,8/11/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000621,RBT,8/11/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000622,KTA,8/12/2019,ईद अल – अज़्हा,राष्ट्रीय छुट्टी,TRUE
+hin,2000623,RBT,8/12/2019,ईद अल – अज़्हा,राष्ट्रीय छुट्टी,TRUE
+hin,2000624,KTA,8/14/2019,रिकवरी ओएड एड-दहाब की वर्षगांठ,राष्ट्रीय छुट्टी,TRUE
+hin,2000625,RBT,8/14/2019,रिकवरी ओएड एड-दहाब की वर्षगांठ,राष्ट्रीय छुट्टी,TRUE
+hin,2000626,KTA,8/17/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000627,RBT,8/17/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000628,KTA,8/18/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000629,RBT,8/18/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000630,KTA,8/20/2019,राजा और प्रजा की क्रांति की वर्षगांठ,राष्ट्रीय छुट्टी,TRUE
+hin,2000631,RBT,8/20/2019,राजा और प्रजा की क्रांति की वर्षगांठ,राष्ट्रीय छुट्टी,TRUE
+hin,2000632,KTA,8/21/2019,युवा दिवस,राष्ट्रीय छुट्टी,TRUE
+hin,2000633,KTA,8/24/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000634,RBT,8/24/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000635,KTA,8/25/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000636,RBT,8/25/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000637,KTA,8/3/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000638,RBT,8/3/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000639,KTA,8/31/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000640,RBT,8/31/2019,शनिवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000641,KTA,8/4/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000642,RBT,8/4/2019,रविवार - सप्ताहांत,सप्ताह के अंत,TRUE
+hin,2000643,KTA,9/1/2019,हिजड़ा नया साल,राष्ट्रीय छुट्टी,TRUE
+hin,2000644,RBT,9/1/2019,हिजड़ा नया साल,राष्ट्रीय छुट्टी,TRUE
+hin,2000645,KTA,9/14/2019,शनिवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000646,RBT,9/14/2019,शनिवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000647,KTA,9/15/2019,रविवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000648,RBT,9/15/2019,रविवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000649,KTA,9/21/2019,शनिवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000650,RBT,9/21/2019,शनिवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000651,KTA,9/22/2019,रविवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000652,RBT,9/22/2019,रविवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000653,KTA,9/28/2019,शनिवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000654,RBT,9/28/2019,शनिवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000655,KTA,9/29/2019,रविवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000656,RBT,9/29/2019,रविवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000657,KTA,9/7/2019,शनिवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000658,RBT,9/7/2019,शनिवार - सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000659,KTA,9/8/2019,रविवार – सप्ताहांत, सप्ताह के अंत,TRUE
+hin,2000660,RBT,9/8/2019,रविवार – सप्ताहांत, सप्ताह के अंत,TRUE
+tam,2000661,KTA,1/1/2019,புத்தாண்டு தினம்,தேசிய விடுமுறை,TRUE
+tam,2000662,RBT,1/1/2019,புத்தாண்டு தினம்,தேசிய விடுமுறை,TRUE
+tam,2000663,KTA,1/11/2019,சுதந்திர அறிக்கையின் ஆண்டுவிழா,தேசிய விடுமுறை,TRUE
+tam,2000664,RBT,1/11/2019,சுதந்திர அறிக்கையின் ஆண்டுவிழா,தேசிய விடுமுறை,TRUE
+tam,2000665,KTA,10/12/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000666,RBT,10/12/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000667,KTA,10/13/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000668,RBT,10/13/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000669,KTA,10/19/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000670,RBT,10/19/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000671,KTA,10/20/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000672,RBT,10/20/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000673,KTA,10/26/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000674,RBT,10/26/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000675,KTA,10/27/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000676,RBT,10/27/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000677,KTA,10/5/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000678,RBT,10/5/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000679,KTA,10/6/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000680,RBT,10/6/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000681,KTA,11/10/2019,முஹம்மது நபியின் பிறந்தநாள்,தேசிய விடுமுறை,TRUE
+tam,2000682,RBT,11/10/2019,முஹம்மது நபியின் பிறந்தநாள்,தேசிய விடுமுறை,TRUE
+tam,2000683,KTA,11/16/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000684,RBT,11/16/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000685,KTA,11/17/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000686,RBT,11/17/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000687,KTA,11/18/2019,சுதந்திர தினம்,தேசிய விடுமுறை,TRUE
+tam,2000688,RBT,11/18/2019,சுதந்திர தினம்,தேசிய விடுமுறை,TRUE
+tam,2000689,KTA,11/2/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000690,RBT,11/2/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000691,KTA,11/23/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000692,RBT,11/23/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000693,KTA,11/24/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000694,RBT,11/24/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000695,KTA,11/3/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000696,RBT,11/3/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000697,KTA,11/30/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000698,RBT,11/30/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000699,KTA,11/6/2019,பசுமை அணிவகுப்பின் ஆண்டுவிழா,தேசிய விடுமுறை,TRUE
+tam,2000700,KTA,11/9/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000701,RBT,11/9/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000702,KTA,12/1/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000703,RBT,12/1/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000704,KTA,12/14/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000705,RBT,12/14/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000706,KTA,12/15/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000707,RBT,12/15/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000708,KTA,12/21/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000709,RBT,12/21/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000710,KTA,12/22/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000711,RBT,12/22/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000712,KTA,12/28/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000713,RBT,12/28/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000714,KTA,12/29/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000715,RBT,12/29/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000716,KTA,12/7/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000717,RBT,12/7/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000718,KTA,12/8/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000719,RBT,12/8/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000720,KTA,5/1/2019,தொழிலாளர் தினம்/மே தினம்,தேசிய விடுமுறை,TRUE
+tam,2000721,RBT,5/1/2019,தொழிலாளர் தினம்/மே தினம்,தேசிய விடுமுறை,TRUE
+tam,2000722,KTA,6/22/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000723,RBT,6/22/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000724,KTA,6/23/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000725,RBT,6/23/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000726,KTA,6/29/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000727,RBT,6/29/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000728,KTA,6/30/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000729,RBT,6/30/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000730,KTA,6/5/2019,ஈதுல் பித்ர்,தேசிய விடுமுறை,TRUE
+tam,2000731,RBT,6/5/2019,ஈதுல் பித்ர்,தேசிய விடுமுறை,TRUE
+tam,2000732,KTA,7/13/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000733,RBT,7/13/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000734,KTA,7/14/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000735,RBT,7/14/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000736,KTA,7/20/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000737,RBT,7/20/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000738,KTA,7/21/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000739,RBT,7/21/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000740,KTA,7/27/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000741,RBT,7/27/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000742,KTA,7/28/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000743,RBT,7/28/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000744,KTA,7/30/2019,சிம்மாசன விருந்து,தேசிய விடுமுறை,TRUE
+tam,2000745,RBT,7/30/2019,சிம்மாசன விருந்து,தேசிய விடுமுறை,TRUE
+tam,2000746,KTA,7/6/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000747,RBT,7/6/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000748,KTA,7/7/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000749,RBT,7/7/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000750,KTA,8/10/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000751,RBT,8/10/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000752,KTA,8/11/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000753,RBT,8/11/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000754,KTA,8/12/2019,ஈத் அல்-அதா,தேசிய விடுமுறை,TRUE
+tam,2000755,RBT,8/12/2019,ஈத் அல்-அதா,தேசிய விடுமுறை,TRUE
+tam,2000756,KTA,8/14/2019,Oued Ed-Dahab மீட்பு ஆண்டுவிழா,தேசிய விடுமுறை,TRUE
+tam,2000757,RBT,8/14/2019,Oued Ed-Dahab மீட்பு ஆண்டுவிழா,தேசிய விடுமுறை,TRUE
+tam,2000758,KTA,8/17/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000759,RBT,8/17/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000760,KTA,8/18/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000761,RBT,8/18/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000762,KTA,8/20/2019,ராஜா மற்றும் மக்களின் புரட்சியின் ஆண்டுவிழா,தேசிய விடுமுறை,TRUE
+tam,2000763,RBT,8/20/2019,ராஜா மற்றும் மக்களின் புரட்சியின் ஆண்டுவிழா,தேசிய விடுமுறை,TRUE
+tam,2000764,KTA,8/21/2019,இளைஞர் தினம்,தேசிய விடுமுறை,TRUE
+tam,2000765,KTA,8/24/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000766,RBT,8/24/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000767,KTA,8/25/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000768,RBT,8/25/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000769,KTA,8/3/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000770,RBT,8/3/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000771,KTA,8/31/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000772,RBT,8/31/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000773,KTA,8/4/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000774,RBT,8/4/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000775,KTA,9/1/2019,ஹிஜ்ரா புத்தாண்டு,தேசிய விடுமுறை,TRUE
+tam,2000776,RBT,9/1/2019,ஹிஜ்ரா புத்தாண்டு,தேசிய விடுமுறை,TRUE
+tam,2000777,KTA,9/14/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000778,RBT,9/14/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000779,KTA,9/15/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000780,RBT,9/15/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000781,KTA,9/21/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000782,RBT,9/21/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000783,KTA,9/22/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000784,RBT,9/22/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000785,KTA,9/28/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000786,RBT,9/28/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000787,KTA,9/29/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000788,RBT,9/29/2019,ஞாயிறு - வார இறுதி,வார இறுதி,TRUE
+tam,2000789,KTA,9/7/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000790,RBT,9/7/2019,சனிக்கிழமை - வார இறுதி,வார இறுதி,TRUE
+tam,2000791,KTA,9/8/2019,ஞாயிறு - வார இறுதி ,வார இறுதி,TRUE
+tam,2000792,RBT,9/8/2019,ஞாயிறு - வார இறுதி ,வார இறுதி,TRUE
