@@ -1,0 +1,6 @@
+lang_code,code,name,descr,is_active
+eng,FRS,Finger Print Scanner,For scanning fingerprints,TRUE
+eng,IRS,Iris Scanner,For scanning Iris,TRUE
+eng,CMR,Camera,For capturing photo,TRUE
+eng,SCN,Document Scanner,For scanning documents,TRUE
+eng,PRT,Printer,For printing Documents,TRUE
