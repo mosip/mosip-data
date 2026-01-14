@@ -1,0 +1,207 @@
+lang_code,code,name,descr,is_active
+eng,CIN,Reference Identity Card,Reference Identity Card,TRUE
+ara,CIN,بطاقة الهوية المرجعية,بطاقة الهوية المرجعية,TRUE
+fra,CIN,Carte d'identité de référence,Carte d'identité de référence,TRUE
+eng,RNC,Rental contract,Rental Agreement of address,TRUE
+ara,RNC,عقد ايجار,اتفاقية تأجير العنوان,TRUE
+fra,RNC,Contrat de location,Contrat de location dadresse,TRUE
+eng,COR,Certificate of residence,Proof of Resident,TRUE
+ara,COR,شهادة الاقامة,إثبات مقيم,TRUE
+fra,COR,Certificat de résidence,Preuve de résidence,TRUE
+eng,DOC001,Passport,Proof of Idendity,TRUE
+ara,DOC001,جواز سفر,إثبات الفكر,TRUE
+fra,DOC001,Passeport,Preuve didentité,TRUE
+eng,CRN,Certificate of Relationship,Proof relationship of a person,TRUE
+ara,CRN,شهادة القرابة,إثبات علاقة الشخص,TRUE
+fra,CRN,Certificat de relation,Preuve de relation dune personne,TRUE
+eng,COB,Certificate of Birth,Proof birth and age of a person,TRUE
+ara,COB,شهادة الميلاد,إثبات ولادة الشخص وعمره,TRUE
+fra,COB,Certificat de naissance,Preuve de naissance et âge dune personne,TRUE
+eng,COE,Certification of Exception,Certificate of Exception,TRUE
+ara,COE,شهادة الاستثناء,شهادة الاستثناء,TRUE
+fra,COE,Certification dexception,Certification dexception,TRUE
+eng,DOC002,PAN card,PAN card,TRUE
+eng,DOC003,Either Ration or PDS Photo card,Either Ration or PDS Photo card,TRUE
+eng,DOC004,Voter Identification card,Voter Identification card,TRUE
+eng,DOC005,Driving licence of the applicant,Driving licence of the applicant,TRUE
+eng,DOC006,Photo identification cards issued by the Government,Photo identification cards issued by the Government,TRUE
+eng,DOC007,Service photo ID cards that is issued by a PSU,Service photo ID cards that is issued by a PSU,TRUE
+eng,DOC008,Licence of Arms,Licence of Arms,TRUE
+eng,DOC009,Photo Bank ATM card,Photo Bank ATM card,TRUE
+eng,DOC010,Photo Credit card,Photo Credit card,TRUE
+eng,DOC011,Photo card of the Freedom Fighter,Photo card of the Freedom Fighter,TRUE
+eng,DOC012,Certificate of Marriage,Certificate of Marriage,TRUE
+eng,DOC013,Passbook or Bank Statement,Passbook or Bank Statement,TRUE
+eng,DOC014,Account statement or passbook of the Post Office,Account statement or passbook of the Post Office,TRUE
+eng,DOC015,Ration Card,Ration Card,TRUE
+eng,DOC016,PSU issued Service photo ID card with address,PSU issued Service photo ID card with address,TRUE
+eng,DOC017,Previous 3 months’ electricity bill,Previous 3 months’ electricity bill,TRUE
+eng,DOC018,Water bill as long as it is not more than 3 months’ old,Water bill as long as it is not more than 3 months’ old,TRUE
+eng,DOC024,PDS Card,PDS Card,TRUE
+eng,DOC025,"Medical card issued by the State Govt, CGHS, ECHS and ESIC","Medical card issued by the State Government, CGHS, ECHS and also ESIC",TRUE
+eng,DOC026,Canteen card of the Army,Canteen card of the Army,TRUE
+eng,DOC027,Family entitlement document,Any family entitlement document issued by any Central or State Government,TRUE
+eng,DOC028,Birth Certificate,Registrar of Birth/municipal Corporation or any local government Birth Certificate,TRUE
+fra,DOC002,Carte PAN,Carte PAN,TRUE
+fra,DOC003,Soit ration ou PDS photo carte,Soit ration ou PDS photo carte,TRUE
+fra,DOC004,Carte d’identification des électeurs,Carte d’identification des électeurs,TRUE
+fra,DOC005,Permis de conduire du demandeur,Permis de conduire du demandeur,TRUE
+fra,DOC006,Cartes d’identité photo émises par le gouvernement,Cartes d’identité photo émises par le gouvernement,TRUE
+fra,DOC007,Cartes d’identité de service de photo émises par un PSU,Cartes d’identité de service de photo émises par un PSU,TRUE
+fra,DOC008,Licence d’armes,Licence d’armes,TRUE
+fra,DOC009,Photo banque carte bancaire,Photo banque carte bancaire,TRUE
+fra,DOC010,Carte de crédit photo,Carte de crédit photo,TRUE
+fra,DOC011,Carte photo du Freedom Fighter,Carte photo du Freedom Fighter,TRUE
+fra,DOC012,Certificat de mariage,Certificat de mariage,TRUE
+fra,DOC013,Livret ou relevé bancaire,Livret ou relevé bancaire,TRUE
+fra,DOC014,Relevé de compte ou livret du Bureau de poste,Relevé de compte ou livret du Bureau de poste,TRUE
+fra,DOC015,Carte de ration,Carte de ration,TRUE
+fra,DOC016,PSU a émis la carte didentité de photo de service avec ladresse,PSU a émis la carte d’identité de photo de service avec l’adresse,TRUE
+fra,DOC017,Facture d’électricité précédente de 3 mois,Facture d’électricité précédente de 3 mois,TRUE
+fra,DOC018,Facture d’eau tant qu’elle n’a pas plus de 3 mois,Facture d’eau tant qu’elle n’a pas plus de 3 mois,TRUE
+fra,DOC024,Carte PDS,Carte PDS,TRUE
+fra,DOC025,Carte médicale délivrée par le govt de l'État,"Carte médicale délivrée par le gouvernement de l’État, le CGHS, l’ECHS et également l’ESIC",TRUE
+fra,DOC026,Carte de cantine de l’armée,Carte de cantine de l’armée,TRUE
+fra,DOC027,Titre de droit familial,Tout document de droit de la famille délivré par un gouvernement central ou,TRUE
+fra,DOC028,Certificat de naissance,Registraire de naissance/municipalité ou tout acte de naissance du gouvernement local,TRUE
+eng,EOP,Expetion Photo,Expetion Photo,TRUE
+fra,EOP,Photo d exception,Expetion Photo,TRUE
+ara,DOC002,بطاقة الطعام,بطاقة الطعام,TRUE
+ara,DOC003,إما بطاقة تموينية أو بطاقة صور ,إما بطاقة تموينية أو بطاقة صور PDS,TRUE
+ara,DOC004,بطاقة هوية الناخب,بطاقة هوية الناخب,TRUE
+ara,DOC005,رخصة القيادة لمقدم الطلب,رخصة القيادة لمقدم الطلب,TRUE
+ara,DOC006,بطاقات هوية مصورة صادرة عن الحكومة,بطاقات هوية مصورة صادرة عن الحكومة,TRUE
+ara,DOC007,بطاقات هوية تحمل صورة الخدمة الصادرة عن PSU,بطاقات هوية تحمل صورة الخدمة الصادرة عن PSU,TRUE
+ara,DOC008,رخصة السلاح,رخصة السلاح,TRUE
+ara,DOC009,بطاقة الصراف الآلي لبنك الصور,بطاقة الصراف الآلي لبنك الصور,TRUE
+ara,DOC010,بطاقة ائتمان الصور,بطاقة ائتمان الصور,TRUE
+ara,DOC011,بطاقة مصورة لمقاتل الحرية,بطاقة مصورة لمقاتل الحرية,TRUE
+ara,DOC012,عقد زواج,عقد زواج,TRUE
+ara,DOC013,دفتر حسابات أو كشف حساب بنكي,دفتر حسابات أو كشف حساب بنكي,TRUE
+ara,DOC014,كشف حساب أو دفتر مرور لمكتب البريد,كشف حساب أو دفتر مرور لمكتب البريد,TRUE
+ara,DOC015,البطاقة التموينية,البطاقة التموينية,TRUE
+ara,DOC016,أصدرت PSU بطاقة هوية تحمل صورة الخدمة مع العنوان,أصدرت PSU بطاقة هوية تحمل صورة الخدمة مع العنوان,TRUE
+ara,DOC017,فاتورة الكهرباء عن الثلاثة أشهر السابقة,فاتورة الكهرباء عن الثلاثة أشهر السابقة,TRUE
+ara,DOC018,فاتورة المياه بشرط ألا تزيد عن 3 أشهر,فاتورة المياه بشرط ألا تزيد عن 3 أشهر,TRUE
+ara,DOC024,بطاقة PDS,بطاقة PDS,TRUE
+ara,DOC025,بطاقة طبية صادرة عن حكومة الدولة و CGHS و ECHS و ESIC,بطاقة طبية صادرة عن حكومة الدولة و CGHS و ECHS و ESIC,TRUE
+ara,DOC026,بطاقة مقصف للجيش,بطاقة مقصف للجيش,TRUE
+ara,DOC027,وثيقة استحقاق الأسرة,أي مستند استحقاق عائلي صادر عن أي حكومة مركزية أو حكومة ولاية,TRUE
+ara,DOC028,شهادة الميلاد,مسجل الميلاد / مؤسسة البلدية أو أي شهادة ميلاد حكومية محلية,TRUE
+ara,EOP,إكسبيديشن فوتو,إكسبيديشن فوتو,TRUE
+kan,CIN,ಉಲ್ಲೇಖ ಗುರುತಿನ ಚೀಟಿ,ಉಲ್ಲೇಖ ಗುರುತಿನ ಚೀಟಿ,TRUE
+kan,RNC,ಬಾಡಿಗೆ ಒಪ್ಪಂದ,ವಿಳಾಸದ ಬಾಡಿಗೆ ಒಪ್ಪಂದ,TRUE
+kan,COR,ನಿವಾಸದ ಪ್ರಮಾಣಪತ್ರ,ನಿವಾಸಿ ಪುರಾವೆ,TRUE
+kan,DOC001,ಪಾಸ್ಪೋರ್ಟ್,ಗುರುತಿನ ಪುರಾವೆ,TRUE
+kan,CRN,ಸಂಬಂಧದ ಪ್ರಮಾಣಪತ್ರ,ವ್ಯಕ್ತಿಯ ಪುರಾವೆ ಸಂಬಂಧ,TRUE
+kan,COB,ಜನನ ಪ್ರಮಾಣಪತ್ರ,ವ್ಯಕ್ತಿಯ ಜನನ ಮತ್ತು ವಯಸ್ಸಿನ ಪುರಾವೆ,TRUE
+kan,COE,ವಿನಾಯಿತಿ ಪ್ರಮಾಣೀಕರಣ,ವಿನಾಯಿತಿ ಪ್ರಮಾಣೀಕರಣ,TRUE
+kan,DOC002,PAN ಕಾರ್ಡ್,PAN ಕಾರ್ಡ್,TRUE
+kan,DOC003,ಪಡಿತರ ಅಥವಾ PDS ಫೋಟೋ ಕಾರ್ಡ್,ಪಡಿತರ ಅಥವಾ PDS ಫೋಟೋ ಕಾರ್ಡ್,TRUE
+kan,DOC004,ಮತದಾರರ ಗುರುತಿನ ಚೀಟಿ ,ಮತದಾರರ ಗುರುತಿನ ಚೀಟಿ,TRUE
+kan,DOC005,ಅರ್ಜಿದಾರರ ಚಾಲನಾ ಪರವಾನಗಿ,ಅರ್ಜಿದಾರರ ಚಾಲನಾ ಪರವಾನಗಿ,TRUE
+kan,DOC006,ಸರ್ಕಾರವು ನೀಡಿದ ಫೋಟೋ ಗುರುತಿನ ಚೀಟಿಗಳು,ಸರ್ಕಾರವು ನೀಡಿದ ಫೋಟೋ ಗುರುತಿನ ಚೀಟಿಗಳು,TRUE
+kan,DOC007,PSU ನಿಂದ ನೀಡಲಾದ ಸೇವಾ ಫೋಟೋ ID ಕಾರ್ಡ್‌ಗಳು,PSU ನಿಂದ ನೀಡಲಾದ ಸೇವಾ ಫೋಟೋ ID ಕಾರ್ಡ್‌ಗಳು,TRUE
+kan,DOC008,ಶಸ್ತ್ರಾಸ್ತ್ರ ಪರವಾನಗಿ,ಶಸ್ತ್ರಾಸ್ತ್ರ ಪರವಾನಗಿ,TRUE
+kan,DOC009,ಫೋಟೋ ಬ್ಯಾಂಕ್ ATM ಕಾರ್ಡ್ ,ಫೋಟೋ ಬ್ಯಾಂಕ್ ATM ಕಾರ್ಡ್,TRUE
+kan,DOC010,ಫೋಟೋ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್,ಫೋಟೋ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್,TRUE
+kan,DOC011,ಸ್ವಾತಂತ್ರ್ಯ ಹೋರಾಟಗಾರನ ಫೋಟೋ ಕಾರ್ಡ್,ಸ್ವಾತಂತ್ರ್ಯ ಹೋರಾಟಗಾರನ ಫೋಟೋ ಕಾರ್ಡ್,TRUE
+kan,DOC012,ಮದುವೆಯ ಪ್ರಮಾಣಪತ್ರ,ಮದುವೆಯ ಪ್ರಮಾಣಪತ್ರ,TRUE
+kan,DOC013,ಪಾಸ್ಬುಕ್ ಅಥವಾ ಬ್ಯಾಂಕ್ ಸ್ಟೇಟ್ಮೆಂಟ್,ಪಾಸ್ಬುಕ್ ಅಥವಾ ಬ್ಯಾಂಕ್ ಸ್ಟೇಟ್ಮೆಂಟ್,TRUE
+kan,DOC014,ಪೋಸ್ಟ್ ಆಫೀಸ್‌ನ ಖಾತೆ ಹೇಳಿಕೆ ಅಥವಾ ಪಾಸ್‌ಬುಕ್,ಪೋಸ್ಟ್ ಆಫೀಸ್‌ನ ಖಾತೆ ಹೇಳಿಕೆ ಅಥವಾ ಪಾಸ್‌ಬುಕ್,TRUE
+kan,DOC015,ಪಡಿತರ ಚೀಟಿ,ಪಡಿತರ ಚೀಟಿ,TRUE
+kan,DOC016,PSU ವಿಳಾಸದೊಂದಿಗೆ ಸೇವಾ ಫೋಟೋ ID ಕಾರ್ಡ್ ಅನ್ನು ನೀಡಿದೆ,PSU ವಿಳಾಸದೊಂದಿಗೆ ಸೇವಾ ಫೋಟೋ ID ಕಾರ್ಡ್ ಅನ್ನು ನೀಡಿದೆ,TRUE
+kan,DOC017,ಹಿಂದಿನ 3 ತಿಂಗಳ ವಿದ್ಯುತ್ ಬಿಲ್,ಹಿಂದಿನ 3 ತಿಂಗಳ ವಿದ್ಯುತ್ ಬಿಲ್,TRUE
+kan,DOC018,ನೀರಿನ ಬಿಲ್ 3 ತಿಂಗಳಿಗಿಂತ ಹೆಚ್ಚು ಹಳೆಯದಾಗಿಲ್ಲ,ನೀರಿನ ಬಿಲ್ 3 ತಿಂಗಳಿಗಿಂತ ಹೆಚ್ಚು ಹಳೆಯದಾಗಿಲ್ಲ,TRUE
+kan,DOC024,PDS ಕಾರ್ಡ್,PDS ಕಾರ್ಡ್,TRUE
+kan,DOC025,"ರಾಜ್ಯ ಸರ್ಕಾರ, CGHS, ECHS ಮತ್ತು ESIC ನೀಡುವ ವೈದ್ಯಕೀಯ ಕಾರ್ಡ್","ರಾಜ್ಯ ಸರ್ಕಾರ, CGHS, ECHS ಮತ್ತು ESIC ನೀಡುವ ವೈದ್ಯಕೀಯ ಕಾರ್ಡ್",TRUE
+kan,DOC026,ಸೇನೆಯ ಕ್ಯಾಂಟೀನ್ ಕಾರ್ಡ್ ,ಸೇನೆಯ ಕ್ಯಾಂಟೀನ್ ಕಾರ್ಡ್,TRUE
+kan,DOC027,ಕುಟುಂಬದ ಹಕ್ಕು ದಾಖಲೆ,ಯಾವುದೇ ಕೇಂದ್ರ ಅಥವಾ ರಾಜ್ಯ ಸರ್ಕಾರದಿಂದ ನೀಡಲಾದ ಯಾವುದೇ ಕುಟುಂಬದ ಹಕ್ಕು ದಾಖಲೆ,TRUE
+kan,DOC028,ಜನನ ಪ್ರಮಾಣಪತ್ರ,ಜನನ/ಪುರಸಭೆಯ ರಿಜಿಸ್ಟ್ರಾರ್ ಅಥವಾ ಯಾವುದೇ ಸ್ಥಳೀಯ ಸರ್ಕಾರದ ಜನನ ಪ್ರಮಾಣಪತ್ರ,TRUE
+kan,EOP,ವಿನಾಯಿತಿ ಫೋಟೋ,ವಿನಾಯಿತಿ ಫೋಟೋ,TRUE
+hin,CIN,संदर्भ पहचान पत्र,संदर्भ पहचान पत्र,TRUE
+hin,RNC,भाड़े का अनुबंध,पते का रेंटल एग्रीमेंट,TRUE
+hin,COR,निवास का प्रमाण पत्र,निवासी का प्रमाण,TRUE
+hin,DOC001,पासपोर्ट,पहचान का प्रमाण,TRUE
+hin,CRN,रिश्ते का प्रमाण पत्र,किसी व्यक्ति का प्रमाण संबंध,TRUE
+hin,COB,जन्म का प्रमाण पत्र,किसी व्यक्ति का जन्म और आयु का प्रमाण,TRUE
+hin,COE,अपवाद का प्रमाणन,अपवाद का प्रमाणन,TRUE
+hin,DOC002,पैन कार्ड,पैन कार्ड,TRUE
+hin,DOC003,या तो राशन या पीडीएस फोटो कार्ड,या तो राशन या पीडीएस फोटो कार्ड,TRUE
+hin,DOC004,मतदाता पहचान पत्र,मतदाता पहचान पत्र,TRUE
+hin,DOC005,आवेदक का ड्राइविंग लाइसेंस,आवेदक का ड्राइविंग लाइसेंस,TRUE
+hin,DOC006,सरकार द्वारा जारी फोटो पहचान पत्र,सरकार द्वारा जारी फोटो पहचान पत्र,TRUE
+hin,DOC008,हथियारों का लाइसेंस,हथियारों का लाइसेंस,TRUE
+hin,DOC009,फोटो बैंक एटीएम कार्ड,फोटो बैंक एटीएम कार्ड,TRUE
+hin,DOC010,फोटो क्रेडिट कार्ड,फोटो क्रेडिट कार्ड,TRUE
+hin,DOC011,स्वतंत्रता सेनानी का फोटो कार्ड,स्वतंत्रता सेनानी का फोटो कार्ड,TRUE
+hin,DOC012,शादी का प्रमाण पत्र,शादी का प्रमाण पत्र,TRUE
+hin,DOC013,पासबुक या बैंक स्टेटमेंट,पासबुक या बैंक स्टेटमेंट,TRUE
+hin,DOC014,डाकघर का खाता विवरण या पासबुक,डाकघर का खाता विवरण या पासबुक,TRUE
+hin,DOC015,राशन पत्रिका,राशन पत्रिका,TRUE
+hin,DOC016,पीएसयू ने पते के साथ सर्विस फोटो आईडी कार्ड जारी किया,पीएसयू ने पते के साथ सर्विस फोटो आईडी कार्ड जारी किया,TRUE
+hin,DOC017,पिछले 3 महीने का बिजली बिल,पिछले 3 महीने का बिजली बिल,TRUE
+hin,DOC018,पानी का बिल जब तक कि वह 3 महीने से अधिक पुराना न हो,पानी का बिल जब तक कि वह 3 महीने से अधिक पुराना न हो,TRUE
+hin,DOC024,पीडीएस कार्ड,पीडीएस कार्ड,TRUE
+hin,DOC026,सेना का कैंटीन कार्ड,सेना का कैंटीन कार्ड,TRUE
+hin,DOC027,परिवार के अधिकार का दस्तावेज,किसी भी केंद्र या राज्य सरकार द्वारा जारी किया गया कोई भी परिवार पात्रता दस्तावेज,TRUE
+hin,DOC028,जन्म प्रमाणपत्र,जन्म / नगर निगम के रजिस्ट्रार या किसी स्थानीय सरकार का जन्म प्रमाण पत्र,TRUE
+hin,EOP,अपवाद फोटो,अपवाद फोटो,TRUE
+tam,CIN,குறிப்பு அடையாள அட்டை,குறிப்பு அடையாள அட்டை,TRUE
+tam,RNC,வாடகை ஒப்பந்தம்,முகவரியின் வாடகை ஒப்பந்தம்,TRUE
+tam,COR,குடியிருப்பு சான்றிதழ்,குடியுரிமைச் சான்று,TRUE
+tam,DOC001,கடவுச்சீட்டு,அடையாளச் சான்று,TRUE
+tam,CRN,உறவுச் சான்றிதழ்,ஒரு நபரின் உறவு ஆதாரம்,TRUE
+tam,COB,பிறப்புச் சான்றிதழ்,ஒரு நபரின் பிறப்பு மற்றும் வயது ஆதாரம்,TRUE
+tam,COE,விதிவிலக்கு சான்றிதழ்,விதிவிலக்கு சான்றிதழ்,TRUE
+tam,DOC002,பான் கார்டு,பான் கார்டு,TRUE
+tam,DOC003,ரேஷன் அல்லது PDS புகைப்பட அட்டை,ரேஷன் அல்லது PDS புகைப்பட அட்டை,TRUE
+tam,DOC004,வாக்காளர் அடையாள அட்டை,வாக்காளர் அடையாள அட்டை,TRUE
+tam,DOC005,விண்ணப்பதாரரின் ஓட்டுநர் உரிமம்,விண்ணப்பதாரரின் ஓட்டுநர் உரிமம்,TRUE
+tam,DOC006,அரசாங்கத்தால் வழங்கப்பட்ட புகைப்பட அடையாள அட்டைகள்,அரசாங்கத்தால் வழங்கப்பட்ட புகைப்பட அடையாள அட்டைகள்,TRUE
+tam,DOC008,ஆயுத உரிமம்,ஆயுத உரிமம்,TRUE
+tam,DOC009,புகைப்பட வங்கி ஏடிஎம் அட்டை,புகைப்பட வங்கி ஏடிஎம் அட்டை,TRUE
+tam,DOC010,புகைப்பட கடன் அட்டை,புகைப்பட கடன் அட்டை,TRUE
+tam,DOC011,சுதந்திரப் போராட்ட வீரரின் புகைப்பட அட்டை,சுதந்திரப் போராட்ட வீரரின் புகைப்பட அட்டை,TRUE
+tam,DOC012,திருமணச் சான்றிதழ்,திருமணச் சான்றிதழ்,TRUE
+tam,DOC013,பாஸ்புக் அல்லது வங்கி அறிக்கை,பாஸ்புக் அல்லது வங்கி அறிக்கை,TRUE
+tam,DOC014,தபால் அலுவலகத்தின் கணக்கு அறிக்கை அல்லது பாஸ்புக்,தபால் அலுவலகத்தின் கணக்கு அறிக்கை அல்லது பாஸ்புக்,TRUE
+tam,DOC015,ரேஷன் கார்டு,ரேஷன் கார்டு,TRUE
+tam,DOC017,முந்தைய 3 மாத மின் கட்டணம்,முந்தைய 3 மாத மின் கட்டணம்,TRUE
+tam,DOC018,தண்ணீர் கட்டணம் 3 மாதங்களுக்கு மிகாமல் இருக்கும் வரை,தண்ணீர் கட்டணம் 3 மாதங்களுக்கு மிகாமல் இருக்கும் வரை,TRUE
+tam,DOC024,PDS அட்டை,PDS அட்டை,TRUE
+tam,DOC025,"மாநில அரசு, CGHS, ECHS மற்றும் ESIC வழங்கும் மருத்துவ அட்டை","மாநில அரசு, CGHS, ECHS மற்றும் ESIC வழங்கும் மருத்துவ அட்டை",TRUE
+tam,DOC026,இராணுவத்தின் கேண்டீன் அட்டை,இராணுவத்தின் கேண்டீன் அட்டை,TRUE
+tam,DOC027,குடும்ப உரிமை ஆவணம்,மத்திய அல்லது மாநில அரசால் வழங்கப்பட்ட குடும்ப உரிமை ஆவணம்,TRUE
+tam,DOC028,பிறப்பு சான்றிதழ்,பிறப்பு/நகராட்சிக் கழகத்தின் பதிவாளர் அல்லது ஏதேனும் உள்ளூர் அரசாங்க பிறப்புச் சான்றிதழ்,TRUE
+tam,EOP,விதிவிலக்கு புகைப்படம்,விதிவிலக்கு புகைப்படம்,TRUE
+spa,RNC,Contrato de renta,Contrato de alquiler de domicilio,TRUE
+spa,COR,Certificado de residencia,Prueba de residente,TRUE
+spa,DOC001,Pasaporte,Prueba de identidad,TRUE
+spa,CRN,Certificado de Relación,Relación de prueba de una persona.,TRUE
+spa,COB,Certificado de nacimiento,Prueba de nacimiento y edad de una persona.,TRUE
+spa,COE,Certificación de excepción,Certificado de excepción,TRUE
+spa,DOC002,Tarjeta de la cacerola,Tarjeta de la cacerola,TRUE
+spa,DOC003,Tarjeta Ration o PDS Photo,Tarjeta Ration o PDS Photo,TRUE
+spa,DOC004,Tarjeta de identificación de elector,Tarjeta de identificación de elector,TRUE
+spa,DOC005,Licencia de conducir del solicitante,Licencia de conducir del solicitante,TRUE
+spa,DOC006,Tarjeta de idintotificación de elector,Tarjetas de identificación con fotografía emitidas por el Gobierno.,TRUE
+spa,DOC007,Tarjeta de idintotificación de elector,Tarjetas de identificación con fotografía de servicio emitidas por una fuente de alimentación,TRUE
+spa,DOC008,Licencia de Armas,Licencia de Armas,TRUE
+spa,DOC009,Tarjeta de cajero automático de Photo Bank,Tarjeta de cajero automático de Photo Bank,TRUE
+spa,DOC010,Tarjeta de crédito con foto,Tarjeta de crédito con foto,TRUE
+spa,DOC011,Tarjeta fotográfica del luchador por la libertad.,Tarjeta fotográfica del luchador por la libertad.,TRUE
+spa,DOC012,Acta de matrimonio,Acta de matrimonio,TRUE
+spa,DOC013,Libreta o extracto bancario,Libreta o extracto bancario,TRUE
+spa,DOC014,Estado de cuenta o libreta de Correos,Estado de cuenta o libreta de Correos,TRUE
+spa,DOC015,Cartilla de racionamiento,Cartilla de racionamiento,TRUE
+spa,DOC016,Tarjeta de identificación de servicio,Tarjeta de identificación de servicio con fotografía emitida por la PSU y dirección,TRUE
+spa,DOC017,Factura de luz de los 3 meses anteriores,Factura de luz de los 3 meses anteriores,TRUE
+spa,DOC018,Factura de ,Factura de agua siempre que no tenga más de 3 meses de antigüedad.,TRUE
+spa,DOC024,Tarjeta PDS,Tarjeta PDS,TRUE
+spa,DOC025,Tarjeta médica emitida por el Gobierno del ,"Tarjeta médica emitida por el Gobierno del Estado, CGHS, ECHS y también ESIC",TRUE
+spa,DOC026,Tarjeta de comedor del ejército.,Tarjeta de comedor del ejército.,TRUE
+spa,DOC027,Documento de derecho familiar,Cualquier documento de derecho familiar emitido por cualquier gobierno central o estatal.,TRUE
+spa,DOC028,Certificado de nacimiento,Registrador de Nacimiento/Corporación Municipal o cualquier Certificado de Nacimiento del gobierno local,TRUE
+spa,EOP,Foto de expedición,Foto de expedición,TRUE
+spa,CIN,Tarjeta de Identidad de Referencia,Tarjeta de Identidad de Referencia,TRUE
