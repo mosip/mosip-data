@@ -1,0 +1,55 @@
+lang_code,code,name,descr,rsncat_code,is_active
+eng,APM,Age-Photo Mismatch,Mismatch between the Age and Photo,CLR,TRUE
+eng,GPM,Gender-Photo Mismatch,Gender-Photo Mismatch between Gender and Photo,CLR,TRUE
+eng,IAD,Invalid Address,Invalid Address found,CLR,TRUE
+eng,DPG,Duplicate Registration,Duplicate Registration found,CLR,TRUE
+eng,OTH,Others,Others,CLR,TRUE
+eng,ADM,All the Details are matching,All the Details are matching,MNA,TRUE
+eng,ADD,All the Demographic Details are Matching,All the Demographic Details are Matching,MNA,TRUE
+eng,OPM,Only the Photograph is Matching,Only the Photograph is Matching,MNA,TRUE
+eng,SDM,Some of the Demographic Details are Matching,Some of the Demographic Details are Matching,MNA,TRUE
+fra,APM,Décalage de lâge-Photo,Discordance entre lâge et la Photo,CLR,TRUE
+fra,GPM,Incompatibilité de sexe-Photo,Sexe-Photo discordance entre le sexe et la Photo,CLR,TRUE
+fra,IAD,Adresse non valide,Adresse non valide trouvée,CLR,TRUE
+fra,DPG,Enregistrement en double,Double enregistrement trouvé,CLR,TRUE
+fra,OTH,Dautres,Dautres,CLR,TRUE
+fra,ADM,Tous les détails sont adaptent,Tous les détails sont adaptent,MNA,TRUE
+fra,ADD,Tous les détails démographiques sont Matching,Tous les détails démographiques sont Matching,MNA,TRUE
+fra,OPM,La photographie est le rapprochement,La photographie est le rapprochement,MNA,TRUE
+fra,SDM,Certains détails démographiques sont Matching,Certains détails démographiques sont Matching,MNA,TRUE
+ara,APM,عدم تطابق الصورة مع العمر,عدم التطابق بين العمر والصورة,CLR,TRUE
+ara,GPM,عدم تطابق الصورة بين الجنسين,عدم تطابق الصورة بين الجنسين والصورة,CLR,TRUE
+ara,IAD,عنوان خاطئ,تم العثور على عنوان غير صالح,CLR,TRUE
+ara,DPG,تسجيل مكرر,تم العثور على تسجيل مكرر,CLR,TRUE
+ara,OTH,آحرون,آحرون,CLR,TRUE
+ara,ADM,كل التفاصيل متطابقة,كل التفاصيل متطابقة,MNA,TRUE
+ara,ADD,جميع التفاصيل الديموغرافية متطابقة,جميع التفاصيل الديموغرافية متطابقة,MNA,TRUE
+ara,OPM,فقط الصورة هي المطابقة,فقط الصورة هي المطابقة,MNA,TRUE
+ara,SDM,بعض التفاصيل الديموغرافية متطابقة,بعض التفاصيل الديموغرافية متطابقة,MNA,TRUE
+kan,APM,ವಯಸ್ಸು-ಫೋಟೋ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ,ವಯಸ್ಸು ಮತ್ತು ಫೋಟೋ ನಡುವೆ ಹೊಂದಾಣಿಕೆಯಿಲ್ಲ,CLR,TRUE
+kan,GPM,ಲಿಂಗ-ಫೋಟೋ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ,ಲಿಂಗ ಮತ್ತು ಫೋಟೋ ನಡುವಿನ ಲಿಂಗ-ಫೋಟೋ ಹೊಂದಾಣಿಕೆ,CLR,TRUE
+kan,IAD,ಅಮಾನ್ಯವಾದ ವಿಳಾಸ,ಅಮಾನ್ಯವಾದ ವಿಳಾಸ ಕಂಡುಬಂದಿದೆ,CLR,TRUE
+kan,DPG,ನಕಲಿ ನೋಂದಣಿ,ನಕಲಿ ನೋಂದಣಿ ಕಂಡುಬಂದಿದೆ,CLR,TRUE
+kan,OTH,ಇತರರು,ಇತರರು,CLR,TRUE
+kan,ADM,ಎಲ್ಲಾ ವಿವರಗಳು ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿವೆ,ಎಲ್ಲಾ ವಿವರಗಳು ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿವೆ,MNA,TRUE
+kan,ADD,ಎಲ್ಲಾ ಜನಸಂಖ್ಯಾ ವಿವರಗಳು ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿವೆ,ಎಲ್ಲಾ ಜನಸಂಖ್ಯಾ ವಿವರಗಳು ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿವೆ,MNA,TRUE
+kan,OPM,ಛಾಯಾಚಿತ್ರ ಮಾತ್ರ ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿದೆ,ಛಾಯಾಚಿತ್ರ ಮಾತ್ರ ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿದೆ,MNA,TRUE
+kan,SDM,ಕೆಲವು ಜನಸಂಖ್ಯಾ ವಿವರಗಳು ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿವೆ,ಕೆಲವು ಜನಸಂಖ್ಯಾ ವಿವರಗಳು ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿವೆ,MNA,TRUE
+hin,APM,उम्र-फोटो बेमेल,उम्र और फोटो के बीच बेमेल,CLR,TRUE
+hin,GPM,जेंडर-फोटो बेमेल,जेंडर और फोटो के बीच जेंडर-फोटो मिसमैच,CLR,TRUE
+hin,IAD,अमान्य पता,अमान्य पता मिला,CLR,TRUE
+hin,DPG,डुप्लीकेट पंजीकरण,डुप्लीकेट पंजीकरण मिला,CLR,TRUE
+hin,OTH,अन्य,अन्य,CLR,TRUE
+hin,ADM,सभी विवरण मेल खा रहे हैं,सभी विवरण मेल खा रहे हैं,MNA,TRUE
+hin,ADD,सभी जनसांख्यिकीय विवरण मेल खा रहे हैं,सभी जनसांख्यिकीय विवरण मेल खा रहे हैं,MNA,TRUE
+hin,OPM,केवल फोटोग्राफ मेल खा रहा है,केवल फोटोग्राफ मेल खा रहा है,MNA,TRUE
+hin,SDM,कुछ जनसांख्यिकीय विवरण मिलान कर रहे हैं,कुछ जनसांख्यिकीय विवरण मिलान कर रहे हैं,MNA,TRUE
+tam,APM,வயது-புகைப்படம் பொருந்தவில்லை,வயதுக்கும் புகைப்படத்திற்கும் இடையே பொருந்தாதது,CLR,TRUE
+tam,GPM,பாலினம்-புகைப்படம் பொருந்தவில்லை,பாலினம் மற்றும் புகைப்படம் இடையே பாலினம்-புகைப்பட பொருத்தமின்மை,CLR,TRUE
+tam,IAD,தவறான முகவரி,தவறான முகவரி கண்டறியப்பட்டது,CLR,TRUE
+tam,DPG,நகல் பதிவு,நகல் பதிவு கண்டறியப்பட்டது,CLR,TRUE
+tam,OTH,மற்றவைகள்,மற்றவைகள்,CLR,TRUE
+tam,ADM,அனைத்து விவரங்களும் பொருந்துகின்றன,அனைத்து விவரங்களும் பொருந்துகின்றன,MNA,TRUE
+tam,ADD,அனைத்து மக்கள்தொகை விவரங்களும் பொருந்துகின்றன,அனைத்து மக்கள்தொகை விவரங்களும் பொருந்துகின்றன,MNA,TRUE
+tam,OPM,புகைப்படம் மட்டுமே பொருந்துகிறது,புகைப்படம் மட்டுமே பொருந்துகிறது,MNA,TRUE
+tam,SDM,சில மக்கள்தொகை விவரங்கள் பொருந்துகின்றன,சில மக்கள்தொகை விவரங்கள் பொருந்துகின்றன,MNA,TRUE
