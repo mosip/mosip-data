@@ -1,0 +1,134 @@
+lang_code,code,descr,is_active
+eng,auth-email-content,Template for authorization content,TRUE
+eng,auth-email-subject,Template for authorization subject,TRUE
+eng,auth-sms,Template for authorization SMS,TRUE
+eng,ida-auth-otp-email-content-template,Template for Email Content,TRUE
+eng,ida-auth-otp-email-subject-template,Template for Email Subject,TRUE
+eng,ida-auth-otp-sms-template,Template for OTP in SMS ,TRUE
+eng,RPR_DUP_UIN_EMAIL,Template for duplicate UIN Email,TRUE
+eng,RPR_DUP_UIN_SMS,Template for duplicate UIN SMS,TRUE
+eng,RPR_TEC_ISSUE_EMAIL,Template for Technical Issue Email,TRUE
+eng,RPR_TEC_ISSUE_SMS,Template for Technical Issue SMS,TRUE
+eng,RPR_UIN_GEN_EMAIL,Template for UIN generation Email,TRUE
+eng,RPR_UIN_GEN_SMS,Template for UIN generation SMS,TRUE
+eng,RPR_UIN_UPD_EMAIL,Template for update details Email,TRUE
+eng,RPR_UIN_UPD_SMS,Template for update Details SMS,TRUE
+eng,NewReg-email-content-template,Template for new registration Email Content,TRUE
+eng,NewReg-email-subject-template,Template for new registration Email Subject,TRUE
+eng,NewReg-sms-template,Template for new registration SMS,TRUE
+eng,OTP-email-content-template,Template for OTP generation Email Content,TRUE
+eng,OTP-email-subject-template,Template for OTP generation Email Subject,TRUE
+eng,OTP-sms-template,Template for OTP SMS,TRUE
+eng,Update-email-content-template,Template for update registration Email Content,TRUE
+eng,Update-email-subject-template,Template for update registration Email Subject,TRUE
+eng,Update-sms-template,Template for update registration SMS,TRUE
+eng,Email-Acknowledgement,Template for Email Acknowledgement,TRUE
+eng,Onscreen-Acknowledgement,Template for Onscreen Acknowledgment,TRUE
+eng,otp-email-content-template,Template for OTP Email Content,TRUE
+eng,otp-email-subject-template,Template for OTP Email Subject,TRUE
+eng,otp-sms-template,Template for OTP SMS,TRUE
+eng,SMS-Acknowledgement,Template for SMS Acknowledgement,TRUE
+eng,Acknowledgement-email-subject,Template for email subject of Acknowledgement,TRUE
+eng,RPR_UIN_CARD_TEMPLATE,UIN card template,TRUE
+eng,RPR_UIN_DEAC_SMS,Template for UIN Deactivation SMS,TRUE
+eng,RPR_UIN_DEAC_EMAIL,Template for UIN Deactivation Email,TRUE
+eng,RPR_UIN_REAC_SMS,Template for UIN Reactivate SMS,TRUE
+eng,RPR_UIN_REAC_EMAIL,Template for UIN Reactivate Email,TRUE
+eng,reg-sms-notification,Registration Acknowledgement Template,TRUE
+eng,reg-email-notification,Registration Acknowledgement Template,TRUE
+eng,consent,Consent,TRUE
+eng,auth-otp-email-subject-template,Auth OTP Email Subject Template,TRUE
+eng,auth-otp-email-content-template,Auth OTP Email Content Template,TRUE
+eng,auth-otp-sms-template,Auth OTP SMS Template,TRUE
+eng,lostUIN-email-notification,Lost UIN Acknowledgement Template,TRUE
+eng,lostUIN-sms-notification,Lost UIN Acknowledgement Template,TRUE
+eng,updateUIN-email-notification,Updtae UIN Acknowledgement Template,TRUE
+eng,updateUIN-sms-notification,Updtae UIN Acknowledgement Template,TRUE
+eng,cancel-appointment,Template for Cancel Appointment,TRUE
+eng,RPR_LOST_UIN_SMS,Lost UIN Notification SMS,TRUE
+eng,RPR_LOST_UIN_EMAIL,Lost UIN Notification Email,TRUE
+eng,RPR_MASKED_UIN_CARD_TEMPLATE,Masked UIN card template,TRUE
+eng,RS_AUTH_HIST_SUCCESS_EMAIL,Authentication History Request Success Email,TRUE
+eng,RS_AUTH_HIST_SUCCESS_SMS,Authentication History Request Success SMS,TRUE
+eng,RS_AUTH_HIST_SUCCESS_EMAIL_SUB,Authentication History Request Success EMAIL Subject,TRUE
+eng,RS_DOW_UIN_SUCCESS_EMAIL,Successful Download of e-UIN Email,TRUE
+eng,RS_DOW_UIN_SUCCESS_EMAIL_SUB,Successful Download of e-UIN Email Subject,TRUE
+eng,RS_DOW_UIN_SUCCESS_SMS,Successful Download of e-UIN SMS,TRUE
+eng,RS_LOCK_AUTH_SUCCESS_EMAIL,Successful Locking of Auth Types Email,TRUE
+eng,RS_LOCK_AUTH_SUCCESS_EMAIL_SUB,Successful Locking of Auth Types Email Subject,TRUE
+eng,RS_LOCK_AUTH_SUCCESS_SMS,Successful Locking of Auth Types SMS,TRUE
+eng,RS_UNLOCK_AUTH_SUCCESS_EMAIL,Successful Unlocking of Auth Types Email,TRUE
+eng,RS_UNLOCK_AUTH_SUCCESS_EMAIL_SUB,Successful Unlocking of Auth Types Email Subject,TRUE
+eng,RS_UNLOCK_AUTH_SUCCESS_SMS,Successful Unlocking of Auth Types SMS,TRUE
+eng,RS_VIN_GEN_SUCCESS_EMAIL,VID Generation Success Email,TRUE
+eng,RS_VIN_GEN_SUCCESS_EMAIL_SUB,VID Generation Success Email Subject,TRUE
+eng,RS_VIN_GEN_SUCCESS_SMS,VID Generation Success SMS,TRUE
+eng,RS_VIN_REV_SUCCESS_EMAIL,VID Revocation Success Email,TRUE
+eng,RS_VIN_REV_SUCCESS_EMAIL_SUB,VID Revocation Success Email Subject,TRUE
+eng,RS_VIN_REV_SUCCESS_SMS,VID Revocation Success SMS,TRUE
+eng,RS_UIN_RPR_SUCCESS_EMAIL,Reprint Request Success Email,TRUE
+eng,RS_UIN_RPR_SUCCESS_EMAIL_SUB,Reprint Request Success Email Subject,TRUE
+eng,RS_UIN_RPR_SUCCESS_SMS,Reprint Request Success SMS,TRUE
+eng,RS_AUTH_HIST_FAILURE_EMAIL,Authentication History Request Failure Email,TRUE
+eng,RS_AUTH_HIST_FAILURE_EMAIL_SUB,Authentication History Request Failure Email Subject,TRUE
+eng,RS_AUTH_HIST_FAILURE_SMS,Authentication History Request Failure SMS,TRUE
+eng,RS_DOW_UIN_FAILURE_EMAIL,Download e-UIN Failure Email,TRUE
+eng,RS_DOW_UIN_FAILURE_EMAIL_SUB,Download e-UIN Failure Email Subject,TRUE
+eng,RS_DOW_UIN_FAILURE_SMS,Download e-UIN Failure SMS,TRUE
+eng,RS_LOCK_AUTH_FAILURE_EMAIL,Failure in Locking of Auth Types Email,TRUE
+eng,RS_LOCK_AUTH_FAILURE_EMAIL_SUB,Failure in Locking of Auth Types Email Subject,TRUE
+eng,RS_LOCK_AUTH_FAILURE_SMS,Failure in Locking of Auth Types SMS,TRUE
+eng,RS_UIN_RPR_FAILURE_EMAIL,Reprint Request Failure Email,TRUE
+eng,RS_UIN_RPR_FAILURE_EMAIL_SUB,Reprint Request Failure Email Subject,TRUE
+eng,RS_UIN_RPR_FAILURE_SMS,Reprint Request Failure SMS,TRUE
+eng,RS_UNLOCK_AUTH_FAILURE_EMAIL,Failure in Unlocking of Auth Types Email,TRUE
+eng,RS_UNLOCK_AUTH_FAILURE_EMAIL_SUB,Failure in Unlocking of Auth Types Email Subject,TRUE
+eng,RS_UNLOCK_AUTH_FAILURE_SMS,Failure in Unlocking of Auth Types SMS,TRUE
+eng,RS_VIN_GEN_FAILURE_EMAIL,VID Generation Failure Email,TRUE
+eng,RS_VIN_GEN_FAILURE_EMAIL_SUB,VID Generation Failure Email Subject,TRUE
+eng,RS_VIN_GEN_FAILURE_SMS,VID Generation Failure SMS,TRUE
+eng,RS_VIN_REV_FAILURE_EMAIL,VID Revocation Failure Email,TRUE
+eng,RS_VIN_REV_FAILURE_EMAIL_SUB,VID Revocation Failure Email Subject,TRUE
+eng,RS_VIN_REV_FAILURE_SMS,VID Revocation Failure SMS,TRUE
+eng,RS_UIN_UPDATE_SUCCESS_EMAIL,UIN Update Request Placed Successfully Email,TRUE
+eng,RS_UIN_UPDATE_SUCCESS_EMAIL_SUB,UIN Update Request Placed Successfully Email Subject,TRUE
+eng,RS_UIN_UPDATE_SUCCESS_SMS,UIN Update Request Placed Successfully SMS,TRUE
+eng,RS_UIN_UPDATE_FAILURE_EMAIL,UIN Update Request Failed Email,TRUE
+eng,RS_UIN_UPDATE_FAILURE_EMAIL_SUB,UIN Update Request Failed Email Subject,TRUE
+eng,RS_UIN_UPDATE_FAILURE_SMS,UIN Update Request Failed SMS,TRUE
+eng,RPR_RPV_SUC_EMAIL,Registration Packet Validation Success Email,TRUE
+eng,RPR_RPV_SUC_SMS,Registration Packet Validation Success SMS,TRUE
+eng,RPR_UPV_SUC_EMAIL,Update Packet Validation Success Email,TRUE
+eng,RPR_UPV_SUC_SMS,Update Packet Validation Success SMS,TRUE
+eng,RPR_LPV_SUC_EMAIL,Lost Packet Validation Success Email,TRUE
+eng,RPR_LPV_SUC_SMS,Lost Packet Validation Success SMS,TRUE
+eng,RPR_RUPV_SUC_EMAIL,Resident Update Packet Validation Success Email,TRUE
+eng,RPR_RUPV_SUC_SMS,Resident Update Packet Validation Success SMS,TRUE
+eng,RPR_PPV_SUC_EMAIL,Re-print Packet Validation Success Email,TRUE
+eng,RPR_PPV_SUC_SMS,Re-print Packet Validation Success SMS,TRUE
+eng,RPR_APV_SUC_EMAIL,Activate Packet Validation Success Email,TRUE
+eng,RPR_APV_SUC_SMS,Activate Packet Validation Success SMS,TRUE
+eng,RPR_DPV_SUC_EMAIL,De-activate Packet Validation Success Email,TRUE
+eng,RPR_DPV_SUC_SMS,De-activate Packet Validation Success SMS,TRUE
+eng,RPR_RPV_SUC_EMAIL_SUB,Registration Packet Validation Success Email Sub,TRUE
+eng,RPR_UPV_SUC_EMAIL_SUB,Update Packet Validation Success Email Sub,TRUE
+eng,RPR_LPV_SUC_EMAIL_SUB,Lost Packet Validation Success Email Sub,TRUE
+eng,RPR_PPV_SUC_EMAIL_SUB,Re-print Packet Validation Success Email Sub,TRUE
+eng,RPR_RUPV_SUC_EMAIL_SUB,Resident Update Packet Validation Success Email Sub,TRUE
+eng,RPR_APV_SUC_EMAIL_SUB,Activate Packet Validation Success Email Sub,TRUE
+eng,RPR_DPV_SUC_EMAIL_SUB,De-activate Packet Validation Success Email Sub,TRUE
+eng,RS_CRE_REQ_SUCCESS_SMS,Credential Issuance Success SMS,TRUE
+eng,RS_CRE_REQ_SUCCESS_EMAIL,Credential Issuance Success EMAIL,TRUE
+eng,RS_CRE_REQ_SUCCESS_EMAIL_SUB,Credential Issuance Success EMAIL Subject,TRUE
+eng,RS_CRE_STATUS_SMS,Credential Issuance Status Check SMS,TRUE
+eng,RS_CRE_STATUS_EMAIL,Credential Issuance Status Check EMAIL,TRUE
+eng,RS_CRE_STATUS_EMAIL_SUB,Credential Issuance Status Check EMAIL Subject,TRUE
+eng,RS_CRE_CANCEL_SUCCESS_SMS,Credential Request Cancel Success SMS,TRUE
+eng,RS_CRE_CANCEL_SUCCESS_EMAIL,Credential Request Cancel Success EMAIL,TRUE
+eng,RS_CRE_CANCEL_SUCCESS_EMAIL_SUB,Credential Request Cancel Success EMAIL Subject,TRUE
+eng,RS_CRE_REQ_FAILURE_SMS,Credential Issuance Failure SMS,TRUE
+eng,RS_CRE_REQ_FAILURE_EMAIL,Credential Issuance Failure EMAIL,TRUE
+eng,RS_CRE_REQ_FAILURE_EMAIL_SUB,Credential Issuance Failure EMAIL Subject,TRUE
+eng,reg-ack-template-part,Registration Acknowledgement Template,TRUE
+eng,reg-preview-template-part,Registration Preview Template,TRUE
+eng,reg-dashboard-template,Dashboard Template,TRUE

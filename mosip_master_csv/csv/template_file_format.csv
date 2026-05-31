@@ -1,0 +1,5 @@
+lang_code,code,descr,is_active
+eng,txt,Text File,TRUE
+eng,xml,XML File,TRUE
+eng,json,Json File,TRUE
+eng,html,html file,TRUE
