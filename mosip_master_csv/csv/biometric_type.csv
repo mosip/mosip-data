@@ -1,0 +1,4 @@
+lang_code,code,name,descr,is_active
+eng,FNR,Fingerprint,Finger prints of the applicant,TRUE
+eng,IRS,Iris,Iris of the applicant,TRUE
+eng,PHT,Photo,Photo of the face of the applicant,TRUE

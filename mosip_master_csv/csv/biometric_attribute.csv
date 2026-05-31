@@ -1,0 +1,16 @@
+lang_code,code,name,descr,bmtyp_code,is_active
+eng,TM,Thumbs,Print of Left and Right Thumbs,FNR,TRUE
+eng,RH,Right Slab,Print of Right Slab,FNR,TRUE
+eng,LH,Left Slab,Print of Left Slab,FNR,TRUE
+eng,LI,Left Iris,Print of Left Iris,IRS,TRUE
+eng,RI,Right Iris,Print of Right Iris,IRS,TRUE
+fra,TM,Les pouces,Empreinte des pouces gauche et droit,FNR,TRUE
+fra,RH,Dalle droite,Impression de la dalle droite,FNR,TRUE
+fra,LH,Dalle gauche,Impression de la dalle gauche,FNR,TRUE
+fra,LI,Iris gauche,Gravure de Iris Gauche,IRS,TRUE
+fra,RI,Iris droit,Empreinte de l'iris droit,IRS,TRUE
+ara,TM,الإبهام,طباعة الإبهام الأيمن والأيسر,FNR,TRUE
+ara,RH,اللوح الأيمن,طباعة اللوح الأيمن,FNR,TRUE
+ara,LH,اللوح الأيسر,طباعة اللوح الأيسر,FNR,TRUE
+ara,LI,اليسار ايريس,طباعة القزحية اليسرى,IRS,TRUE
+ara,RI,حق ايريس,طباعة القزحية اليمنى,IRS,TRUE
