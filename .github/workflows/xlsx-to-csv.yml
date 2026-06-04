@@ -1,5 +1,4 @@
 name: xlsx to csv conversion
-
 on:
   pull_request_target:
     types: [opened, reopened, synchronize]
@@ -10,17 +9,14 @@ on:
         required: false
         default: 'Triggered for Updates'
         type: string
-
 jobs:
   convert_xlsx_to_csv:
     runs-on: ubuntu-latest
-
     steps:
       - name: Clone the repository
         run: |
           git clone -b ${{ github.event.pull_request.head.ref }} \
             "https://x-access-token:${{ secrets.ACTION_PAT }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
-
       - name: Get author email
         run: |
           PR_NUMBER=${{ github.event.number }}
@@ -29,15 +25,12 @@ jobs:
             "https://api.github.com/repos/${{ github.repository }}/pulls/$PR_NUMBER/commits")
           email=$(echo "$commits" | jq -r '.[0].commit.author.email // "${{ github.event.pull_request.user.login }}@users.noreply.github.com"')
           echo "author_email=$email" >> $GITHUB_ENV
-
       - name: Set up Git identity
         run: |
           git config --global user.name "${{ github.event.pull_request.user.login }}"
           git config --global user.email "${{ env.author_email }}"
-
       - name: Install xlsx2csv
         run: sudo apt-get install -y xlsx2csv
-
       - name: Detect changed XLSX files in this PR
         id: changed
         run: |
@@ -51,22 +44,18 @@ jobs:
           echo "changed_files<<EOF" >> $GITHUB_OUTPUT
           echo "$changed" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-
       - name: Ensure CSV output directory exists
         run: |
           # Only create the dir if it doesn't exist — never wipe it
           mkdir -p ${{ github.event.pull_request.head.repo.name }}/mosip-data/mosip_master_csv/csv
-
       - name: Convert only changed XLSX files to CSV
         run: |
           changed_files="${{ steps.changed.outputs.changed_files }}"
           repo="${{ github.event.pull_request.head.repo.name }}"
-
           if [ -z "$changed_files" ]; then
             echo "No XLSX files changed. Skipping conversion."
             exit 0
           fi
-
           while IFS= read -r xlsx_file; do
             [ -z "$xlsx_file" ] && continue
             full_path="$repo/$xlsx_file"
@@ -78,12 +67,10 @@ jobs:
               echo "WARNING: $full_path not found, skipping."
             fi
           done <<< "$changed_files"
-
       - name: Commit and push only if CSVs actually changed
         run: |
           cd ${{ github.event.pull_request.head.repo.name }}/mosip-data
-          git add mosip_master_csv/csv/*.csv
-          # --quiet exits 0 if nothing staged; we use it to skip an empty commit
+          git add mosip_master_csv/csv/          # Fix: directory instead of glob
           if git diff --cached --quiet; then
             echo "No CSV changes to commit."
           else
