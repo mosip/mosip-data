@@ -1,7 +1,10 @@
 name: xlsx to csv conversion
+
 on:
   pull_request_target:
     types: [opened, reopened, synchronize]
+    paths:
+      - 'mosip-data/mosip_master/xlsx/*.xlsx'
   workflow_dispatch:
     inputs:
       message:
@@ -9,6 +12,7 @@ on:
         required: false
         default: 'Triggered for Updates'
         type: string
+
 jobs:
   convert_xlsx_to_csv:
     runs-on: ubuntu-latest
@@ -30,10 +34,8 @@ jobs:
         id: changed
         run: |
           cd ${{ github.event.pull_request.head.repo.name }}
-
           git remote add upstream "https://github.com/${{ github.event.pull_request.base.repo.full_name }}.git"
           git fetch upstream ${{ github.event.pull_request.base.ref }}
-
           changed=$(git diff --name-only upstream/${{ github.event.pull_request.base.ref }}...HEAD \
             -- 'mosip-data/mosip_master/xlsx/*.xlsx')
           echo "Changed XLSX files:"
@@ -78,4 +80,3 @@ jobs:
               "https://x-access-token:${{ secrets.ACTION_PAT }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git" \
               HEAD:${{ github.event.pull_request.head.ref }}
           fi
-          
