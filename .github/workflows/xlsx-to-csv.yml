@@ -1,10 +1,7 @@
 name: xlsx to csv conversion
-
 on:
   pull_request_target:
     types: [opened, reopened, synchronize]
-    paths:
-      - 'mosip-data/mosip_master/xlsx/*.xlsx'
   workflow_dispatch:
     inputs:
       message:
@@ -17,66 +14,67 @@ jobs:
   convert_xlsx_to_csv:
     runs-on: ubuntu-latest
     steps:
-      - name: Clone the repository
-        run: |
-          git clone -b ${{ github.event.pull_request.head.ref }} \
-            "https://x-access-token:${{ secrets.ACTION_PAT }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git"
+    - name: Check for xlsx changes
+      id: check_xlsx
+      run: |
+        PR_NUMBER=${{ github.event.number }}
+        FILES=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          "https://api.github.com/repos/${{ github.repository }}/pulls/$PR_NUMBER/files")
+        XLSX_CHANGED=$(echo "$FILES" | jq '[.[].filename | select(endswith(".xlsx"))] | length')
+        echo "xlsx_changed=$XLSX_CHANGED" >> $GITHUB_OUTPUT
 
-      - name: Set up Git identity
-        run: |
-          git config --global user.name "${{ github.event.pull_request.user.login }}"
-          git config --global user.email "${{ github.event.pull_request.user.login }}+${{ github.event.pull_request.user.id }}@users.noreply.github.com"
+    - name: Skip if no xlsx changes
+      if: steps.check_xlsx.outputs.xlsx_changed == '0' && github.event_name != 'workflow_dispatch'
+      run: |
+        echo "No xlsx files changed. Skipping workflow."
+        exit 0
 
-      - name: Install xlsx2csv
-        run: sudo apt-get install -y xlsx2csv
+    - name: Clone the repository
+      if: steps.check_xlsx.outputs.xlsx_changed != '0' || github.event_name == 'workflow_dispatch'
+      run: |
+        git clone -b ${{ github.event.pull_request.head.ref }} https://github.com/${{ github.event.pull_request.head.repo.full_name }}.git
 
-      - name: Detect changed XLSX files in this PR
-        id: changed
-        run: |
-          cd ${{ github.event.pull_request.head.repo.name }}
-          git remote add upstream "https://github.com/${{ github.event.pull_request.base.repo.full_name }}.git"
-          git fetch upstream ${{ github.event.pull_request.base.ref }}
-          changed=$(git diff --name-only upstream/${{ github.event.pull_request.base.ref }}...HEAD \
-            -- 'mosip-data/mosip_master/xlsx/*.xlsx')
-          echo "Changed XLSX files:"
-          echo "$changed"
-          echo "changed_files<<EOF" >> $GITHUB_OUTPUT
-          echo "$changed" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+    - name: Get author email
+      if: steps.check_xlsx.outputs.xlsx_changed != '0' || github.event_name == 'workflow_dispatch'
+      run: |
+        PR_NUMBER=${{ github.event.number }}
+        commits=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          "https://api.github.com/repos/${{ github.repository }}/pulls/$PR_NUMBER/commits")
+        email=$(echo "$commits" | jq -r '.[0].commit.author.email // "${{ github.event.pull_request.user.login }}@users.noreply.github.com"')
+        echo "author_email=$email" >> $GITHUB_ENV
 
-      - name: Ensure CSV output directory exists
-        run: |
-          mkdir -p ${{ github.event.pull_request.head.repo.name }}/mosip-data/mosip_master_csv/csv
+    - name: Set up Git identity
+      if: steps.check_xlsx.outputs.xlsx_changed != '0' || github.event_name == 'workflow_dispatch'
+      run: |
+        git config --global user.name "${{ github.event.pull_request.user.login }}"
+        git config --global user.email "${{ env.author_email }}"
 
-      - name: Convert only changed XLSX files to CSV
-        run: |
-          changed_files="${{ steps.changed.outputs.changed_files }}"
-          repo="${{ github.event.pull_request.head.repo.name }}"
-          if [ -z "$changed_files" ]; then
-            echo "No XLSX files changed. Skipping conversion."
-            exit 0
-          fi
-          while IFS= read -r xlsx_file; do
-            [ -z "$xlsx_file" ] && continue
-            full_path="$repo/$xlsx_file"
-            if [ -f "$full_path" ]; then
-              csv_file="$repo/mosip-data/mosip_master_csv/csv/$(basename "${xlsx_file%.xlsx}.csv")"
-              xlsx2csv "$full_path" > "$csv_file"
-              echo "Converted $xlsx_file -> $csv_file"
-            else
-              echo "WARNING: $full_path not found, skipping."
-            fi
-          done <<< "$changed_files"
+    - name: Install xlsx2csv
+      if: steps.check_xlsx.outputs.xlsx_changed != '0' || github.event_name == 'workflow_dispatch'
+      run: sudo apt-get install -y xlsx2csv
 
-      - name: Commit and push only if CSVs actually changed
-        run: |
-          cd ${{ github.event.pull_request.head.repo.name }}/mosip-data
-          git add mosip_master_csv/csv/
-          if git diff --cached --quiet; then
-            echo "No CSV changes to commit."
-          else
-            git commit -s -m "chore: update CSVs for changed XLSX files"
-            git push \
-              "https://x-access-token:${{ secrets.ACTION_PAT }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git" \
-              HEAD:${{ github.event.pull_request.head.ref }}
-          fi
+    - name: Create output directory
+      if: steps.check_xlsx.outputs.xlsx_changed != '0' || github.event_name == 'workflow_dispatch'
+      run: |
+        rm -rf mosip-data/mosip_master_csv/csv
+        mkdir -p mosip-data/mosip_master_csv/csv
+
+    - name: Convert all XLSX to CSV
+      if: steps.check_xlsx.outputs.xlsx_changed != '0' || github.event_name == 'workflow_dispatch'
+      run: |
+        for xlsx_file in mosip-data/mosip_master/xlsx/*.xlsx; do
+          csv_file="mosip-data/mosip_master_csv/csv/$(basename "${xlsx_file%.xlsx}.csv")"
+          xlsx2csv "$xlsx_file" > "$csv_file"
+          echo "Converted $xlsx_file to $csv_file"
+        done
+
+    - name: Commit and push changes
+      if: steps.check_xlsx.outputs.xlsx_changed != '0' || github.event_name == 'workflow_dispatch'
+      run: |
+        cd mosip-data
+        git branch
+        git add .
+        git commit -s -m "Added converted CSV files" || echo "No changes to commit"
+        git push "https://x-access-token:${{ secrets.ACTION_PAT }}@github.com/${{ github.event.pull_request.head.repo.full_name }}.git" HEAD:${{ github.event.pull_request.head.ref }}
