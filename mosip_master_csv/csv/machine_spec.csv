@@ -1,2 +1,3 @@
 lang_code,id,name,brand,model,mtyp_code,min_driver_ver,descr,is_active
-eng,RESIDENT-1,Resident Virtual Machine,Unkown,Unknown,RESIDENT-REG,0,Resident Virtual Machine,TRUE
+eng,RESIDENT-1,Resident Virtual Machine,Unkown,Unknown,RESIDENT-REG,0,Resident Virtual Machine,"""true"";""true"";""false"""
+eng,RESIDENT-2,Resident Virtual Machine,Unkown,Unknown,RESIDENT-REG,1,Resident Virtual Machine,"""true"";""true"";""false"""
