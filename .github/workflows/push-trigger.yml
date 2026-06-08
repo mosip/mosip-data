@@ -51,7 +51,7 @@ jobs:
             -e GIT_BRANCH=develop \
             -e SU_USER_PWD=${{ env.SU_USER_PWD }} \
             -e DBUSER_PWD=${{ env.DBUSER_PWD }} \
-            mosipdev/postgres-init:develop
+            mosipdev/postgres-init@sha256:6bd48491efdcac437b6611928966685bbd9114e484125fe9550d773b025404c2
 
       - name: docker ps command
         run: docker ps -a
@@ -92,6 +92,7 @@ jobs:
             -e DB_PORT=5432 \
             -e DB_PWD=${{ env.DBUSER_PWD }} \
             -e REPOSITORY=${{ env.REPO_URL }}\
+            -e xls_folder=mosip_master \
             -e BRANCH=${{ env.BRANCH_NAME }} \
             mosipdev/masterdata-loader:develop
 
