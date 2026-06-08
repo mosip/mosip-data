@@ -158,4 +158,4 @@ jobs:
             exit 1
           else
             echo "[DB] No errors found in masterdata_loader logs."
-          fi    
+          fi   
