@@ -43,7 +43,7 @@ jobs:
             --network mosip_network \
             -e MOSIP_DB_NAME=mosip_master \
             -e DB_UNAME=masteruser \
-            -e DB_SERVERIP=postgresql \
+            -e DB_SERVERIP=localhost \
             -e DB_PORT=5432 \
             -e SU_USER=postgres \
             -e DML_FLAG=1 \
