@@ -62,6 +62,7 @@ jobs:
             -e MOSIP_DB_NAME=mosip_master \
             -e DB_SERVERIP=postgresql \
             -e DB_PORT=5432 \
+            -e DB_SCRIPTS_DIR=mosip_master \
             -e SU_USER=postgres \
             -e DML_FLAG=1 \
             -e GIT_REPO_URL=https://github.com/mosip/admin-services.git \
