@@ -42,6 +42,7 @@ jobs:
             --name mosip_master_container \
             --network mosip_network \
             -e MOSIP_DB_NAME=mosip_master \
+            -e DB_UNAME=masteruser \
             -e DB_SERVERIP=postgresql \
             -e DB_PORT=5432 \
             -e SU_USER=postgres \
