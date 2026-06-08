@@ -28,6 +28,7 @@ jobs:
         run: docker network create mosip_network
       - name: Setup PostgreSQL Container
         run: |
+          echo "[DB] Starting PostgreSQL container..."
           docker run -d \
             --name postgresql \
             --network mosip_network \
@@ -36,14 +37,34 @@ jobs:
             -e POSTGRES_PASSWORD=${{ env.SU_USER_PWD }} \
             -e POSTGRES_HOST_AUTH_METHOD=trust \
             postgres:16
+          echo "[DB] PostgreSQL container started."
+
+      - name: Wait for PostgreSQL to be ready
+        run: |
+          echo "[DB] Waiting for PostgreSQL to accept connections..."
+          for i in $(seq 1 30); do
+            if docker exec postgresql pg_isready -U postgres -q; then
+              echo "[DB] PostgreSQL is ready after ${i} attempt(s)."
+              break
+            fi
+            echo "[DB] Attempt $i/30 - not ready yet, retrying in 2s..."
+            sleep 2
+          done
+          docker exec postgresql pg_isready -U postgres || \
+            (echo "[DB] ERROR: PostgreSQL did not become ready in time." && exit 1)
+
       - name: Initialise mosip_master DB
         run: |
+          echo "[DB] Starting mosip_master_container (postgres-init)..."
           docker run -itd \
             --name mosip_master_container \
             --network mosip_network \
             -e MOSIP_DB_NAME=mosip_master \
             -e DB_SERVERIP=postgresql \
             -e DB_PORT=5432 \
+            -e DEFAULT_DB_NAME=postgres \
+            -e DB_UNAME=masteruser \
+            -e DB_SCRIPTS_DIR=mosip_master \
             -e SU_USER=postgres \
             -e DML_FLAG=1 \
             -e GIT_REPO_URL=https://github.com/mosip/admin-services.git \
@@ -51,21 +72,48 @@ jobs:
             -e SU_USER_PWD=${{ env.SU_USER_PWD }} \
             -e DBUSER_PWD=${{ env.DBUSER_PWD }} \
             mosipdev/postgres-init:develop
+          echo "[DB] mosip_master_container launched."
 
       - name: docker ps command
         run: docker ps -a
-      - name: Print Logs of mosip_master
+
+      - name: Stream mosip_master_container logs
         run: |
-          # Display mosip_master_container logs
+          echo "[DB] Streaming mosip_master_container logs (live)..."
           docker logs -f mosip_master_container
-      
+          echo "[DB] mosip_master_container has exited."
+
+      - name: Verify mosip_master_container exit code
+        run: |
+          EXIT_CODE=$(docker inspect mosip_master_container --format='{{.State.ExitCode}}')
+          echo "[DB] mosip_master_container exit code: $EXIT_CODE"
+          if [ "$EXIT_CODE" != "0" ]; then
+            echo "[DB] ERROR: mosip_master_container exited with non-zero code $EXIT_CODE"
+            exit 1
+          fi
+
       - name: Check whether db_init has errors in Logs
         run: |
-          if docker logs  mosip_master_container | grep  -qi "error"; then
-            echo "Error found in mosip_master_container logs."
+          echo "[DB] Scanning mosip_master_container logs for errors..."
+          if docker logs mosip_master_container 2>&1 | grep -qiE "\berror\b|\bfatal\b"; then
+            echo "[DB] ERROR: Problem keywords found in mosip_master_container logs:"
+            docker logs mosip_master_container 2>&1 | grep -iE "\berror\b|\bfatal\b"
             exit 1
           else
-            echo "No errors found in mosip_master_container logs."
+            echo "[DB] No errors found in mosip_master_container logs."
+          fi
+
+      - name: Verify masteruser role exists
+        run: |
+          echo "[DB] Verifying masteruser role exists in PostgreSQL..."
+          ROLE=$(docker exec postgresql psql -U postgres -tAc "SELECT rolname FROM pg_roles WHERE rolname='masteruser';")
+          if [ "$ROLE" = "masteruser" ]; then
+            echo "[DB] masteruser role confirmed."
+          else
+            echo "[DB] ERROR: masteruser role not found. DB init may have failed."
+            echo "[DB] Existing roles:"
+            docker exec postgresql psql -U postgres -c "\du"
+            exit 1
           fi
 
 
@@ -103,9 +151,11 @@ jobs:
 
       - name: Check whether masterdata_loader has errors in Logs
         run: |
-          if docker logs  masterdata_loader | grep  -qi "error"; then
-            echo "Error found in masterdata_loader logs."
+          echo "[DB] Scanning masterdata_loader logs for errors..."
+          if docker logs masterdata_loader 2>&1 | grep -qiE "\berror\b|\bfatal\b"; then
+            echo "[DB] ERROR: Problem keywords found in masterdata_loader logs:"
+            docker logs masterdata_loader 2>&1 | grep -iE "\berror\b|\bfatal\b"
             exit 1
           else
-            echo "No errors found in masterdata_loader logs."
-          fi    
+            echo "[DB] No errors found in masterdata_loader logs."
+          fi   
