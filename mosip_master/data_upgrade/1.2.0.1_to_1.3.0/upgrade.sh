@@ -8,8 +8,12 @@ then
     echo `date "+%m/%d/%Y %H:%M:%S"` ": Property file \"$properties_file\" found."
     while IFS='=' read -r key value
     do
-        key=$(echo $key | tr '.' '_')
-        eval ${key}=\${value}
+        key=$(echo "$key" | tr '.' '_')
+        if [[ "$key" =~ ^[A-Za-z_][A-Za-z0-9_]*$ ]]; then
+            printf -v "$key" '%s' "$value"
+        else
+            echo "WARNING: Skipping invalid property key: $key"
+        fi
     done < "$properties_file"
 else
      echo `date "+%m/%d/%Y %H:%M:%S"` ": Property file not found, Pass property file name as argument."
