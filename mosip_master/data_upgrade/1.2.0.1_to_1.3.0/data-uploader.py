@@ -105,7 +105,7 @@ def fill_series():
       return
 
     for i, value in enumerate(range(start_row, end_row + 1), start=1):
-        column[i].value = int(seed_value) + i
+        column[i].value = int(seed_value) + value
     
     workbook.save(args.file)
     workbook.close()
