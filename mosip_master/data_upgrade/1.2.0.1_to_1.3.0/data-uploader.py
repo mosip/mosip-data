@@ -12,6 +12,7 @@ import json
 import sys
 import time
 import psycopg2
+from psycopg2 import sql
 import openpyxl
 
 parser = argparse.ArgumentParser(description='This is CSV/xlsx file uploader script.invokes 1.2.0.1 bulk upload endpoints')
@@ -45,19 +46,23 @@ def getCurrentDateTime():
 
 
 def get_seed_value():
+  seed_value = None
   conn = psycopg2.connect(database="mosip_master", user = args.dbusername, password = args.dbpassword, host = args.dbhost, port = args.dbport)
   cursor = conn.cursor()
-  cursor.execute("select id from master."+args.table+" order by id desc limit 20")
+  cursor.execute(
+      sql.SQL("select id from master.{} order by id desc limit 20")
+      .format(sql.Identifier(args.table))
+  )
   for row in cursor.fetchall():
     id_value = row[0]
     if id_value is None:
       seed_value = 1000
       break
-    if id_value.isdigit():
+    if str(id_value).isdigit():
       seed_value = id_value
-      break;
-    
-  if seed_value == None:
+      break
+
+  if seed_value is None:
     seed_value = 1000
   return seed_value
 
@@ -95,8 +100,8 @@ def fill_series():
     print("Start Row: ", start_row)
     print("End Row: ", end_row)
 
-    if(start_row is None and end_row is None):
-      print("Need a valid start_row and end_row!")
+    if end_row is None:
+      print("Need a valid end_row!")
       return
 
     for i, value in enumerate(range(start_row, end_row + 1), start=1):

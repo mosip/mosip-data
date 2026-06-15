@@ -49,9 +49,9 @@ ageGroupRequiresGuardian = []
 def getSupportedAgeGroups():
 	agegroup_config_json=json.loads(agegroup_config)
 	for ageGroup in agegroup_config_json.keys():
-		modalities = []
-		while not modalities:
-			modalities = agegroup_config_json.get(ageGroup).get("bioAttributes")
+		modalities = agegroup_config_json.get(ageGroup).get("bioAttributes")
+		if modalities is None:
+			modalities = []
 		ageGroupBasedModalities[ageGroup] = modalities
 
 		requiresGuardianAuth = agegroup_config_json.get(ageGroup).get("isGuardianAuthRequired")
