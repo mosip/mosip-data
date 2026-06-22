@@ -137,7 +137,10 @@ def getAccessToken():
     'requesttime': getCurrentDateTime(),
     'version': 'string'
   }
-  authresponse=requests.post(authURL, json= auth_req_data)
+  try:
+    authresponse=requests.post(authURL, json= auth_req_data, timeout=30)
+  except requests.exceptions.RequestException as e:
+    sys.exit("Authentication request failed (network error). URL: " + authURL + " Error: " + str(e))
   print(authresponse)
   if authresponse.status_code != 200 or 'authorization' not in authresponse.headers:
     sys.exit("Authentication failed (HTTP " + str(authresponse.status_code) + "). URL: " + authURL + " Response: " + authresponse.text)
@@ -164,7 +167,7 @@ def publish_spec(domain, spec_type, specjson):
 									    "jsonspec": json.loads(spec)
 									  }
 									}
-	spec_resp = requests.post(uispecURL, json=request_json, headers=req_headers)
+	spec_resp = requests.post(uispecURL, json=request_json, headers=req_headers, timeout=30)
 	spec_resp_json = spec_resp.json()
 	#print("UI spec POST response : " + json.dumps(spec_resp_json))
 
@@ -187,7 +190,7 @@ def publish_spec(domain, spec_type, specjson):
 											  }
 											}
 	print("UI spec publish request : " + json.dumps(publish_spec_req))
-	publish_resp = requests.put(uispecPublishURL, json=publish_spec_req, headers=req_headers)
+	publish_resp = requests.put(uispecPublishURL, json=publish_spec_req, headers=req_headers, timeout=30)
 	publish_resp_json = publish_resp.json()
 	print("UI spec published : " + json.dumps(publish_resp_json))
 
@@ -736,7 +739,7 @@ def buildLostRegistrationSpec(demographic_fields, document_fields, biometric_fie
 
 # invoke syncdata service with authtoken in headers
 req_headers={'Cookie' : 'Authorization='+getAccessToken()}
-get_schema_resp=requests.get(schemaURL, headers=req_headers)
+get_schema_resp=requests.get(schemaURL, headers=req_headers, timeout=30)
 print(get_schema_resp)
 schema_resp_json=get_schema_resp.json()
 schema_resp=schema_resp_json['response']
@@ -773,7 +776,7 @@ for field in cur_schema:
 
 
 #set all the required field mappings
-response = requests.get(args.identityMappingJsonUrl)
+response = requests.get(args.identityMappingJsonUrl, timeout=30)
 data = json.loads(response.text)
 identity_mapping_json = data['identity']
 if(identity_mapping_json.get('individualBiometrics') != None):

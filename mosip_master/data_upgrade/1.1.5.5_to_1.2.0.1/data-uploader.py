@@ -127,7 +127,10 @@ def getAccessToken():
     'requesttime': getCurrentDateTime(),
     'version': 'string'
   }
-  authresponse=requests.post(authURL, json= auth_req_data)
+  try:
+    authresponse=requests.post(authURL, json= auth_req_data, timeout=30)
+  except requests.exceptions.RequestException as e:
+    sys.exit("Authentication request failed (network error). URL: " + authURL + " Error: " + str(e))
   print(json.dumps(authresponse.json()))
   if authresponse.status_code != 200 or 'authorization' not in authresponse.headers:
     sys.exit("Authentication failed (HTTP " + str(authresponse.status_code) + "). URL: " + authURL + " Response: " + authresponse.text)
@@ -141,7 +144,7 @@ def uploadFile():
 
   data = {'category': 'masterdata', 'operation': args.operation, 'tableName': args.table}
   files = {'files': open(args.file, 'rb')}
-  uploadResponse = requests.post(uploadURL, data=data, files=files, headers=req_headers, verify=True)
+  uploadResponse = requests.post(uploadURL, data=data, files=files, headers=req_headers, verify=True, timeout=60)
   uploadResponse_json = uploadResponse.json()
   response = uploadResponse_json['response']
   print(json.dumps(uploadResponse_json))
@@ -149,7 +152,7 @@ def uploadFile():
 
 
 def getTransactionStatus(transactionId):
-  statusResponse = requests.get(uploadStatusURL+transactionId, headers=req_headers, verify=True)
+  statusResponse = requests.get(uploadStatusURL+transactionId, headers=req_headers, verify=True, timeout=30)
   statusResponse_json = statusResponse.json()
   response = statusResponse_json['response']
   return response
