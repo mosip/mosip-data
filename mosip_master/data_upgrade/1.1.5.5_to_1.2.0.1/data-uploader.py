@@ -10,6 +10,7 @@ import argparse
 import requests
 import json
 import sys
+import os
 import time
 import psycopg2
 from psycopg2 import sql
@@ -31,7 +32,9 @@ parser.add_argument("--dbhost", type=str, required=False, help="DB hostname")
 parser.add_argument("--dbport", type=str, required=False, help="DB port number")
 parser.add_argument("--appId", type=str, required=False, default="admin", help="App ID for client-id/secret authentication, eg: admin")
 parser.add_argument("--clientId", type=str, required=True, help="Client ID for client-id/secret authentication")
-parser.add_argument("--secretKey", type=str, required=True, help="Client secret key for client-id/secret authentication")
+# NOTE: the client secret is intentionally NOT a command-line argument. Passing it
+# on argv would expose it in process listings (ps/argv). It is read from the
+# CLIENT_SECRET_KEY environment variable instead (see getAccessToken below).
 
 args = parser.parse_args()
 
@@ -43,7 +46,9 @@ username=args.username
 password=args.password
 appId=args.appId
 clientId=args.clientId
-secretKey=args.secretKey
+secretKey=os.environ.get("CLIENT_SECRET_KEY")
+if not secretKey:
+  sys.exit("CLIENT_SECRET_KEY environment variable is not set. Set it in upgrade.properties (upgrade.sh exports it) and re-run.")
 
 def getCurrentDateTime():
   dt_now = datetime.now(timezone.utc)

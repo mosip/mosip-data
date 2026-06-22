@@ -10,6 +10,7 @@ import argparse
 import requests
 import json
 import sys
+import os
 
 parser = argparse.ArgumentParser(description='This is UI spec migration script. Migrates 1.1.5.5 UI spec to 1.2.0 compatible SPEC and the same is published to the server. This script should be executed after DB upgrade and 1.2.0.* masterdata-service deployment.')
 parser.add_argument("-d", "--domain", type=str, required=True, help="Server domain name, eg: dev.mosip.net")
@@ -23,7 +24,9 @@ parser.add_argument("--infantAgeGroup", type=str, required=True, help="Infant Ag
 parser.add_argument("--allowedBioAttributes", type=str, required=True, help="Comma separated list of allowed biometric attributes")
 parser.add_argument("--appId", type=str, required=False, default="admin", help="App ID for client-id/secret authentication, eg: admin")
 parser.add_argument("--clientId", type=str, required=True, help="Client ID for client-id/secret authentication")
-parser.add_argument("--secretKey", type=str, required=True, help="Client secret key for client-id/secret authentication")
+# NOTE: the client secret is intentionally NOT a command-line argument. Passing it
+# on argv would expose it in process listings (ps/argv). It is read from the
+# CLIENT_SECRET_KEY environment variable instead (see getAccessToken below).
 
 args = parser.parse_args()
 
@@ -39,7 +42,9 @@ username=args.username
 password=args.password
 appId=args.appId
 clientId=args.clientId
-secretKey=args.secretKey
+secretKey=os.environ.get("CLIENT_SECRET_KEY")
+if not secretKey:
+	sys.exit("CLIENT_SECRET_KEY environment variable is not set. Set it in upgrade.properties (upgrade.sh exports it) and re-run.")
 agegroup_config=args.ageGroupConfig
 infantAgeGroup = args.infantAgeGroup.strip()
 allBioAttributes= args.allowedBioAttributes.strip().split(",")

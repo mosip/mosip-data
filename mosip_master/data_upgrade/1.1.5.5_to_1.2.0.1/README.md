@@ -11,7 +11,9 @@ Authentication:
    - AUTH_APP_ID        : app id for authentication (default: admin)
    - CLIENT_ID          : auth client id
    - CLIENT_SECRET_KEY  : auth client secret key
--> Do NOT hardcode the secret in the scripts; it is read from upgrade.properties so it stays out of source control.
+-> Do NOT hardcode the secret in the scripts; it stays in upgrade.properties (out of source control).
+-> The client secret is NOT passed as a command-line argument (which would expose it in process listings / ps). upgrade.sh exports the properties as environment variables, and the scripts read CLIENT_SECRET_KEY from the environment. AUTH_APP_ID and CLIENT_ID (non-sensitive) are still passed as arguments.
+-> If you run a script directly (without upgrade.sh), export the secret first: `export CLIENT_SECRET_KEY=...`
 -> The configured client must have GLOBAL_ADMIN and REGISTRATION_ADMIN roles, since the uispec/publish and bulkupload endpoints require them.
 
 
