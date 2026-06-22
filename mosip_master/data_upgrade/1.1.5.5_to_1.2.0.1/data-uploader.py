@@ -29,15 +29,21 @@ parser.add_argument("--dbusername", type=str, required=False, help="DB username"
 parser.add_argument("--dbpassword", type=str, required=False, help="DB username")
 parser.add_argument("--dbhost", type=str, required=False, help="DB hostname")
 parser.add_argument("--dbport", type=str, required=False, help="DB port number")
+parser.add_argument("--appId", type=str, required=False, default="admin", help="App ID for client-id/secret authentication, eg: admin")
+parser.add_argument("--clientId", type=str, required=True, help="Client ID for client-id/secret authentication")
+parser.add_argument("--secretKey", type=str, required=True, help="Client secret key for client-id/secret authentication")
 
 args = parser.parse_args()
 
 ## Values to be updated as per the deployment
-authURL='https://'+args.domain+'/v1/authmanager/authenticate/useridPwd'
+authURL='https://'+args.domain+'/v1/authmanager/authenticate/clientidsecretkey'
 uploadURL='https://'+args.domain+'/v1/admin/bulkupload'
 uploadStatusURL='https://'+args.domain+'/v1/admin/bulkupload/transcation/'
 username=args.username
 password=args.password
+appId=args.appId
+clientId=args.clientId
+secretKey=args.secretKey
 
 def getCurrentDateTime():
   dt_now = datetime.now(timezone.utc)
@@ -114,15 +120,17 @@ def getAccessToken():
     'id': 'string',
     'metadata': {},
     'request': {
-      'appId': 'admin',
-      'password': password,
-      'userName': username
+      'appId': appId,
+      'clientId': clientId,
+      'secretKey': secretKey
     },
     'requesttime': getCurrentDateTime(),
     'version': 'string'
   }
   authresponse=requests.post(authURL, json= auth_req_data)
   print(json.dumps(authresponse.json()))
+  if authresponse.status_code != 200 or 'authorization' not in authresponse.headers:
+    sys.exit("Authentication failed (HTTP " + str(authresponse.status_code) + "). URL: " + authURL + " Response: " + authresponse.text)
   return authresponse.headers["authorization"]
 
 

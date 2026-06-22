@@ -21,12 +21,15 @@ parser.add_argument("--identityMappingJsonUrl", type=str, required=True, help="U
 parser.add_argument("--ageGroupConfig", type=str, required=True, help="Age group configuration")
 parser.add_argument("--infantAgeGroup", type=str, required=True, help="Infant Age group name")
 parser.add_argument("--allowedBioAttributes", type=str, required=True, help="Comma separated list of allowed biometric attributes")
+parser.add_argument("--appId", type=str, required=False, default="admin", help="App ID for client-id/secret authentication, eg: admin")
+parser.add_argument("--clientId", type=str, required=True, help="Client ID for client-id/secret authentication")
+parser.add_argument("--secretKey", type=str, required=True, help="Client secret key for client-id/secret authentication")
 
 args = parser.parse_args()
 
 
 ## Values to be updated as per the deployment
-authURL='https://'+args.domain+'/v1/authmanager/authenticate/useridPwd'
+authURL='https://'+args.domain+'/v1/authmanager/authenticate/clientidsecretkey'
 schemaURL='https://'+args.domain+'/v1/syncdata/latestidschema?schemaVersion=0'
 uispecURL='https://'+args.domain+'/v1/masterdata/uispec'
 uispecPublishURL='https://'+args.domain+'/v1/masterdata/uispec/publish'
@@ -34,6 +37,9 @@ primaryLang=args.primaryLanguage
 secondaryLang=args.secondaryLanguage
 username=args.username
 password=args.password
+appId=args.appId
+clientId=args.clientId
+secretKey=args.secretKey
 agegroup_config=args.ageGroupConfig
 infantAgeGroup = args.infantAgeGroup.strip()
 allBioAttributes= args.allowedBioAttributes.strip().split(",")
@@ -124,15 +130,17 @@ def getAccessToken():
     'id': 'string',
     'metadata': {},
     'request': {
-      'appId': 'admin',
-      'password': password,
-      'userName': username
+      'appId': appId,
+      'clientId': clientId,
+      'secretKey': secretKey
     },
     'requesttime': getCurrentDateTime(),
     'version': 'string'
   }
   authresponse=requests.post(authURL, json= auth_req_data)
   print(authresponse)
+  if authresponse.status_code != 200 or 'authorization' not in authresponse.headers:
+    sys.exit("Authentication failed (HTTP " + str(authresponse.status_code) + "). URL: " + authURL + " Response: " + authresponse.text)
   return authresponse.headers["authorization"]
 
 
@@ -732,6 +740,8 @@ get_schema_resp=requests.get(schemaURL, headers=req_headers)
 print(get_schema_resp)
 schema_resp_json=get_schema_resp.json()
 schema_resp=schema_resp_json['response']
+if schema_resp is None:
+	sys.exit("Failed to fetch identity schema from " + schemaURL + ". Response: " + json.dumps(schema_resp_json))
 identity_schema_id=schema_resp['id']
 cur_schema=schema_resp['schema']
 domain='registration-client'
