@@ -6,6 +6,14 @@ Prerequisites:
 
 Note: List of the commands executed during the data upgrade can be found in upgrade_commands.txt. One command per line. Commands using data-uploader.py script cannot be executed after it is successfully executed once. It should be commented for the next execution(upgrade.sh ignores the commented lines).
 
+Authentication:
+-> The scripts authenticate via /v1/authmanager/authenticate/clientidsecretkey using client-id/secret credentials. Set the following properties in upgrade.properties before running:
+   - AUTH_APP_ID        : app id for authentication (default: admin)
+   - CLIENT_ID          : auth client id
+   - CLIENT_SECRET_KEY  : auth client secret key
+-> Do NOT hardcode the secret in the scripts; it is read from upgrade.properties so it stays out of source control.
+-> The configured client must have GLOBAL_ADMIN and REGISTRATION_ADMIN roles, since the uispec/publish and bulkupload endpoints require them.
+
 
 1. Migration of dynamic field table data.
 	Dynamic value was stored as jsonarray in version 1.1.5*, now in 1.2.0.1 we store it as json object. one entry for each language of the field.
