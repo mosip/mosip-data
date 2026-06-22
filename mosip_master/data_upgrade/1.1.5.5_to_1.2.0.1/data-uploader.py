@@ -131,9 +131,9 @@ def getAccessToken():
     authresponse=requests.post(authURL, json= auth_req_data, timeout=30)
   except requests.exceptions.RequestException as e:
     sys.exit("Authentication request failed (network error). URL: " + authURL + " Error: " + str(e))
-  print(json.dumps(authresponse.json()))
   if authresponse.status_code != 200 or 'authorization' not in authresponse.headers:
     sys.exit("Authentication failed (HTTP " + str(authresponse.status_code) + "). URL: " + authURL + " Response: " + authresponse.text)
+  print(json.dumps(authresponse.json()))
   return authresponse.headers["authorization"]
 
 
