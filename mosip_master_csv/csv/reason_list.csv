@@ -1,0 +1,28 @@
+lang_code,code,name,descr,rsncat_code,is_active
+eng,APM,Age-Photo Mismatch,Mismatch between the Age and Photo,CLR,TRUE
+eng,GPM,Gender-Photo Mismatch,Gender-Photo Mismatch between Gender and Photo,CLR,TRUE
+eng,IAD,Invalid Address,Invalid Address found,CLR,TRUE
+eng,DPG,Duplicate Registration,Duplicate Registration found,CLR,TRUE
+eng,OTH,Others,Others,CLR,TRUE
+eng,ADM,All the Details are matching,All the Details are matching,MNA,TRUE
+eng,ADD,All the Demographic Details are Matching,All the Demographic Details are Matching,MNA,TRUE
+eng,OPM,Only the Photograph is Matching,Only the Photograph is Matching,MNA,TRUE
+eng,SDM,Some of the Demographic Details are Matching,Some of the Demographic Details are Matching,MNA,TRUE
+fra,APM,Décalage de lâge-Photo,Discordance entre lâge et la Photo,CLR,TRUE
+fra,GPM,Incompatibilité de sexe-Photo,Sexe-Photo discordance entre le sexe et la Photo,CLR,TRUE
+fra,IAD,Adresse non valide,Adresse non valide trouvée,CLR,TRUE
+fra,DPG,Enregistrement en double,Double enregistrement trouvé,CLR,TRUE
+fra,OTH,Dautres,Dautres,CLR,TRUE
+fra,ADM,Tous les détails sont adaptent,Tous les détails sont adaptent,MNA,TRUE
+fra,ADD,Tous les détails démographiques sont Matching,Tous les détails démographiques sont Matching,MNA,TRUE
+fra,OPM,La photographie est le rapprochement,La photographie est le rapprochement,MNA,TRUE
+fra,SDM,Certains détails démographiques sont Matching,Certains détails démographiques sont Matching,MNA,TRUE
+ara,APM,عدم تطابق الصورة مع العمر,عدم التطابق بين العمر والصورة,CLR,TRUE
+ara,GPM,عدم تطابق الصورة بين الجنسين,عدم تطابق الصورة بين الجنسين والصورة,CLR,TRUE
+ara,IAD,عنوان خاطئ,تم العثور على عنوان غير صالح,CLR,TRUE
+ara,DPG,تسجيل مكرر,تم العثور على تسجيل مكرر,CLR,TRUE
+ara,OTH,آحرون,آحرون,CLR,TRUE
+ara,ADM,كل التفاصيل متطابقة,كل التفاصيل متطابقة,MNA,TRUE
+ara,ADD,جميع التفاصيل الديموغرافية متطابقة,جميع التفاصيل الديموغرافية متطابقة,MNA,TRUE
+ara,OPM,فقط الصورة هي المطابقة,فقط الصورة هي المطابقة,MNA,TRUE
+ara,SDM,بعض التفاصيل الديموغرافية متطابقة,بعض التفاصيل الديموغرافية متطابقة,MNA,TRUE
